@@ -13,3 +13,4 @@ English (US) IPA in ipa-dict is based on a modified [cmudict-ipa](https://github
 ## Related tooling
 
 - Naming and the general idea of language-sounding nonsense generation were inspired by exploration of [TEParsons/simlish](https://github.com/TEParsons/simlish). This site does **not** depend on that Python package at runtime.
+- [sql.js](https://github.com/sql-js/sql.js) (MIT) — SQLite compiled to WebAssembly; used read-only in the browser to query `dictionary.sqlite` for Orthodox mode.

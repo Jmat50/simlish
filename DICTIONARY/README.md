@@ -27,6 +27,9 @@ python run_all.py
 - **Official soundtrack only.** Simlish comes exclusively from wiki EN|SIMLISH
   tables for songs that appear on The Sims game soundtracks.
 - Fan covers, fan lyric sheets, YouTube, and Whisper ASR are not used.
+- Running `python run_all.py` rebuilds `dictionary.sqlite` and copies it to
+  `../docs/dictionary.sqlite` for the GitHub Pages Orthodox translator
+  (read via sql.js in the browser).
 - Raw lyric dumps are gitignored; the sqlite word map is the shareable artifact.
 - Simlish is not a 1:1 cipher — this dictionary is an empirical many-to-many map from parallel lines.
 

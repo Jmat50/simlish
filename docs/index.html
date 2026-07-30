@@ -39,13 +39,22 @@
 
       <main class="workspace">
         <div class="toolbar">
-          <label class="field">
-            <span class="field-label">Profile</span>
-            <select id="lang-select" name="lang">
-              <option value="en_US">English (US)</option>
-              <option value="en_UK">English (UK)</option>
-            </select>
-          </label>
+          <div class="toolbar-fields">
+            <label class="field">
+              <span class="field-label">Mode</span>
+              <select id="mode-select" name="mode">
+                <option value="generative">Generative</option>
+                <option value="orthodox">Orthodox</option>
+              </select>
+            </label>
+            <label class="field">
+              <span class="field-label">Profile</span>
+              <select id="lang-select" name="lang">
+                <option value="en_US">English (US)</option>
+                <option value="en_UK">English (UK)</option>
+              </select>
+            </label>
+          </div>
           <label class="toggle">
             <input type="checkbox" id="show-ipa" />
             <span>Show IPA</span>
@@ -85,7 +94,7 @@
 
       <footer class="foot">
         <p>
-          Client-side Markov phonotactics ·
+          Client-side Markov phonotactics · Orthodox via sql.js + sqlite ·
           <a href="https://github.com/Jmat50/simlish">Source</a>
           · Profiles derived from
           <a href="https://github.com/open-dict-data/ipa-dict">ipa-dict</a>

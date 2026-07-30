@@ -43,7 +43,6 @@ export function applyCasing(text, casing, original) {
   if (casing === "title") {
     return text.charAt(0).toUpperCase() + text.slice(1).toLowerCase();
   }
-  // mixed: mirror char-by-char against original letter casing
   let oi = 0;
   let out = "";
   for (const ch of text) {
@@ -61,13 +60,31 @@ export function applyCasing(text, casing, original) {
 
 /**
  * @param {string} token
+ * @returns {string}
+ */
+function normalizeKey(token) {
+  return token.normalize("NFKC").toLowerCase().replace(/’/g, "'");
+}
+
+/**
+ * @param {string[] | null | undefined} forms
+ * @returns {string | null}
+ */
+function pickForm(forms) {
+  if (!forms || !forms.length) return null;
+  if (forms.length === 1) return forms[0];
+  return forms[Math.floor(Math.random() * forms.length)];
+}
+
+/**
+ * @param {string} token
  * @param {import("./markov.js").WeightTable} table
  * @param {string} profile
  * @returns {{ display: string, ipa: string }}
  */
-function rewriteWord(token, table, profile) {
+function rewriteWordGenerative(token, table, profile) {
   const casing = detectCasing(token);
-  const normalized = token.normalize("NFKC").toLowerCase();
+  const normalized = normalizeKey(token);
 
   if (normalized.length === 1 && SHORT[normalized]) {
     return {
@@ -77,7 +94,6 @@ function rewriteWord(token, table, profile) {
   }
 
   const seed = tokenSeed(profile, normalized);
-  // Scale target by source length; romanized length often > IPA length
   const targetLen = Math.max(2, Math.round(normalized.length * 0.95));
   const ipa = generateWord(table, seed, {
     targetLen,
@@ -86,7 +102,6 @@ function rewriteWord(token, table, profile) {
   });
   let ascii = romanize(ipa);
 
-  // Nudge romanized length toward source when wildly off
   if (ascii.length < 2) ascii = romanize(ipa + "ə");
   if (ascii.length > normalized.length + 6) {
     ascii = ascii.slice(0, Math.max(2, normalized.length + 2));
@@ -99,13 +114,40 @@ function rewriteWord(token, table, profile) {
 }
 
 /**
+ * @param {string} token
+ * @param {import("./markov.js").WeightTable} table
+ * @param {string} profile
+ * @param {(key: string) => string[]} lookupForms
+ * @returns {{ display: string, ipa: string }}
+ */
+function rewriteWordOrthodox(token, table, profile, lookupForms) {
+  const casing = detectCasing(token);
+  const key = normalizeKey(token);
+  const hit = pickForm(lookupForms(key));
+  if (hit) {
+    return {
+      display: applyCasing(hit, casing, token),
+      ipa: hit,
+    };
+  }
+  return rewriteWordGenerative(token, table, profile);
+}
+
+/**
  * @param {string} text
  * @param {import("./markov.js").WeightTable} table
  * @param {string} profile
+ * @param {{
+ *   mode?: "generative" | "orthodox",
+ *   lookupForms?: (key: string) => string[],
+ * }} [options]
  * @returns {{ display: string, ipa: string }}
  */
-export function rewriteText(text, table, profile) {
+export function rewriteText(text, table, profile, options = {}) {
   if (!text) return { display: "", ipa: "" };
+
+  const mode = options.mode === "orthodox" ? "orthodox" : "generative";
+  const lookupForms = options.lookupForms ?? (() => []);
 
   let display = "";
   let ipaOut = "";
@@ -117,10 +159,12 @@ export function rewriteText(text, table, profile) {
       ipaOut += part;
       continue;
     }
-    // letter word
-    const { display: d, ipa } = rewriteWord(part, table, profile);
-    display += d;
-    ipaOut += ipa;
+    const result =
+      mode === "orthodox"
+        ? rewriteWordOrthodox(part, table, profile, lookupForms)
+        : rewriteWordGenerative(part, table, profile);
+    display += result.display;
+    ipaOut += result.ipa;
   }
 
   return { display, ipa: ipaOut };

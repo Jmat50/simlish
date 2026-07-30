@@ -6,17 +6,18 @@ Static [GitHub Pages](https://pages.github.com/) app that rewrites your text int
 
 ## What it does
 
-- Deterministic **word-aligned rewrite**: the same input token always maps to the same nonsense word for a given profile.
+- **Mode: Generative** — deterministic Markov phonotactic rewrite (same input → same nonsense for a profile).
+- **Mode: Orthodox** — per-word lookup against `docs/dictionary.sqlite` via [sql.js](https://sql.js.org/) in the browser; missing words fall back to Generative. Multi-form entries pick a Simlish spelling at random.
 - Preserves punctuation, whitespace, numbers, and casing.
 - Default display is **ASCII romanization** of IPA; toggle **Show IPA** for the raw phones.
 - Profiles: `en_US`, `en_UK` (sparse ~10–16 KB JSON each).
 
-This is **not** a bilingual translator and not canon The Sims dialogue — it samples phoneme transitions trained on real IPA dictionaries.
+Generative mode is **not** a bilingual translator and not canon The Sims dialogue — it samples phoneme transitions trained on real IPA dictionaries. Orthodox mode uses empirical EN↔Simlish pairs from official soundtrack lyric tables (see `DICTIONARY/`).
 
 ## Local preview
 
 ```bash
-npm run build:weights   # needs data/profiles/*/words.csv
+npm run build          # weights + sync dictionary.sqlite into docs/
 npm run smoke
 npx --yes serve docs -p 4173
 ```
@@ -36,6 +37,8 @@ Outputs committed site assets:
 
 - `docs/weights/en_US.json`
 - `docs/weights/en_UK.json`
+- `docs/dictionary.sqlite` (`npm run build:dictionary` copies from `DICTIONARY/`)
+- `docs/vendor/sql.js/` (sql.js wasm for Orthodox mode)
 
 ## GitHub Pages
 
@@ -43,7 +46,7 @@ Repo Settings → Pages → **Deploy from a branch** → `main` / `/docs`.
 
 Asset paths are relative (`./js/…`, `./weights/…`) so the project site works at `/simlish/`.
 
-Shareable links use `?t=` (text), `?lang=en_US|en_UK`, and optional `?ipa=1`. Long text is omitted from the URL (privacy / length).
+Shareable links use `?t=` (text), `?lang=en_US|en_UK`, `?mode=generative|orthodox`, and optional `?ipa=1`. Long text is omitted from the URL (privacy / length).
 
 ## License
 

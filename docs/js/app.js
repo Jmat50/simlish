@@ -1,4 +1,9 @@
 import { rewriteText } from "./rewrite.js";
+import {
+  getDictionaryEntryCount,
+  lookupSimlishForms,
+  openDictionaryDb,
+} from "./dictionary-db.js";
 
 /** @type {Map<string, import("./markov.js").WeightTable>} */
 const cache = new Map();
@@ -9,6 +14,7 @@ const els = {
   input: /** @type {HTMLTextAreaElement} */ (document.getElementById("input")),
   output: /** @type {HTMLElement} */ (document.getElementById("output")),
   lang: /** @type {HTMLSelectElement} */ (document.getElementById("lang-select")),
+  mode: /** @type {HTMLSelectElement} */ (document.getElementById("mode-select")),
   showIpa: /** @type {HTMLInputElement} */ (document.getElementById("show-ipa")),
   translate: /** @type {HTMLButtonElement} */ (document.getElementById("translate-btn")),
   clear: /** @type {HTMLButtonElement} */ (document.getElementById("clear-btn")),
@@ -43,12 +49,11 @@ function renderOutput() {
   els.output.textContent = text;
   els.output.classList.add("has-content");
   els.output.classList.remove("flash");
-  // retrigger animation
   void els.output.offsetWidth;
   els.output.classList.add("flash");
 }
 
-function updateShareUrl(text, lang) {
+function updateShareUrl(text, lang, mode) {
   const url = new URL(window.location.href);
   if (text && text.length <= MAX_SHARE_CHARS) {
     url.searchParams.set("t", text);
@@ -56,6 +61,7 @@ function updateShareUrl(text, lang) {
     url.searchParams.delete("t");
   }
   url.searchParams.set("lang", lang);
+  url.searchParams.set("mode", mode);
   if (els.showIpa.checked) url.searchParams.set("ipa", "1");
   else url.searchParams.delete("ipa");
   history.replaceState(null, "", url);
@@ -64,16 +70,31 @@ function updateShareUrl(text, lang) {
 async function translate() {
   const text = els.input.value;
   const lang = els.lang.value;
+  const mode = els.mode.value === "orthodox" ? "orthodox" : "generative";
   try {
     els.translate.disabled = true;
     const table = await loadProfile(lang);
-    lastResult = rewriteText(text, table, lang);
+    /** @type {(key: string) => string[]} */
+    let lookupForms = () => [];
+    if (mode === "orthodox") {
+      els.status.textContent = "Loading dictionary.sqlite…";
+      await openDictionaryDb();
+      lookupForms = lookupSimlishForms;
+    }
+    lastResult = rewriteText(text, table, lang, {
+      mode,
+      lookupForms,
+    });
     renderOutput();
-    updateShareUrl(text, lang);
+    updateShareUrl(text, lang, mode);
     els.output.focus({ preventScroll: true });
-    els.status.textContent = text
-      ? `Rewrote locally · ${table.meta?.edgeCount ?? "?"} phoneme edges`
-      : "";
+    if (!text) {
+      els.status.textContent = "";
+    } else if (mode === "orthodox") {
+      els.status.textContent = `Orthodox · ${getDictionaryEntryCount()} sqlite entries · Markov fallback`;
+    } else {
+      els.status.textContent = `Generative · ${table.meta?.edgeCount ?? "?"} phoneme edges`;
+    }
   } catch (err) {
     console.error(err);
     els.status.textContent = err instanceof Error ? err.message : String(err);
@@ -98,7 +119,7 @@ function clearAll() {
   lastResult = null;
   renderOutput();
   els.status.textContent = "";
-  updateShareUrl("", els.lang.value);
+  updateShareUrl("", els.lang.value, els.mode.value);
   els.input.focus();
 }
 
@@ -106,6 +127,8 @@ function readQuery() {
   const params = new URLSearchParams(window.location.search);
   const lang = params.get("lang");
   if (lang === "en_US" || lang === "en_UK") els.lang.value = lang;
+  const mode = params.get("mode");
+  if (mode === "orthodox" || mode === "generative") els.mode.value = mode;
   const t = params.get("t");
   if (t != null) els.input.value = t;
   els.showIpa.checked = params.get("ipa") === "1";
@@ -116,9 +139,12 @@ els.clear.addEventListener("click", () => clearAll());
 els.copy.addEventListener("click", () => copyOutput());
 els.showIpa.addEventListener("change", () => {
   renderOutput();
-  updateShareUrl(els.input.value, els.lang.value);
+  updateShareUrl(els.input.value, els.lang.value, els.mode.value);
 });
 els.lang.addEventListener("change", () => {
+  if (els.input.value) translate();
+});
+els.mode.addEventListener("change", () => {
   if (els.input.value) translate();
 });
 

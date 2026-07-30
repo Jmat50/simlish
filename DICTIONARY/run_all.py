@@ -32,6 +32,13 @@ def main() -> None:
         print(f"\n=== Stage {i+1}: {script.name} ===")
         runpy.run_path(str(script), run_name="__main__")
 
+    # Keep GitHub Pages Orthodox mode in sync with the pipeline DB
+    dest = ROOT.parent / "docs" / "dictionary.sqlite"
+    src = ROOT / "dictionary.sqlite"
+    if src.exists():
+        dest.write_bytes(src.read_bytes())
+        print(f"\nSynced {src.name} → {dest.relative_to(ROOT.parent)}")
+
 
 if __name__ == "__main__":
     main()
