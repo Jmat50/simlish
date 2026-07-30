@@ -10,10 +10,12 @@ sys.path.insert(0, str(ROOT))
 
 from pipeline.config import CONFIDENCE_MIN, SIMLISH_COLS, ensure_dirs
 from pipeline.lib.db import init_db
+from pipeline.lib.english_filter import is_english_token, load_english
 
 
 def main() -> None:
     ensure_dirs()
+    english = load_english()
     conn = init_db()
     conn.execute("DELETE FROM dictionary")
 
@@ -36,6 +38,8 @@ def main() -> None:
         on = r["original_norm"]
         sn = r["simlish_norm"]
         if not on or not sn:
+            continue
+        if is_english_token(sn, english) or is_english_token(r["simlish_word"], english):
             continue
         sim_counts[on][sn] += 1
         orig_surface[on][r["original_word"]] += 1

@@ -19,6 +19,7 @@ STAGES = [
     "pipeline/07_transcribe_simlish.py",
     "pipeline/08_align_lyrics.py",
     "pipeline/09_build_dictionary.py",
+    "pipeline/11_strip_english_from_simlish.py",
     "pipeline/10_validate_report.py",
 ]
 
