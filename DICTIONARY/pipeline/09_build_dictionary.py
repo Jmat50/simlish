@@ -8,7 +8,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from pipeline.config import CONFIDENCE_MIN, SIMLISH_COLS, ensure_dirs
+from pipeline.config import SIMLISH_COLS, ensure_dirs
 from pipeline.lib.db import init_db
 from pipeline.lib.english_filter import is_english_token, load_english
 
@@ -23,9 +23,8 @@ def main() -> None:
         """
         SELECT original_word, original_norm, simlish_word, simlish_norm, source_kind, confidence
         FROM word_alignments
-        WHERE source_kind='wiki_official' OR confidence >= ?
+        WHERE source_kind='wiki_official'
         """,
-        (CONFIDENCE_MIN,),
     ).fetchall()
 
     # original_norm -> Counter of simlish_norm, and surface forms

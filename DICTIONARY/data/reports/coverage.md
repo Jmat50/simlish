@@ -2,11 +2,11 @@
 
 - Songs catalogued: **224**
 - Songs with official wiki Simlish lyrics: **7**
-- Songs with original lyric docs: **13**
-- Songs with Simlish lyric docs: **13**
-- Songs with word alignments: **13**
-- Official word_alignment rows: **1883**
-- Dictionary entries: **579** (multi-form: **248**)
+- Songs with original lyric docs: **7**
+- Songs with Simlish lyric docs: **7**
+- Songs with word alignments: **7**
+- Official word_alignment rows: **1093**
+- Dictionary entries: **316** (multi-form: **86**)
 
 ## Skip reasons
 
@@ -15,32 +15,30 @@
 
 ## Top 20 original words
 
-- `na` -> `na` / `heb` (n=183)
-- `i` -> `bug` / `staki` (n=95)
-- `you` -> `vous` / `black` (n=94)
-- `the` -> `na` / `di` (n=91)
-- `it` -> `sheeky` / `fawa` (n=66)
-- `me` -> `gurn` / `fabby` (n=63)
-- `for` -> `fabby` / `fawa` (n=59)
-- `you're` -> `kavahap` / `cou` (n=59)
-- `and` -> `asmil` / `hurkinish` (n=46)
+- `it` -> `sheeky` / `fawa` (n=58)
+- `for` -> `fabby` / `fawa` (n=50)
+- `me` -> `gurn` / `fabby` (n=44)
+- `you're` -> `kavahap` / `cou` (n=42)
 - `shake` -> `sheeky` / `gurn` (n=42)
-- `a` -> `wi` / `a` (n=40)
-- `girl` -> `gurn` / `crumply` (n=37)
-- `to` -> `tu` / `to` (n=30)
-- `in` -> `tinap` / `th` (n=30)
-- `we` -> `wi` / `we` (n=29)
-- `no` -> `cou` / `oh` (n=28)
-- `back` -> `black` / `mooblah` (n=26)
-- `then` -> `ninap` / `tinap` (n=25)
-- `that` -> `fuuu` / `crumply` (n=24)
-- `up` -> `tinip` / `dap` (n=24)
+- `the` -> `hurky` / `burrs` (n=39)
+- `i` -> `staki` / `asmil` (n=33)
+- `girl` -> `gurn` / `crumply` (n=30)
+- `then` -> `ninap` / `tinap` (n=24)
+- `you` -> `fui` / `sawayalipa` (n=20)
+- `and` -> `asmil` / `hurkinish` (n=18)
+- `smile` -> `asmil` / `akawua` (n=17)
+- `up` -> `tinip` / `daw` (n=16)
+- `yeah` -> `ivawop` / `livawop` (n=14)
+- `in` -> `tinap` / `zerb` (n=14)
+- `a` -> `paha` / `nili` (n=14)
+- `to` -> `wansa` / `dawa` (n=13)
+- `no` -> `cou` / `nawa` (n=11)
+- `when` -> `isabasi` / `longe` (n=10)
+- `give` -> `nibby` / `gibs` (n=10)
 
 ## Spot checks
 
-- `cold` -> `kol` (n=1)
-- `empty` -> `bur` (n=3)
-- `feeling` -> `u` (n=5)
-- `hot` -> `zoboff` (n=1)
+- `empty` -> `listanyubi` (n=2)
+- `feeling` -> `lisano` (n=3)
 - `pressure` -> `westesho` (n=1)
 - `smile` -> `asmil` (n=17)

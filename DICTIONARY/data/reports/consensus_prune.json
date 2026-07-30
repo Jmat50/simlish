@@ -1,0 +1,37 @@
+{
+  "alignment_rows_scanned": 1093,
+  "unique_pairs": 609,
+  "english_with_multiple_simlish": 86,
+  "simlish_with_multiple_english": 177,
+  "pairs_with_2plus_songs": 1,
+  "english_pruned_to_consensus": 0,
+  "simlish_multi_with_consensus_english": 1,
+  "consensus_pair_details": [
+    {
+      "original": "like",
+      "simlish": "laka",
+      "songs": [
+        "katy-perry__hot-n-cold",
+        "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter"
+      ]
+    }
+  ],
+  "prune_actions": [],
+  "simlish_vice_versa_examples": [
+    {
+      "simlish": "laka",
+      "consensus_english": [
+        "like"
+      ],
+      "other_english": [
+        "dance",
+        "that",
+        "yeah",
+        "you"
+      ]
+    }
+  ],
+  "alignments_deleted": 0,
+  "dictionary_entries_after": 316,
+  "dictionary_multi_form_after": 86
+}

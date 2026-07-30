@@ -10,15 +10,9 @@ scratch.*
 .cursor/
 
 # Dictionary pipeline artifacts (keep code + sqlite; ignore bulky/raw)
-DICTIONARY/data/audio/
 DICTIONARY/data/cache/
-DICTIONARY/data/transcripts/
 DICTIONARY/data/lyrics/original/
 DICTIONARY/data/lyrics/simlish/
-DICTIONARY/data/youtube/
+DICTIONARY/data/alignments/
 DICTIONARY/**/__pycache__/
 DICTIONARY/.venv/
-*.wav
-*.m4a
-*.mp3
-*.webm

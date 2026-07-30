@@ -15,10 +15,6 @@ USER_AGENT = "SimlishDictionaryBot/1.0 (+https://github.com/Jmat50/simlish; rese
 CONFIDENCE_MIN = 0.55
 SIMLISH_COLS = 10
 REQUEST_SLEEP_S = 0.35
-YT_SEARCH_RESULTS = 5
-WHISPER_MODEL = "tiny"
-WHISPER_FALLBACK = "tiny"
-LRCLIB_TIMEOUT_S = 8
 
 
 # Maxis / Simlish-original titles with no real-world lyric counterpart
@@ -71,9 +67,6 @@ def ensure_dirs() -> None:
         DATA / "lyrics" / "official",
         DATA / "lyrics" / "original" / "_overrides",
         DATA / "lyrics" / "simlish",
-        DATA / "youtube",
-        DATA / "audio",
-        DATA / "transcripts",
         DATA / "alignments",
         DATA / "reports",
         DATA / "cache",

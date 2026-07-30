@@ -1,6 +1,4 @@
 requests>=2.31
-faster-whisper>=1.0
-yt-dlp>=2024.1
 python-slugify>=8.0
 regex>=2024.1
 tqdm>=4.66

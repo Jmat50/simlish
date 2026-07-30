@@ -4,16 +4,7 @@
 
 - [Songs in Simlish — The Sims Wiki (Fandom)](https://sims.fandom.com/wiki/Songs_in_Simlish)
   Content available under Fandom’s licensing terms for the Sims Wiki. Used via the MediaWiki API for research.
-
-## Original lyric lookup
-
-- [lrclib.net](https://lrclib.net/) — community lyric API used to recover original-language lyrics where possible.
-
-## Audio / ASR / fan sheets
-
-- YouTube videos discovered via `yt-dlp` search (`… simlish`) for phonetic transcription research.
-- [faster-whisper](https://github.com/SYSTRAN/faster-whisper) for local transcription when audio is obtainable.
-- Fan Simlish lyric pages (e.g. azlyrics.biz “simlish version” sheets) used when YouTube download is blocked.
+  Only official EN|SIMLISH soundtrack lyric tables are ingested.
 
 ## Disclaimer
 

@@ -32,7 +32,7 @@ def main() -> None:
     aligned = 0
     for row in tqdm(rows, desc="align"):
         song_id = row["song_id"]
-        # Skip if official alignments already present
+        # Only official soundtrack lyric tables (wiki EN|SIMLISH)
         existing = conn.execute(
             "SELECT COUNT(*) AS c FROM word_alignments WHERE song_id=? AND source_kind='wiki_official'",
             (song_id,),
@@ -44,7 +44,7 @@ def main() -> None:
         orig = conn.execute(
             """
             SELECT text, source_kind, confidence FROM lyric_documents
-            WHERE song_id=? AND side='original'
+            WHERE song_id=? AND side='original' AND source_kind='wiki_official'
             ORDER BY confidence DESC, doc_id DESC LIMIT 1
             """,
             (song_id,),
@@ -52,15 +52,8 @@ def main() -> None:
         sim = conn.execute(
             """
             SELECT text, source_kind, confidence FROM lyric_documents
-            WHERE song_id=? AND side='simlish'
-            ORDER BY
-              CASE source_kind
-                WHEN 'wiki_official' THEN 3
-                WHEN 'fan_page' THEN 2
-                WHEN 'whisper' THEN 1
-                ELSE 0
-              END DESC,
-              confidence DESC, doc_id DESC
+            WHERE song_id=? AND side='simlish' AND source_kind='wiki_official'
+            ORDER BY confidence DESC, doc_id DESC
             LIMIT 1
             """,
             (song_id,),
@@ -75,8 +68,6 @@ def main() -> None:
             continue
 
         conf = min(float(orig["confidence"] or 0.5), float(sim["confidence"] or 0.5))
-        if sim["source_kind"] == "whisper":
-            conf = min(conf, 0.6)
         if conf < CONFIDENCE_MIN and sim["source_kind"] != "wiki_official":
             # still align but low conf rows may be filtered later
             pass

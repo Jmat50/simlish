@@ -1,12 +1,12 @@
 song_id,artist,title,status,skip_reason
 1000-days__sally-sally,1000 Days,Sally Sally,skipped,no_original_lyrics
-3oh-3__double-vision,3OH!3,Double Vision,aligned,
-5-seconds-of-summer__want-you-back,5 Seconds of Summer,Want You Back,aligned,
+3oh-3__double-vision,3OH!3,Double Vision,partial,
+5-seconds-of-summer__want-you-back,5 Seconds of Summer,Want You Back,partial,
 60-cyclists__tokiboo,60 Cyclists,Tokiboo,skipped,no_original_lyrics
-a-cursive-memory__everything,A Cursive Memory,Everything,aligned,
+a-cursive-memory__everything,A Cursive Memory,Everything,partial,
 an21-and-max-vangeli__real-people,AN21 and Max Vangeli,Real People,skipped,no_original_lyrics
-abra-moore__big-sky,Abra Moore,Big Sky,aligned,
-acceptance__this-conversation-is-over,Acceptance,This Conversation Is Over,aligned,
+abra-moore__big-sky,Abra Moore,Big Sky,partial,
+acceptance__this-conversation-is-over,Acceptance,This Conversation Is Over,partial,
 airborne-toxic-event__changing,Airborne Toxic Event,Changing,skipped,no_original_lyrics
 all-time-low__time-bomb,All Time Low,Time-Bomb,skipped,no_original_lyrics
 aly-aj__chemicals-react,Aly & AJ,Chemicals React,skipped,no_original_lyrics
@@ -148,7 +148,7 @@ nelly-furtado__manos-al-aire,Nelly Furtado,Manos Al Aire,skipped,no_original_lyr
 neon-trees__animal,Neon Trees,Animal,skipped,no_original_lyrics
 nikki-rich__next-best-thing,Nikki & Rich,Next Best Thing,skipped,no_original_lyrics
 ok-go__this-too-shall-pass,OK Go,This Too Shall Pass,skipped,no_original_lyrics
-of-monsters-and-men__little-talks,Of Monsters And Men,Little Talks,aligned,
+of-monsters-and-men__little-talks,Of Monsters And Men,Little Talks,partial,
 old-97-s__early-morning,Old 97's,Early Morning,skipped,no_original_lyrics
 overwerk__pressure,Overwerk,Pressure,partial,
 parachute__kiss-me-slowly,Parachute,Kiss Me Slowly,skipped,no_original_lyrics
