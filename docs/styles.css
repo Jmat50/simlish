@@ -1,0 +1,334 @@
+:root {
+  --ink: #1a2420;
+  --ink-soft: #3d4a44;
+  --paper: #e8f0ea;
+  --panel: rgba(255, 252, 247, 0.88);
+  --line: rgba(26, 36, 32, 0.14);
+  --accent: #c45c26;
+  --accent-deep: #9a3f12;
+  --mint: #2f6f5e;
+  --glow: rgba(47, 111, 94, 0.22);
+  --radius: 14px;
+  --font-display: "Fraunces", "Palatino Linotype", Palatino, serif;
+  --font-body: "Sora", "Segoe UI", sans-serif;
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink);
+  background: #0f1c18;
+  line-height: 1.5;
+}
+
+.atmosphere {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  background:
+    radial-gradient(ellipse 90% 70% at 10% 0%, rgba(196, 92, 38, 0.35), transparent 55%),
+    radial-gradient(ellipse 80% 60% at 90% 20%, rgba(47, 111, 94, 0.45), transparent 50%),
+    radial-gradient(ellipse 70% 50% at 50% 100%, rgba(232, 240, 234, 0.12), transparent 45%),
+    linear-gradient(165deg, #12241f 0%, #1a332c 40%, #243d34 100%);
+  animation: drift 18s ease-in-out infinite alternate;
+}
+
+.atmosphere::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  opacity: 0.35;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.55'/%3E%3C/svg%3E");
+  background-size: 180px 180px;
+  pointer-events: none;
+  mix-blend-mode: soft-light;
+}
+
+@keyframes drift {
+  from {
+    filter: hue-rotate(0deg);
+    transform: scale(1);
+  }
+  to {
+    filter: hue-rotate(12deg);
+    transform: scale(1.03);
+  }
+}
+
+.page {
+  position: relative;
+  z-index: 1;
+  max-width: 920px;
+  margin: 0 auto;
+  padding: clamp(2rem, 6vw, 4.5rem) clamp(1.1rem, 4vw, 2rem) 3rem;
+}
+
+.hero {
+  margin-bottom: clamp(1.75rem, 4vw, 2.75rem);
+}
+
+.brand {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: clamp(2.75rem, 9vw, 4.75rem);
+  line-height: 0.95;
+  letter-spacing: -0.03em;
+  margin: 0 0 0.85rem;
+  color: #f4f7f2;
+  text-shadow: 0 0 40px var(--glow);
+}
+
+.headline {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: clamp(1.35rem, 3.2vw, 1.85rem);
+  line-height: 1.25;
+  margin: 0 0 0.75rem;
+  color: #dce8e1;
+  max-width: 18ch;
+}
+
+.lede {
+  margin: 0 0 1.5rem;
+  max-width: 36rem;
+  color: #a8bfb4;
+  font-size: 1rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.btn {
+  appearance: none;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  font-family: var(--font-body);
+  font-weight: 600;
+  font-size: 0.95rem;
+  padding: 0.7rem 1.35rem;
+  cursor: pointer;
+  transition: transform 120ms ease, background 160ms ease, border-color 160ms ease;
+}
+
+.btn:active {
+  transform: scale(0.97);
+}
+
+.btn:disabled {
+  opacity: 0.55;
+  cursor: wait;
+}
+
+.btn-primary {
+  background: var(--accent);
+  color: #fff8f3;
+  border-color: var(--accent-deep);
+}
+
+.btn-primary:hover {
+  background: var(--accent-deep);
+}
+
+.btn-ghost {
+  background: transparent;
+  color: #d5e4dc;
+  border-color: rgba(213, 228, 220, 0.35);
+}
+
+.btn-ghost:hover {
+  background: rgba(255, 255, 255, 0.06);
+}
+
+.btn-sm {
+  padding: 0.35rem 0.85rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.workspace {
+  background: var(--panel);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  border-radius: calc(var(--radius) + 4px);
+  padding: clamp(1rem, 3vw, 1.5rem);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: 10rem;
+}
+
+.field-label,
+.panel-label {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+}
+
+.field select {
+  font-family: var(--font-body);
+  font-size: 0.95rem;
+  padding: 0.55rem 0.75rem;
+  border-radius: 10px;
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--ink);
+}
+
+.toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  font-size: 0.9rem;
+  color: var(--ink-soft);
+  cursor: pointer;
+  user-select: none;
+}
+
+.toggle input {
+  width: 1.05rem;
+  height: 1.05rem;
+  accent-color: var(--mint);
+}
+
+.panels {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+@media (min-width: 720px) {
+  .panels {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  min-width: 0;
+}
+
+.panel-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+}
+
+.panel-head .btn-ghost {
+  color: var(--ink-soft);
+  border-color: var(--line);
+}
+
+textarea,
+.output {
+  width: 100%;
+  min-height: 11rem;
+  padding: 0.9rem 1rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: #fffefb;
+  color: var(--ink);
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.55;
+  resize: vertical;
+}
+
+textarea:focus,
+.output:focus {
+  outline: 2px solid var(--mint);
+  outline-offset: 2px;
+}
+
+.output {
+  display: block;
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow: auto;
+  min-height: 11rem;
+}
+
+.output:not(.has-content)::before {
+  content: "Translation appears here.";
+  color: #8a968f;
+}
+
+.output.flash {
+  animation: fadeIn 380ms ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0.35;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.hint {
+  margin: 0.85rem 0 0;
+  font-size: 0.85rem;
+  color: var(--ink-soft);
+  min-height: 1.25em;
+}
+
+.foot {
+  margin-top: 2rem;
+  color: #8fa89c;
+  font-size: 0.8rem;
+}
+
+.foot a {
+  color: #c8e0d4;
+}
+
+.foot p {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .atmosphere {
+    animation: none;
+  }
+  .output.flash {
+    animation: none;
+  }
+  .btn {
+    transition: none;
+  }
+}

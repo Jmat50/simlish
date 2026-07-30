@@ -1,0 +1,11 @@
+{
+  "name": "simlish",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build:weights": "node scripts/build-weights.mjs",
+    "build": "npm run build:weights",
+    "smoke": "node scripts/smoke-markov.mjs",
+    "serve": "npx --yes serve docs -p 4173"
+  }
+}
