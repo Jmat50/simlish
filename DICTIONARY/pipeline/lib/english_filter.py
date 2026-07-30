@@ -1,10 +1,15 @@
 from __future__ import annotations
 
+import re
 from pathlib import Path
 
 from pipeline.config import DATA
 
 WORDLIST = DATA / "cache" / "english_words_50k.txt"
+
+# Simlish tokens must be plain Latin letters (+ apostrophe/hyphen). Reject
+# accents (á, ỷ), Hangul (뎁트), Cyrillic, digits, etc.
+_LATIN_WORD = re.compile(r"^[A-Za-z]+(?:['-][A-Za-z]+)*$")
 
 # Lyric vocables / fillers — stripped from Simlish columns (not kept)
 VOCABLES = {
@@ -79,12 +84,22 @@ def load_english() -> set[str]:
     return _ENGLISH
 
 
+def has_non_english_chars(token: str) -> bool:
+    """True if token contains characters outside plain English letters/apostrophe."""
+    if not token:
+        return True
+    t = token.replace("’", "'").strip()
+    return _LATIN_WORD.fullmatch(t) is None
+
+
 def is_english_token(token: str, english: set[str] | None = None) -> bool:
-    """True if token should be removed from Simlish columns (English or vocable)."""
+    """True if token should be removed from Simlish columns (English, vocable, or non-Latin)."""
     english = english or load_english()
     if not token:
         return True
     t = token.casefold().replace("’", "'").strip()
+    if has_non_english_chars(t):
+        return True
     if t in VOCABLES:
         return True
     # repeated vocable patterns: na-na, la la, hey!

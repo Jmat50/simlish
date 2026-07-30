@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-"""Remove English dictionary words from simlish_1..simlish_10 (and simlish_extra)."""
+"""Remove English, vocables, and non-Latin tokens from simlish columns."""
 
 import json
 import sqlite3
