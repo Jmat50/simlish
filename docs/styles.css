@@ -227,6 +227,91 @@ body {
   accent-color: var(--mint);
 }
 
+.engine-switch {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  min-width: auto;
+  cursor: pointer;
+  user-select: none;
+}
+
+.engine-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  height: 2.45rem;
+}
+
+.engine-switch input {
+  position: absolute;
+  opacity: 0;
+  width: 1px;
+  height: 1px;
+  pointer-events: none;
+}
+
+.engine-label {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--ink-soft);
+  transition: color 0.15s ease;
+}
+
+.engine-switch:not(:has(input:checked)) #engine-label-v1,
+.engine-switch:has(input:checked) #engine-label-v2 {
+  color: var(--ink);
+}
+
+.engine-track {
+  position: relative;
+  width: 2.55rem;
+  height: 1.35rem;
+  border-radius: 999px;
+  background: rgba(26, 36, 32, 0.12);
+  border: 1px solid var(--line);
+  transition: background 0.18s ease, border-color 0.18s ease;
+  flex-shrink: 0;
+}
+
+.engine-thumb {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(26, 36, 32, 0.28);
+  transition: transform 0.18s ease;
+}
+
+.engine-switch input:checked + .engine-track {
+  background: rgba(47, 111, 94, 0.35);
+  border-color: rgba(47, 111, 94, 0.55);
+}
+
+.engine-switch input:checked + .engine-track .engine-thumb {
+  transform: translateX(1.15rem);
+}
+
+.engine-switch input:focus-visible + .engine-track {
+  outline: 2px solid rgba(47, 111, 94, 0.55);
+  outline-offset: 2px;
+}
+
+.toolbar.is-engine-v2 .field {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
+.toolbar.is-engine-v2 .toggle {
+  opacity: 0.45;
+  pointer-events: none;
+}
+
 .panels {
   display: grid;
   grid-template-columns: 1fr;

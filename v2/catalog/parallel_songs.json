@@ -1,0 +1,30 @@
+[
+  {
+    "song_id": "katy-perry__hot-n-cold",
+    "n_pairs": 57
+  },
+  {
+    "song_id": "kisha__sowieso",
+    "n_pairs": 12
+  },
+  {
+    "song_id": "lily-allen__smile",
+    "n_pairs": 42
+  },
+  {
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "n_pairs": 67
+  },
+  {
+    "song_id": "my-chemical-romance__na-na-na",
+    "n_pairs": 70
+  },
+  {
+    "song_id": "paramore__pressure",
+    "n_pairs": 19
+  },
+  {
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "n_pairs": 15
+  }
+]

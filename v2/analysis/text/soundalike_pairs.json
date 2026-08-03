@@ -1,0 +1,10518 @@
+[
+  {
+    "en": "a",
+    "sim": "va",
+    "score": 0.5,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "V",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 1
+  },
+  {
+    "en": "think",
+    "sim": "zonk",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "I",
+      "N",
+      "K"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "N",
+      "K"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 3
+  },
+  {
+    "en": "cryptically",
+    "sim": "cryptozeek",
+    "score": 0.455,
+    "en_phones": [
+      "C",
+      "R",
+      "I",
+      "P",
+      "T",
+      "I",
+      "C",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "C",
+      "R",
+      "I",
+      "P",
+      "T",
+      "O",
+      "Z",
+      "I",
+      "K"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 4
+  },
+  {
+    "en": "white",
+    "sim": "why",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "H",
+      "I",
+      "T",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "H",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 11
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 12
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 12
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 13
+  },
+  {
+    "en": "kiss",
+    "sim": "kip",
+    "score": 0.5,
+    "en_phones": [
+      "K",
+      "I",
+      "S",
+      "S"
+    ],
+    "sim_phones": [
+      "K",
+      "I",
+      "P"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 13
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 13
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 14
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 14
+  },
+  {
+    "en": "stay",
+    "sim": "sti",
+    "score": 0.667,
+    "en_phones": [
+      "S",
+      "T",
+      "AY"
+    ],
+    "sim_phones": [
+      "S",
+      "T",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 14
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 15
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 15
+  },
+  {
+    "en": "oh",
+    "sim": "oh",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "H"
+    ],
+    "sim_phones": [
+      "O",
+      "H"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 15
+  },
+  {
+    "en": "we",
+    "sim": "wa",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 19
+  },
+  {
+    "en": "to",
+    "sim": "tu",
+    "score": 0.5,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "U"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 19
+  },
+  {
+    "en": "be",
+    "sim": "bey",
+    "score": 0.667,
+    "en_phones": [
+      "B",
+      "E"
+    ],
+    "sim_phones": [
+      "B",
+      "E",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 19
+  },
+  {
+    "en": "just",
+    "sim": "juk",
+    "score": 0.5,
+    "en_phones": [
+      "J",
+      "U",
+      "S",
+      "T"
+    ],
+    "sim_phones": [
+      "J",
+      "U",
+      "K"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 20
+  },
+  {
+    "en": "twins",
+    "sim": "twip",
+    "score": 0.6,
+    "en_phones": [
+      "T",
+      "W",
+      "I",
+      "N",
+      "S"
+    ],
+    "sim_phones": [
+      "T",
+      "W",
+      "I",
+      "P"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 20
+  },
+  {
+    "en": "so",
+    "sim": "su",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "O"
+    ],
+    "sim_phones": [
+      "S",
+      "U"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 20
+  },
+  {
+    "en": "sync",
+    "sim": "sip",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "I",
+      "N",
+      "C"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "P"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 20
+  },
+  {
+    "en": "energy",
+    "sim": "enerjonk",
+    "score": 0.5,
+    "en_phones": [
+      "E",
+      "N",
+      "E",
+      "R",
+      "G",
+      "I"
+    ],
+    "sim_phones": [
+      "E",
+      "N",
+      "E",
+      "R",
+      "J",
+      "O",
+      "N",
+      "K"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 21
+  },
+  {
+    "en": "battery",
+    "sim": "batteronk",
+    "score": 0.667,
+    "en_phones": [
+      "B",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "I"
+    ],
+    "sim_phones": [
+      "B",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "O",
+      "N",
+      "K"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 22
+  },
+  {
+    "en": "nothing",
+    "sim": "nuthing",
+    "score": 0.8,
+    "en_phones": [
+      "N",
+      "O",
+      "TH",
+      "I",
+      "NG"
+    ],
+    "sim_phones": [
+      "N",
+      "U",
+      "TH",
+      "I",
+      "NG"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 23
+  },
+  {
+    "en": "now",
+    "sim": "no",
+    "score": 0.667,
+    "en_phones": [
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "N",
+      "O"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 24
+  },
+  {
+    "en": "plain",
+    "sim": "playy",
+    "score": 0.75,
+    "en_phones": [
+      "P",
+      "L",
+      "AY",
+      "N"
+    ],
+    "sim_phones": [
+      "P",
+      "L",
+      "AY",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 24
+  },
+  {
+    "en": "white",
+    "sim": "why",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "H",
+      "I",
+      "T",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "H",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 31
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 32
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 32
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 33
+  },
+  {
+    "en": "kiss",
+    "sim": "kip",
+    "score": 0.5,
+    "en_phones": [
+      "K",
+      "I",
+      "S",
+      "S"
+    ],
+    "sim_phones": [
+      "K",
+      "I",
+      "P"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 33
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 33
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 34
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 34
+  },
+  {
+    "en": "stay",
+    "sim": "sti",
+    "score": 0.667,
+    "en_phones": [
+      "S",
+      "T",
+      "AY"
+    ],
+    "sim_phones": [
+      "S",
+      "T",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 34
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 35
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 35
+  },
+  {
+    "en": "oh",
+    "sim": "oh",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "H"
+    ],
+    "sim_phones": [
+      "O",
+      "H"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 35
+  },
+  {
+    "en": "call",
+    "sim": "cul",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "A",
+      "L",
+      "L"
+    ],
+    "sim_phones": [
+      "C",
+      "U",
+      "L"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 39
+  },
+  {
+    "en": "doctor",
+    "sim": "docturg",
+    "score": 0.714,
+    "en_phones": [
+      "D",
+      "O",
+      "C",
+      "T",
+      "O",
+      "R"
+    ],
+    "sim_phones": [
+      "D",
+      "O",
+      "C",
+      "T",
+      "U",
+      "R",
+      "G"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 39
+  },
+  {
+    "en": "case",
+    "sim": "case",
+    "score": 1.0,
+    "en_phones": [
+      "C",
+      "A",
+      "S",
+      "E"
+    ],
+    "sim_phones": [
+      "C",
+      "A",
+      "S",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 40
+  },
+  {
+    "en": "of",
+    "sim": "o",
+    "score": 0.5,
+    "en_phones": [
+      "O",
+      "F"
+    ],
+    "sim_phones": [
+      "O"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 40
+  },
+  {
+    "en": "love",
+    "sim": "luv",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "O",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "U",
+      "V"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 40
+  },
+  {
+    "en": "bipolar",
+    "sim": "bicoler",
+    "score": 0.714,
+    "en_phones": [
+      "B",
+      "I",
+      "P",
+      "O",
+      "L",
+      "A",
+      "R"
+    ],
+    "sim_phones": [
+      "B",
+      "I",
+      "C",
+      "O",
+      "L",
+      "E",
+      "R"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 40
+  },
+  {
+    "en": "roller",
+    "sim": "roli",
+    "score": 0.5,
+    "en_phones": [
+      "R",
+      "O",
+      "L",
+      "L",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "R",
+      "O",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 41
+  },
+  {
+    "en": "coaster",
+    "sim": "nowster",
+    "score": 0.714,
+    "en_phones": [
+      "C",
+      "O",
+      "A",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "N",
+      "O",
+      "W",
+      "S",
+      "T",
+      "E",
+      "R"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 41
+  },
+  {
+    "en": "can't",
+    "sim": "can't",
+    "score": 1.0,
+    "en_phones": [
+      "C",
+      "A",
+      "N",
+      "T"
+    ],
+    "sim_phones": [
+      "C",
+      "A",
+      "N",
+      "T"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 42
+  },
+  {
+    "en": "like",
+    "sim": "laka",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "A",
+      "K",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 44
+  },
+  {
+    "en": "girl",
+    "sim": "gurl",
+    "score": 0.75,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "L"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 44
+  },
+  {
+    "en": "clothes",
+    "sim": "claps",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "L",
+      "O",
+      "TH",
+      "E",
+      "S"
+    ],
+    "sim_phones": [
+      "C",
+      "L",
+      "A",
+      "P",
+      "S"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 44
+  },
+  {
+    "en": "white",
+    "sim": "why",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "H",
+      "I",
+      "T",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "H",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 49
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 50
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 50
+  },
+  {
+    "en": "we",
+    "sim": "wi",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 51
+  },
+  {
+    "en": "kiss",
+    "sim": "kip",
+    "score": 0.5,
+    "en_phones": [
+      "K",
+      "I",
+      "S",
+      "S"
+    ],
+    "sim_phones": [
+      "K",
+      "I",
+      "P"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 51
+  },
+  {
+    "en": "we",
+    "sim": "we",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "E"
+    ],
+    "sim_phones": [
+      "W",
+      "E"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 51
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 52
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 52
+  },
+  {
+    "en": "stay",
+    "sim": "sti",
+    "score": 0.667,
+    "en_phones": [
+      "S",
+      "T",
+      "AY"
+    ],
+    "sim_phones": [
+      "S",
+      "T",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 52
+  },
+  {
+    "en": "really",
+    "sim": "really",
+    "score": 1.0,
+    "en_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "sim_phones": [
+      "R",
+      "E",
+      "A",
+      "L",
+      "L",
+      "I"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 53
+  },
+  {
+    "en": "wanna",
+    "sim": "wanna",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 53
+  },
+  {
+    "en": "oh",
+    "sim": "oh",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "H"
+    ],
+    "sim_phones": [
+      "O",
+      "H"
+    ],
+    "song_id": "katy-perry__hot-n-cold",
+    "line_index": 53
+  },
+  {
+    "en": "so",
+    "sim": "to",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "O"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "du",
+    "sim": "du",
+    "score": 1.0,
+    "en_phones": [
+      "D",
+      "U"
+    ],
+    "sim_phones": [
+      "D",
+      "U"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "isch",
+    "sim": "misch",
+    "score": 0.75,
+    "en_phones": [
+      "I",
+      "S",
+      "CH"
+    ],
+    "sim_phones": [
+      "M",
+      "I",
+      "S",
+      "CH"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "nid",
+    "sim": "ni",
+    "score": 0.667,
+    "en_phones": [
+      "N",
+      "I",
+      "D"
+    ],
+    "sim_phones": [
+      "N",
+      "I"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "mau",
+    "sim": "blau",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "A",
+      "U"
+    ],
+    "sim_phones": [
+      "B",
+      "L",
+      "A",
+      "U"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "kuno",
+    "sim": "kuzu",
+    "score": 0.5,
+    "en_phones": [
+      "K",
+      "U",
+      "N",
+      "O"
+    ],
+    "sim_phones": [
+      "K",
+      "U",
+      "Z",
+      "U"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 0
+  },
+  {
+    "en": "immer",
+    "sim": "imma",
+    "score": 0.6,
+    "en_phones": [
+      "I",
+      "M",
+      "M",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "I",
+      "M",
+      "M",
+      "A"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 1
+  },
+  {
+    "en": "hesch",
+    "sim": "hezh",
+    "score": 0.5,
+    "en_phones": [
+      "H",
+      "E",
+      "S",
+      "CH"
+    ],
+    "sim_phones": [
+      "H",
+      "E",
+      "Z",
+      "H"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 2
+  },
+  {
+    "en": "hifi",
+    "sim": "hafi",
+    "score": 0.75,
+    "en_phones": [
+      "H",
+      "I",
+      "F",
+      "I"
+    ],
+    "sim_phones": [
+      "H",
+      "A",
+      "F",
+      "I"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 2
+  },
+  {
+    "en": "alag",
+    "sim": "anag",
+    "score": 0.75,
+    "en_phones": [
+      "A",
+      "L",
+      "A",
+      "G"
+    ],
+    "sim_phones": [
+      "A",
+      "N",
+      "A",
+      "G"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 2
+  },
+  {
+    "en": "het",
+    "sim": "hekbt",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "E",
+      "T"
+    ],
+    "sim_phones": [
+      "H",
+      "E",
+      "K",
+      "B",
+      "T"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 3
+  },
+  {
+    "en": "so",
+    "sim": "slo",
+    "score": 0.667,
+    "en_phones": [
+      "S",
+      "O"
+    ],
+    "sim_phones": [
+      "S",
+      "L",
+      "O"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 4
+  },
+  {
+    "en": "schliimer",
+    "sim": "slimer",
+    "score": 0.75,
+    "en_phones": [
+      "S",
+      "CH",
+      "L",
+      "I",
+      "I",
+      "M",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "S",
+      "L",
+      "I",
+      "M",
+      "E",
+      "R"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 4
+  },
+  {
+    "en": "ging",
+    "sim": "sing",
+    "score": 0.667,
+    "en_phones": [
+      "G",
+      "I",
+      "NG"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "NG"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 5
+  },
+  {
+    "en": "parat",
+    "sim": "parat",
+    "score": 1.0,
+    "en_phones": [
+      "P",
+      "A",
+      "R",
+      "A",
+      "T"
+    ],
+    "sim_phones": [
+      "P",
+      "A",
+      "R",
+      "A",
+      "T"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 5
+  },
+  {
+    "en": "ja",
+    "sim": "jo",
+    "score": 0.5,
+    "en_phones": [
+      "J",
+      "A"
+    ],
+    "sim_phones": [
+      "J",
+      "O"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 5
+  },
+  {
+    "en": "chlini",
+    "sim": "blini",
+    "score": 0.8,
+    "en_phones": [
+      "CH",
+      "L",
+      "I",
+      "N",
+      "I"
+    ],
+    "sim_phones": [
+      "B",
+      "L",
+      "I",
+      "N",
+      "I"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 6
+  },
+  {
+    "en": "frag",
+    "sim": "fla",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "R",
+      "A",
+      "G"
+    ],
+    "sim_phones": [
+      "F",
+      "L",
+      "A"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 6
+  },
+  {
+    "en": "ja",
+    "sim": "wa",
+    "score": 0.5,
+    "en_phones": [
+      "J",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 8
+  },
+  {
+    "en": "hesch",
+    "sim": "misch",
+    "score": 0.5,
+    "en_phones": [
+      "H",
+      "E",
+      "S",
+      "CH"
+    ],
+    "sim_phones": [
+      "M",
+      "I",
+      "S",
+      "CH"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 9
+  },
+  {
+    "en": "du",
+    "sim": "tu",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "U"
+    ],
+    "sim_phones": [
+      "T",
+      "U"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 9
+  },
+  {
+    "en": "ja",
+    "sim": "ya",
+    "score": 0.5,
+    "en_phones": [
+      "J",
+      "A"
+    ],
+    "sim_phones": [
+      "I",
+      "A"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 9
+  },
+  {
+    "en": "und",
+    "sim": "un",
+    "score": 0.667,
+    "en_phones": [
+      "U",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "U",
+      "N"
+    ],
+    "song_id": "kisha__sowieso",
+    "line_index": 10
+  },
+  {
+    "en": "you",
+    "sim": "in",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "AW"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 1
+  },
+  {
+    "en": "been",
+    "sim": "wiin",
+    "score": 0.5,
+    "en_phones": [
+      "B",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "W",
+      "I",
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 4
+  },
+  {
+    "en": "my",
+    "sim": "pumi",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "P",
+      "U",
+      "M",
+      "I"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 7
+  },
+  {
+    "en": "friends",
+    "sim": "fuens",
+    "score": 0.571,
+    "en_phones": [
+      "F",
+      "R",
+      "I",
+      "E",
+      "N",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "F",
+      "U",
+      "E",
+      "N",
+      "S"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 7
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 8
+  },
+  {
+    "en": "end",
+    "sim": "uens",
+    "score": 0.5,
+    "en_phones": [
+      "E",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "U",
+      "E",
+      "N",
+      "S"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 8
+  },
+  {
+    "en": "now",
+    "sim": "nawa",
+    "score": 0.5,
+    "en_phones": [
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "N",
+      "A",
+      "W",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 9
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 13
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 13
+  },
+  {
+    "en": "for",
+    "sim": "fona",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "O",
+      "R"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "N",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 14
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 15
+  },
+  {
+    "en": "i",
+    "sim": "in",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 15
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 15
+  },
+  {
+    "en": "help",
+    "sim": "hip",
+    "score": 0.5,
+    "en_phones": [
+      "H",
+      "E",
+      "L",
+      "P"
+    ],
+    "sim_phones": [
+      "H",
+      "I",
+      "P"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 19
+  },
+  {
+    "en": "health",
+    "sim": "hel",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "E",
+      "A",
+      "L",
+      "TH"
+    ],
+    "sim_phones": [
+      "H",
+      "E",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 20
+  },
+  {
+    "en": "my",
+    "sim": "pumi",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "P",
+      "U",
+      "M",
+      "I"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 23
+  },
+  {
+    "en": "friends",
+    "sim": "fuens",
+    "score": 0.571,
+    "en_phones": [
+      "F",
+      "R",
+      "I",
+      "E",
+      "N",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "F",
+      "U",
+      "E",
+      "N",
+      "S"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 23
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 24
+  },
+  {
+    "en": "end",
+    "sim": "uens",
+    "score": 0.5,
+    "en_phones": [
+      "E",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "U",
+      "E",
+      "N",
+      "S"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 24
+  },
+  {
+    "en": "now",
+    "sim": "nawa",
+    "score": 0.5,
+    "en_phones": [
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "N",
+      "A",
+      "W",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 25
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 29
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 29
+  },
+  {
+    "en": "for",
+    "sim": "fona",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "O",
+      "R"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "N",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 30
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 31
+  },
+  {
+    "en": "i",
+    "sim": "in",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 31
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 31
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 32
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 32
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 32
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 34
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 34
+  },
+  {
+    "en": "for",
+    "sim": "fona",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "O",
+      "R"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "N",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 35
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 36
+  },
+  {
+    "en": "i",
+    "sim": "in",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 36
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 36
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 37
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 37
+  },
+  {
+    "en": "la",
+    "sim": "la",
+    "score": 1.0,
+    "en_phones": [
+      "L",
+      "A"
+    ],
+    "sim_phones": [
+      "L",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 37
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 39
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 39
+  },
+  {
+    "en": "for",
+    "sim": "fona",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "O",
+      "R"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "N",
+      "A"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 40
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 41
+  },
+  {
+    "en": "i",
+    "sim": "in",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 41
+  },
+  {
+    "en": "smile",
+    "sim": "asmil",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "A",
+      "S",
+      "M",
+      "I",
+      "L"
+    ],
+    "song_id": "lily-allen__smile",
+    "line_index": 41
+  },
+  {
+    "en": "hey",
+    "sim": "hee",
+    "score": 0.667,
+    "en_phones": [
+      "H",
+      "E",
+      "I"
+    ],
+    "sim_phones": [
+      "H",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 0
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 0
+  },
+  {
+    "en": "now",
+    "sim": "dowm",
+    "score": 0.5,
+    "en_phones": [
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "D",
+      "O",
+      "W",
+      "M"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 0
+  },
+  {
+    "en": "lookin'",
+    "sim": "locky",
+    "score": 0.6,
+    "en_phones": [
+      "L",
+      "U",
+      "K",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "L",
+      "O",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 1
+  },
+  {
+    "en": "boom",
+    "sim": "boom",
+    "score": 1.0,
+    "en_phones": [
+      "B",
+      "U",
+      "M"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "M"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 2
+  },
+  {
+    "en": "in",
+    "sim": "an'",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 2
+  },
+  {
+    "en": "my",
+    "sim": "i",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 2
+  },
+  {
+    "en": "gonna",
+    "sim": "gobba",
+    "score": 0.6,
+    "en_phones": [
+      "G",
+      "O",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "G",
+      "O",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 3
+  },
+  {
+    "en": "doors",
+    "sim": "doo",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "U",
+      "R",
+      "S"
+    ],
+    "sim_phones": [
+      "D",
+      "U"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 3
+  },
+  {
+    "en": "turn",
+    "sim": "turnip",
+    "score": 0.667,
+    "en_phones": [
+      "T",
+      "U",
+      "R",
+      "N"
+    ],
+    "sim_phones": [
+      "T",
+      "U",
+      "R",
+      "N",
+      "I",
+      "P"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 3
+  },
+  {
+    "en": "boots",
+    "sim": "noops",
+    "score": 0.5,
+    "en_phones": [
+      "B",
+      "U",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "N",
+      "U",
+      "P",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 4
+  },
+  {
+    "en": "watch",
+    "sim": "wahn",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "A",
+      "T",
+      "CH"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "H",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 5
+  },
+  {
+    "en": "me",
+    "sim": "me",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 5
+  },
+  {
+    "en": "love",
+    "sim": "luv",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "O",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "U",
+      "V"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 5
+  },
+  {
+    "en": "get",
+    "sim": "git",
+    "score": 0.667,
+    "en_phones": [
+      "G",
+      "E",
+      "T"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 6
+  },
+  {
+    "en": "hood",
+    "sim": "hoo",
+    "score": 0.667,
+    "en_phones": [
+      "H",
+      "U",
+      "D"
+    ],
+    "sim_phones": [
+      "H",
+      "U"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 6
+  },
+  {
+    "en": "my",
+    "sim": "dee",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "D",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 6
+  },
+  {
+    "en": "it",
+    "sim": "dit",
+    "score": 0.667,
+    "en_phones": [
+      "I",
+      "T"
+    ],
+    "sim_phones": [
+      "D",
+      "I",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 7
+  },
+  {
+    "en": "don't",
+    "sim": "dock",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "O",
+      "N",
+      "T"
+    ],
+    "sim_phones": [
+      "D",
+      "O",
+      "K"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 7
+  },
+  {
+    "en": "matter",
+    "sim": "mat",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "M",
+      "A",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 7
+  },
+  {
+    "en": "on",
+    "sim": "on",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 8
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 8
+  },
+  {
+    "en": "i",
+    "sim": "i",
+    "score": 1.0,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 8
+  },
+  {
+    "en": "can't",
+    "sim": "can't",
+    "score": 1.0,
+    "en_phones": [
+      "C",
+      "A",
+      "N",
+      "T"
+    ],
+    "sim_phones": [
+      "C",
+      "A",
+      "N",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 8
+  },
+  {
+    "en": "wait",
+    "sim": "way",
+    "score": 0.667,
+    "en_phones": [
+      "W",
+      "AY",
+      "T"
+    ],
+    "sim_phones": [
+      "W",
+      "AY"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 8
+  },
+  {
+    "en": "to",
+    "sim": "tu",
+    "score": 0.5,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "U"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 9
+  },
+  {
+    "en": "watch",
+    "sim": "watch",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "T",
+      "CH"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "T",
+      "CH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 9
+  },
+  {
+    "en": "you",
+    "sim": "you",
+    "score": 1.0,
+    "en_phones": [
+      "I",
+      "AW"
+    ],
+    "sim_phones": [
+      "I",
+      "AW"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 9
+  },
+  {
+    "en": "thing",
+    "sim": "thing",
+    "score": 1.0,
+    "en_phones": [
+      "TH",
+      "I",
+      "NG"
+    ],
+    "sim_phones": [
+      "TH",
+      "I",
+      "NG"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 9
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 10
+  },
+  {
+    "en": "sittin'",
+    "sim": "simpit",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "I",
+      "T",
+      "T",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "P",
+      "I",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 10
+  },
+  {
+    "en": "in",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 10
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 10
+  },
+  {
+    "en": "honky",
+    "sim": "hurky",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "O",
+      "N",
+      "K",
+      "I"
+    ],
+    "sim_phones": [
+      "H",
+      "U",
+      "R",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 10
+  },
+  {
+    "en": "break",
+    "sim": "back",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "R",
+      "E",
+      "A",
+      "K"
+    ],
+    "sim_phones": [
+      "B",
+      "A",
+      "K"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 11
+  },
+  {
+    "en": "dj",
+    "sim": "gj",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "J"
+    ],
+    "sim_phones": [
+      "G",
+      "J"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 12
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 13
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 13
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 13
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 14
+  },
+  {
+    "en": "birds",
+    "sim": "burrs",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "I",
+      "R",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "R",
+      "R",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 14
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 14
+  },
+  {
+    "en": "bees",
+    "sim": "bwees",
+    "score": 0.75,
+    "en_phones": [
+      "B",
+      "I",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "W",
+      "I",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 14
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 15
+  },
+  {
+    "en": "swimmin'",
+    "sim": "simma",
+    "score": 0.571,
+    "en_phones": [
+      "S",
+      "W",
+      "I",
+      "M",
+      "M",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "M",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 15
+  },
+  {
+    "en": "down",
+    "sim": "fown",
+    "score": 0.75,
+    "en_phones": [
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "W",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 15
+  },
+  {
+    "en": "deep",
+    "sim": "deepin'",
+    "score": 0.6,
+    "en_phones": [
+      "D",
+      "I",
+      "P"
+    ],
+    "sim_phones": [
+      "D",
+      "I",
+      "P",
+      "I",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 15
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 15
+  },
+  {
+    "en": "crickets",
+    "sim": "crickles",
+    "score": 0.714,
+    "en_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "E",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "L",
+      "E",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "squirrels",
+    "sim": "squirn",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "R",
+      "E",
+      "L",
+      "S"
+    ],
+    "sim_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 16
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 17
+  },
+  {
+    "en": "moon",
+    "sim": "moom",
+    "score": 0.667,
+    "en_phones": [
+      "M",
+      "U",
+      "N"
+    ],
+    "sim_phones": [
+      "M",
+      "U",
+      "M"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 17
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 17
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 17
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 18
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 18
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 18
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 19
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 19
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 19
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 20
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 20
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 20
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 21
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 21
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 21
+  },
+  {
+    "en": "sweet",
+    "sim": "seed",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "W",
+      "I",
+      "T"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "D"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 22
+  },
+  {
+    "en": "farmer's",
+    "sim": "farma'",
+    "score": 0.571,
+    "en_phones": [
+      "F",
+      "A",
+      "R",
+      "M",
+      "E",
+      "R",
+      "S"
+    ],
+    "sim_phones": [
+      "F",
+      "A",
+      "R",
+      "M",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 22
+  },
+  {
+    "en": "blood",
+    "sim": "bub",
+    "score": 0.5,
+    "en_phones": [
+      "B",
+      "L",
+      "U",
+      "D"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "B"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 23
+  },
+  {
+    "en": "a",
+    "sim": "da",
+    "score": 0.5,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "D",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 23
+  },
+  {
+    "en": "little",
+    "sim": "liddle",
+    "score": 0.667,
+    "en_phones": [
+      "L",
+      "I",
+      "T",
+      "T",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "I",
+      "D",
+      "D",
+      "L",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 23
+  },
+  {
+    "en": "wild",
+    "sim": "while",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "I",
+      "L",
+      "D"
+    ],
+    "sim_phones": [
+      "W",
+      "H",
+      "I",
+      "L",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 23
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 24
+  },
+  {
+    "en": "rope",
+    "sim": "roop",
+    "score": 0.5,
+    "en_phones": [
+      "R",
+      "O",
+      "P",
+      "E"
+    ],
+    "sim_phones": [
+      "R",
+      "U",
+      "P"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 25
+  },
+  {
+    "en": "me",
+    "sim": "me",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 25
+  },
+  {
+    "en": "mile",
+    "sim": "mine",
+    "score": 0.75,
+    "en_phones": [
+      "M",
+      "I",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "I",
+      "N",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 25
+  },
+  {
+    "en": "and",
+    "sim": "an'",
+    "score": 0.667,
+    "en_phones": [
+      "A",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 26
+  },
+  {
+    "en": "arms",
+    "sim": "arns",
+    "score": 0.75,
+    "en_phones": [
+      "A",
+      "R",
+      "M",
+      "S"
+    ],
+    "sim_phones": [
+      "A",
+      "R",
+      "N",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 26
+  },
+  {
+    "en": "spin",
+    "sim": "spineeya",
+    "score": 0.571,
+    "en_phones": [
+      "S",
+      "P",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "P",
+      "I",
+      "N",
+      "I",
+      "I",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 27
+  },
+  {
+    "en": "big",
+    "sim": "bin",
+    "score": 0.667,
+    "en_phones": [
+      "B",
+      "I",
+      "G"
+    ],
+    "sim_phones": [
+      "B",
+      "I",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 27
+  },
+  {
+    "en": "barn",
+    "sim": "blarn",
+    "score": 0.8,
+    "en_phones": [
+      "B",
+      "A",
+      "R",
+      "N"
+    ],
+    "sim_phones": [
+      "B",
+      "L",
+      "A",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 27
+  },
+  {
+    "en": "tangle",
+    "sim": "teegle",
+    "score": 0.6,
+    "en_phones": [
+      "T",
+      "A",
+      "NG",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "T",
+      "I",
+      "G",
+      "L",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 28
+  },
+  {
+    "en": "like",
+    "sim": "leed",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "I",
+      "D"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 28
+  },
+  {
+    "en": "yarn",
+    "sim": "zharn",
+    "score": 0.6,
+    "en_phones": [
+      "I",
+      "A",
+      "R",
+      "N"
+    ],
+    "sim_phones": [
+      "Z",
+      "H",
+      "A",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 28
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 30
+  },
+  {
+    "en": "sittin'",
+    "sim": "simpit",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "I",
+      "T",
+      "T",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "P",
+      "I",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 30
+  },
+  {
+    "en": "in",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 30
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 30
+  },
+  {
+    "en": "honky",
+    "sim": "hurky",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "O",
+      "N",
+      "K",
+      "I"
+    ],
+    "sim_phones": [
+      "H",
+      "U",
+      "R",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 30
+  },
+  {
+    "en": "break",
+    "sim": "back",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "R",
+      "E",
+      "A",
+      "K"
+    ],
+    "sim_phones": [
+      "B",
+      "A",
+      "K"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 31
+  },
+  {
+    "en": "dj",
+    "sim": "gj",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "J"
+    ],
+    "sim_phones": [
+      "G",
+      "J"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 32
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 33
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 33
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 33
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 34
+  },
+  {
+    "en": "birds",
+    "sim": "burrs",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "I",
+      "R",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "R",
+      "R",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 34
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 34
+  },
+  {
+    "en": "bees",
+    "sim": "bwees",
+    "score": 0.75,
+    "en_phones": [
+      "B",
+      "I",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "W",
+      "I",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 34
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 35
+  },
+  {
+    "en": "swimmin'",
+    "sim": "simma",
+    "score": 0.571,
+    "en_phones": [
+      "S",
+      "W",
+      "I",
+      "M",
+      "M",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "M",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 35
+  },
+  {
+    "en": "down",
+    "sim": "fown",
+    "score": 0.75,
+    "en_phones": [
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "W",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 35
+  },
+  {
+    "en": "deep",
+    "sim": "deepin'",
+    "score": 0.6,
+    "en_phones": [
+      "D",
+      "I",
+      "P"
+    ],
+    "sim_phones": [
+      "D",
+      "I",
+      "P",
+      "I",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 35
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 35
+  },
+  {
+    "en": "crickets",
+    "sim": "crickles",
+    "score": 0.714,
+    "en_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "E",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "L",
+      "E",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "squirrels",
+    "sim": "squirn",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "R",
+      "E",
+      "L",
+      "S"
+    ],
+    "sim_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 36
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 37
+  },
+  {
+    "en": "moon",
+    "sim": "moom",
+    "score": 0.667,
+    "en_phones": [
+      "M",
+      "U",
+      "N"
+    ],
+    "sim_phones": [
+      "M",
+      "U",
+      "M"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 37
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 37
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 37
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 38
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 38
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 38
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 39
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 39
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 39
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 40
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 40
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 40
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 41
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 41
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 41
+  },
+  {
+    "en": "like",
+    "sim": "laka",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "A",
+      "K",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 43
+  },
+  {
+    "en": "a",
+    "sim": "da",
+    "score": 0.5,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "D",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 43
+  },
+  {
+    "en": "in",
+    "sim": "an'",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 44
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 44
+  },
+  {
+    "en": "wind",
+    "sim": "wee",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "I",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "W",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 44
+  },
+  {
+    "en": "hill",
+    "sim": "hill",
+    "score": 1.0,
+    "en_phones": [
+      "H",
+      "I",
+      "L",
+      "L"
+    ],
+    "sim_phones": [
+      "H",
+      "I",
+      "L",
+      "L"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 44
+  },
+  {
+    "en": "the",
+    "sim": "me",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 44
+  },
+  {
+    "en": "move",
+    "sim": "mocha",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "O",
+      "CH",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 45
+  },
+  {
+    "en": "feel",
+    "sim": "feeba",
+    "score": 0.5,
+    "en_phones": [
+      "F",
+      "I",
+      "L"
+    ],
+    "sim_phones": [
+      "F",
+      "I",
+      "B",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 46
+  },
+  {
+    "en": "kick",
+    "sim": "keep",
+    "score": 0.667,
+    "en_phones": [
+      "K",
+      "I",
+      "K"
+    ],
+    "sim_phones": [
+      "K",
+      "I",
+      "P"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 46
+  },
+  {
+    "en": "down",
+    "sim": "down",
+    "score": 1.0,
+    "en_phones": [
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    "sim_phones": [
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 46
+  },
+  {
+    "en": "an'",
+    "sim": "a",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 48
+  },
+  {
+    "en": "an'",
+    "sim": "a",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 48
+  },
+  {
+    "en": "an'",
+    "sim": "a",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 49
+  },
+  {
+    "en": "'fore",
+    "sim": "b'fore",
+    "score": 0.8,
+    "en_phones": [
+      "F",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "B",
+      "F",
+      "O",
+      "R",
+      "E"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 49
+  },
+  {
+    "en": "through",
+    "sim": "through",
+    "score": 1.0,
+    "en_phones": [
+      "TH",
+      "R",
+      "AW",
+      "G",
+      "H"
+    ],
+    "sim_phones": [
+      "TH",
+      "R",
+      "AW",
+      "G",
+      "H"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 49
+  },
+  {
+    "en": "what",
+    "sim": "wah",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "H",
+      "A",
+      "T"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "H"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 50
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 51
+  },
+  {
+    "en": "sittin'",
+    "sim": "simpit",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "I",
+      "T",
+      "T",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "P",
+      "I",
+      "T"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 51
+  },
+  {
+    "en": "in",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 51
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 51
+  },
+  {
+    "en": "honky",
+    "sim": "hurky",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "O",
+      "N",
+      "K",
+      "I"
+    ],
+    "sim_phones": [
+      "H",
+      "U",
+      "R",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 51
+  },
+  {
+    "en": "break",
+    "sim": "back",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "R",
+      "E",
+      "A",
+      "K"
+    ],
+    "sim_phones": [
+      "B",
+      "A",
+      "K"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 52
+  },
+  {
+    "en": "dj",
+    "sim": "gj",
+    "score": 0.5,
+    "en_phones": [
+      "D",
+      "J"
+    ],
+    "sim_phones": [
+      "G",
+      "J"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 53
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 54
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 54
+  },
+  {
+    "en": "c'mon",
+    "sim": "on",
+    "score": 0.5,
+    "en_phones": [
+      "C",
+      "M",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 54
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 55
+  },
+  {
+    "en": "birds",
+    "sim": "burrs",
+    "score": 0.6,
+    "en_phones": [
+      "B",
+      "I",
+      "R",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "R",
+      "R",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 55
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 55
+  },
+  {
+    "en": "bees",
+    "sim": "bwees",
+    "score": 0.75,
+    "en_phones": [
+      "B",
+      "I",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "W",
+      "I",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 55
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 56
+  },
+  {
+    "en": "swimmin'",
+    "sim": "simma",
+    "score": 0.571,
+    "en_phones": [
+      "S",
+      "W",
+      "I",
+      "M",
+      "M",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "S",
+      "I",
+      "M",
+      "M",
+      "A"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 56
+  },
+  {
+    "en": "down",
+    "sim": "fown",
+    "score": 0.75,
+    "en_phones": [
+      "D",
+      "O",
+      "W",
+      "N"
+    ],
+    "sim_phones": [
+      "F",
+      "O",
+      "W",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 56
+  },
+  {
+    "en": "deep",
+    "sim": "deepin'",
+    "score": 0.6,
+    "en_phones": [
+      "D",
+      "I",
+      "P"
+    ],
+    "sim_phones": [
+      "D",
+      "I",
+      "P",
+      "I",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 56
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 56
+  },
+  {
+    "en": "crickets",
+    "sim": "crickles",
+    "score": 0.714,
+    "en_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "E",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "C",
+      "R",
+      "I",
+      "K",
+      "L",
+      "E",
+      "S"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "an'",
+    "sim": "an'",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "the",
+    "sim": "th'",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "TH"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "squirrels",
+    "sim": "squirn",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "R",
+      "E",
+      "L",
+      "S"
+    ],
+    "sim_phones": [
+      "S",
+      "KW",
+      "I",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 57
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 58
+  },
+  {
+    "en": "moon",
+    "sim": "moom",
+    "score": 0.667,
+    "en_phones": [
+      "M",
+      "U",
+      "N"
+    ],
+    "sim_phones": [
+      "M",
+      "U",
+      "M"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 58
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 58
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 58
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 59
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 59
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 59
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 60
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 60
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 60
+  },
+  {
+    "en": "oh",
+    "sim": "oh",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "H"
+    ],
+    "sim_phones": [
+      "O",
+      "H"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 60
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 60
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 61
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 61
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 61
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 62
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 62
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 62
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 63
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 63
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 63
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 64
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 64
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 64
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 65
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 65
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 65
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 66
+  },
+  {
+    "en": "girl",
+    "sim": "gurn",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "R",
+      "L"
+    ],
+    "sim_phones": [
+      "G",
+      "U",
+      "R",
+      "N"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 66
+  },
+  {
+    "en": "shake",
+    "sim": "sheeky",
+    "score": 0.5,
+    "en_phones": [
+      "SH",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "SH",
+      "I",
+      "K",
+      "I"
+    ],
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "line_index": 66
+  },
+  {
+    "en": "gimme",
+    "sim": "gimme",
+    "score": 1.0,
+    "en_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 0
+  },
+  {
+    "en": "gimme",
+    "sim": "gimme",
+    "score": 1.0,
+    "en_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 0
+  },
+  {
+    "en": "need",
+    "sim": "neeba",
+    "score": 0.5,
+    "en_phones": [
+      "N",
+      "I",
+      "D"
+    ],
+    "sim_phones": [
+      "N",
+      "I",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 1
+  },
+  {
+    "en": "want",
+    "sim": "wada",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "T"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "D",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 2
+  },
+  {
+    "en": "in",
+    "sim": "in",
+    "score": 1.0,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 4
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 4
+  },
+  {
+    "en": "in",
+    "sim": "in",
+    "score": 1.0,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 5
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 5
+  },
+  {
+    "en": "an",
+    "sim": "an",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 6
+  },
+  {
+    "en": "x",
+    "sim": "x",
+    "score": 1.0,
+    "en_phones": [
+      "X"
+    ],
+    "sim_phones": [
+      "X"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 6
+  },
+  {
+    "en": "more",
+    "sim": "zor",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 7
+  },
+  {
+    "en": "more",
+    "sim": "zor",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 7
+  },
+  {
+    "en": "more",
+    "sim": "zor",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 7
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 9
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 11
+  },
+  {
+    "en": "enemy",
+    "sim": "nenetay",
+    "score": 0.5,
+    "en_phones": [
+      "E",
+      "N",
+      "E",
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "N",
+      "E",
+      "N",
+      "E",
+      "T",
+      "AY"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 12
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 13
+  },
+  {
+    "en": "in",
+    "sim": "en",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "E",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 15
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 16
+  },
+  {
+    "en": "an",
+    "sim": "a",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 17
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 18
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 20
+  },
+  {
+    "en": "give",
+    "sim": "gibs",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "B",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 22
+  },
+  {
+    "en": "us",
+    "sim": "as",
+    "score": 0.5,
+    "en_phones": [
+      "U",
+      "S"
+    ],
+    "sim_phones": [
+      "A",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 22
+  },
+  {
+    "en": "more",
+    "sim": "zor",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 22
+  },
+  {
+    "en": "give",
+    "sim": "gimme",
+    "score": 0.6,
+    "en_phones": [
+      "G",
+      "I",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 23
+  },
+  {
+    "en": "give",
+    "sim": "gimme",
+    "score": 0.6,
+    "en_phones": [
+      "G",
+      "I",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "M",
+      "M",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 23
+  },
+  {
+    "en": "hands",
+    "sim": "dans",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "A",
+      "N",
+      "D",
+      "S"
+    ],
+    "sim_phones": [
+      "D",
+      "A",
+      "N",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 25
+  },
+  {
+    "en": "was",
+    "sim": "wa",
+    "score": 0.667,
+    "en_phones": [
+      "W",
+      "A",
+      "S"
+    ],
+    "sim_phones": [
+      "W",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 27
+  },
+  {
+    "en": "batman",
+    "sim": "zatlan",
+    "score": 0.667,
+    "en_phones": [
+      "B",
+      "A",
+      "T",
+      "M",
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "Z",
+      "A",
+      "T",
+      "L",
+      "A",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 27
+  },
+  {
+    "en": "nananananananana",
+    "sim": "nananananananana",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A",
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 27
+  },
+  {
+    "en": "the",
+    "sim": "he",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "H",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 28
+  },
+  {
+    "en": "a",
+    "sim": "a",
+    "score": 1.0,
+    "en_phones": [
+      "A"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 28
+  },
+  {
+    "en": "animal",
+    "sim": "ana",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N",
+      "I",
+      "M",
+      "A",
+      "L"
+    ],
+    "sim_phones": [
+      "A",
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 29
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 30
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 32
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 36
+  },
+  {
+    "en": "an",
+    "sim": "a",
+    "score": 0.5,
+    "en_phones": [
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 37
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 38
+  },
+  {
+    "en": "give",
+    "sim": "gibs",
+    "score": 0.5,
+    "en_phones": [
+      "G",
+      "I",
+      "V",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "I",
+      "B",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 41
+  },
+  {
+    "en": "us",
+    "sim": "as",
+    "score": 0.5,
+    "en_phones": [
+      "U",
+      "S"
+    ],
+    "sim_phones": [
+      "A",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 41
+  },
+  {
+    "en": "more",
+    "sim": "zor",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 41
+  },
+  {
+    "en": "here",
+    "sim": "nere",
+    "score": 0.75,
+    "en_phones": [
+      "H",
+      "E",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "N",
+      "E",
+      "R",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 42
+  },
+  {
+    "en": "now",
+    "sim": "zow",
+    "score": 0.667,
+    "en_phones": [
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "Z",
+      "O",
+      "W"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 42
+  },
+  {
+    "en": "all",
+    "sim": "all",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "L",
+      "L"
+    ],
+    "sim_phones": [
+      "A",
+      "L",
+      "L"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 43
+  },
+  {
+    "en": "the",
+    "sim": "ze",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 43
+  },
+  {
+    "en": "in",
+    "sim": "in",
+    "score": 1.0,
+    "en_phones": [
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "I",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 43
+  },
+  {
+    "en": "battery",
+    "sim": "gattory",
+    "score": 0.714,
+    "en_phones": [
+      "B",
+      "A",
+      "T",
+      "T",
+      "E",
+      "R",
+      "I"
+    ],
+    "sim_phones": [
+      "G",
+      "A",
+      "T",
+      "T",
+      "O",
+      "R",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 43
+  },
+  {
+    "en": "city",
+    "sim": "nitty",
+    "score": 0.6,
+    "en_phones": [
+      "C",
+      "I",
+      "T",
+      "I"
+    ],
+    "sim_phones": [
+      "N",
+      "I",
+      "T",
+      "T",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 43
+  },
+  {
+    "en": "little",
+    "sim": "pitta",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "I",
+      "T",
+      "T",
+      "L",
+      "E"
+    ],
+    "sim_phones": [
+      "P",
+      "I",
+      "T",
+      "T",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 44
+  },
+  {
+    "en": "their",
+    "sim": "their",
+    "score": 1.0,
+    "en_phones": [
+      "TH",
+      "E",
+      "I",
+      "R"
+    ],
+    "sim_phones": [
+      "TH",
+      "E",
+      "I",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 44
+  },
+  {
+    "en": "open",
+    "sim": "open",
+    "score": 1.0,
+    "en_phones": [
+      "O",
+      "P",
+      "E",
+      "N"
+    ],
+    "sim_phones": [
+      "O",
+      "P",
+      "E",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 44
+  },
+  {
+    "en": "filthy",
+    "sim": "wilpy",
+    "score": 0.6,
+    "en_phones": [
+      "F",
+      "I",
+      "L",
+      "TH",
+      "I"
+    ],
+    "sim_phones": [
+      "W",
+      "I",
+      "L",
+      "P",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 44
+  },
+  {
+    "en": "palms",
+    "sim": "zalms",
+    "score": 0.8,
+    "en_phones": [
+      "P",
+      "A",
+      "L",
+      "M",
+      "S"
+    ],
+    "sim_phones": [
+      "Z",
+      "A",
+      "L",
+      "M",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 44
+  },
+  {
+    "en": "tiny",
+    "sim": "dinny",
+    "score": 0.6,
+    "en_phones": [
+      "T",
+      "I",
+      "N",
+      "I"
+    ],
+    "sim_phones": [
+      "D",
+      "I",
+      "N",
+      "N",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 45
+  },
+  {
+    "en": "daggers",
+    "sim": "daggers",
+    "score": 1.0,
+    "en_phones": [
+      "D",
+      "A",
+      "G",
+      "G",
+      "E",
+      "R",
+      "S"
+    ],
+    "sim_phones": [
+      "D",
+      "A",
+      "G",
+      "G",
+      "E",
+      "R",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 45
+  },
+  {
+    "en": "up",
+    "sim": "up",
+    "score": 1.0,
+    "en_phones": [
+      "U",
+      "P"
+    ],
+    "sim_phones": [
+      "U",
+      "P"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 45
+  },
+  {
+    "en": "to",
+    "sim": "to",
+    "score": 1.0,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "O"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 45
+  },
+  {
+    "en": "heaven",
+    "sim": "leven",
+    "score": 0.667,
+    "en_phones": [
+      "H",
+      "E",
+      "A",
+      "V",
+      "E",
+      "N"
+    ],
+    "sim_phones": [
+      "L",
+      "E",
+      "V",
+      "E",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 45
+  },
+  {
+    "en": "juvee",
+    "sim": "boony",
+    "score": 0.5,
+    "en_phones": [
+      "J",
+      "U",
+      "V",
+      "I"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "N",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 46
+  },
+  {
+    "en": "halls",
+    "sim": "bralls",
+    "score": 0.667,
+    "en_phones": [
+      "H",
+      "A",
+      "L",
+      "L",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "R",
+      "A",
+      "L",
+      "L",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 46
+  },
+  {
+    "en": "the",
+    "sim": "ze",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E"
+    ],
+    "sim_phones": [
+      "Z",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 46
+  },
+  {
+    "en": "rats",
+    "sim": "brats",
+    "score": 0.8,
+    "en_phones": [
+      "R",
+      "A",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "B",
+      "R",
+      "A",
+      "T",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 46
+  },
+  {
+    "en": "angels",
+    "sim": "angels",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "NG",
+      "E",
+      "L",
+      "S"
+    ],
+    "sim_phones": [
+      "A",
+      "NG",
+      "E",
+      "L",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 47
+  },
+  {
+    "en": "made",
+    "sim": "made",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "A",
+      "D",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "A",
+      "D",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 47
+  },
+  {
+    "en": "neon",
+    "sim": "zeon",
+    "score": 0.75,
+    "en_phones": [
+      "N",
+      "E",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "Z",
+      "E",
+      "O",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 47
+  },
+  {
+    "en": "and",
+    "sim": "and",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "A",
+      "N",
+      "D"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 47
+  },
+  {
+    "en": "garbage",
+    "sim": "garbage",
+    "score": 1.0,
+    "en_phones": [
+      "G",
+      "A",
+      "R",
+      "B",
+      "A",
+      "G",
+      "E"
+    ],
+    "sim_phones": [
+      "G",
+      "A",
+      "R",
+      "B",
+      "A",
+      "G",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 47
+  },
+  {
+    "en": "out",
+    "sim": "out",
+    "score": 1.0,
+    "en_phones": [
+      "AW",
+      "T"
+    ],
+    "sim_phones": [
+      "AW",
+      "T"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 48
+  },
+  {
+    "en": "what",
+    "sim": "rat",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "H",
+      "A",
+      "T"
+    ],
+    "sim_phones": [
+      "R",
+      "A",
+      "T"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 48
+  },
+  {
+    "en": "us",
+    "sim": "us",
+    "score": 1.0,
+    "en_phones": [
+      "U",
+      "S"
+    ],
+    "sim_phones": [
+      "U",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 48
+  },
+  {
+    "en": "opened",
+    "sim": "nopen",
+    "score": 0.5,
+    "en_phones": [
+      "O",
+      "P",
+      "E",
+      "N",
+      "E",
+      "D"
+    ],
+    "sim_phones": [
+      "N",
+      "O",
+      "P",
+      "E",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 49
+  },
+  {
+    "en": "wants",
+    "sim": "wansa",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "S",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 50
+  },
+  {
+    "en": "to",
+    "sim": "sho",
+    "score": 0.5,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "SH",
+      "O"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 50
+  },
+  {
+    "en": "wants",
+    "sim": "wansa",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "S",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 51
+  },
+  {
+    "en": "to",
+    "sim": "sho",
+    "score": 0.5,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "SH",
+      "O"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 51
+  },
+  {
+    "en": "but",
+    "sim": "but",
+    "score": 1.0,
+    "en_phones": [
+      "B",
+      "U",
+      "T"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "T"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 52
+  },
+  {
+    "en": "wants",
+    "sim": "wants",
+    "score": 1.0,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "T",
+      "S"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "N",
+      "T",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 52
+  },
+  {
+    "en": "to",
+    "sim": "to",
+    "score": 1.0,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "O"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 52
+  },
+  {
+    "en": "wanna",
+    "sim": "wabba",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 53
+  },
+  {
+    "en": "wanna",
+    "sim": "wabba",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 53
+  },
+  {
+    "en": "wanna",
+    "sim": "wabba",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 53
+  },
+  {
+    "en": "wanna",
+    "sim": "wabba",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 54
+  },
+  {
+    "en": "wanna",
+    "sim": "wabba",
+    "score": 0.6,
+    "en_phones": [
+      "W",
+      "A",
+      "N",
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "W",
+      "A",
+      "B",
+      "B",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 54
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 56
+  },
+  {
+    "en": "make",
+    "sim": "make",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "A",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "A",
+      "K",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 57
+  },
+  {
+    "en": "no",
+    "sim": "zo",
+    "score": 0.5,
+    "en_phones": [
+      "N",
+      "O"
+    ],
+    "sim_phones": [
+      "Z",
+      "O"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 57
+  },
+  {
+    "en": "apology",
+    "sim": "apology",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "P",
+      "O",
+      "L",
+      "O",
+      "G",
+      "I"
+    ],
+    "sim_phones": [
+      "A",
+      "P",
+      "O",
+      "L",
+      "O",
+      "G",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 57
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 58
+  },
+  {
+    "en": "burn",
+    "sim": "boo",
+    "score": 0.5,
+    "en_phones": [
+      "B",
+      "U",
+      "R",
+      "N"
+    ],
+    "sim_phones": [
+      "B",
+      "U"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 61
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 62
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "na",
+    "sim": "na",
+    "score": 1.0,
+    "en_phones": [
+      "N",
+      "A"
+    ],
+    "sim_phones": [
+      "N",
+      "A"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 65
+  },
+  {
+    "en": "i'd",
+    "sim": "ee",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "D"
+    ],
+    "sim_phones": [
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 66
+  },
+  {
+    "en": "than",
+    "sim": "ban",
+    "score": 0.667,
+    "en_phones": [
+      "TH",
+      "A",
+      "N"
+    ],
+    "sim_phones": [
+      "B",
+      "A",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 67
+  },
+  {
+    "en": "purgatory",
+    "sim": "burgindory",
+    "score": 0.6,
+    "en_phones": [
+      "P",
+      "U",
+      "R",
+      "G",
+      "A",
+      "T",
+      "O",
+      "R",
+      "I"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "R",
+      "G",
+      "I",
+      "N",
+      "D",
+      "O",
+      "R",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 67
+  },
+  {
+    "en": "my",
+    "sim": "my",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "I"
+    ],
+    "sim_phones": [
+      "M",
+      "I"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "hair",
+    "sim": "lair",
+    "score": 0.667,
+    "en_phones": [
+      "H",
+      "AY",
+      "R"
+    ],
+    "sim_phones": [
+      "L",
+      "AY",
+      "R"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "and",
+    "sim": "and",
+    "score": 1.0,
+    "en_phones": [
+      "A",
+      "N",
+      "D"
+    ],
+    "sim_phones": [
+      "A",
+      "N",
+      "D"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "bore",
+    "sim": "vore",
+    "score": 0.75,
+    "en_phones": [
+      "B",
+      "O",
+      "R",
+      "E"
+    ],
+    "sim_phones": [
+      "V",
+      "O",
+      "R",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "me",
+    "sim": "me",
+    "score": 1.0,
+    "en_phones": [
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "pull",
+    "sim": "bull",
+    "score": 0.75,
+    "en_phones": [
+      "P",
+      "U",
+      "L",
+      "L"
+    ],
+    "sim_phones": [
+      "B",
+      "U",
+      "L",
+      "L"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "pin",
+    "sim": "bin",
+    "score": 0.667,
+    "en_phones": [
+      "P",
+      "I",
+      "N"
+    ],
+    "sim_phones": [
+      "B",
+      "I",
+      "N"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 68
+  },
+  {
+    "en": "let",
+    "sim": "leb",
+    "score": 0.667,
+    "en_phones": [
+      "L",
+      "E",
+      "T"
+    ],
+    "sim_phones": [
+      "L",
+      "E",
+      "B"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 69
+  },
+  {
+    "en": "this",
+    "sim": "nis",
+    "score": 0.667,
+    "en_phones": [
+      "TH",
+      "I",
+      "S"
+    ],
+    "sim_phones": [
+      "N",
+      "I",
+      "S"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 69
+  },
+  {
+    "en": "explode",
+    "sim": "expnode",
+    "score": 0.857,
+    "en_phones": [
+      "E",
+      "X",
+      "P",
+      "L",
+      "O",
+      "D",
+      "E"
+    ],
+    "sim_phones": [
+      "E",
+      "X",
+      "P",
+      "N",
+      "O",
+      "D",
+      "E"
+    ],
+    "song_id": "my-chemical-romance__na-na-na",
+    "line_index": 69
+  },
+  {
+    "en": "to",
+    "sim": "tu",
+    "score": 0.5,
+    "en_phones": [
+      "T",
+      "O"
+    ],
+    "sim_phones": [
+      "T",
+      "U"
+    ],
+    "song_id": "paramore__pressure",
+    "line_index": 12
+  },
+  {
+    "en": "home",
+    "sim": "ho",
+    "score": 0.5,
+    "en_phones": [
+      "H",
+      "O",
+      "M",
+      "E"
+    ],
+    "sim_phones": [
+      "H",
+      "O"
+    ],
+    "song_id": "paramore__pressure",
+    "line_index": 14
+  },
+  {
+    "en": "them",
+    "sim": "derm",
+    "score": 0.5,
+    "en_phones": [
+      "TH",
+      "E",
+      "M"
+    ],
+    "sim_phones": [
+      "D",
+      "E",
+      "R",
+      "M"
+    ],
+    "song_id": "paramore__pressure",
+    "line_index": 16
+  },
+  {
+    "en": "frosty",
+    "sim": "froxy",
+    "score": 0.667,
+    "en_phones": [
+      "F",
+      "R",
+      "O",
+      "S",
+      "T",
+      "I"
+    ],
+    "sim_phones": [
+      "F",
+      "R",
+      "O",
+      "X",
+      "I"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 0
+  },
+  {
+    "en": "made",
+    "sim": "moe",
+    "score": 0.5,
+    "en_phones": [
+      "M",
+      "A",
+      "D",
+      "E"
+    ],
+    "sim_phones": [
+      "M",
+      "O",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 0
+  },
+  {
+    "en": "hard",
+    "sim": "harbis",
+    "score": 0.5,
+    "en_phones": [
+      "H",
+      "A",
+      "R",
+      "D"
+    ],
+    "sim_phones": [
+      "H",
+      "A",
+      "R",
+      "B",
+      "I",
+      "S"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 1
+  },
+  {
+    "en": "iron",
+    "sim": "ira",
+    "score": 0.5,
+    "en_phones": [
+      "I",
+      "R",
+      "O",
+      "N"
+    ],
+    "sim_phones": [
+      "I",
+      "R",
+      "A"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 1
+  },
+  {
+    "en": "water",
+    "sim": "wobber",
+    "score": 0.5,
+    "en_phones": [
+      "W",
+      "A",
+      "T",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "W",
+      "O",
+      "B",
+      "B",
+      "E",
+      "R"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 2
+  },
+  {
+    "en": "like",
+    "sim": "laka",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "I",
+      "K",
+      "E"
+    ],
+    "sim_phones": [
+      "L",
+      "A",
+      "K",
+      "A"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 2
+  },
+  {
+    "en": "stone",
+    "sim": "stoe",
+    "score": 0.8,
+    "en_phones": [
+      "S",
+      "T",
+      "O",
+      "N",
+      "E"
+    ],
+    "sim_phones": [
+      "S",
+      "T",
+      "O",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 2
+  },
+  {
+    "en": "snow",
+    "sim": "snobie",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "S",
+      "N",
+      "O",
+      "B",
+      "I",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 3
+  },
+  {
+    "en": "snow",
+    "sim": "snobie",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "S",
+      "N",
+      "O",
+      "B",
+      "I",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 3
+  },
+  {
+    "en": "snow",
+    "sim": "snobe",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "S",
+      "N",
+      "O",
+      "B",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 3
+  },
+  {
+    "en": "snow",
+    "sim": "snobie",
+    "score": 0.5,
+    "en_phones": [
+      "S",
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "S",
+      "N",
+      "O",
+      "B",
+      "I",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 4
+  },
+  {
+    "en": "snow",
+    "sim": "snobe",
+    "score": 0.6,
+    "en_phones": [
+      "S",
+      "N",
+      "O",
+      "W"
+    ],
+    "sim_phones": [
+      "S",
+      "N",
+      "O",
+      "B",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 4
+  },
+  {
+    "en": "midwinter",
+    "sim": "mibwimzer",
+    "score": 0.667,
+    "en_phones": [
+      "M",
+      "I",
+      "D",
+      "W",
+      "I",
+      "N",
+      "T",
+      "E",
+      "R"
+    ],
+    "sim_phones": [
+      "M",
+      "I",
+      "B",
+      "W",
+      "I",
+      "M",
+      "Z",
+      "E",
+      "R"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 5
+  },
+  {
+    "en": "poor",
+    "sim": "purasa",
+    "score": 0.5,
+    "en_phones": [
+      "P",
+      "U",
+      "R"
+    ],
+    "sim_phones": [
+      "P",
+      "U",
+      "R",
+      "A",
+      "S",
+      "A"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 8
+  },
+  {
+    "en": "am",
+    "sim": "nam",
+    "score": 0.667,
+    "en_phones": [
+      "A",
+      "M"
+    ],
+    "sim_phones": [
+      "N",
+      "A",
+      "M"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 8
+  },
+  {
+    "en": "i",
+    "sim": "shi",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "SH",
+      "I"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 9
+  },
+  {
+    "en": "bring",
+    "sim": "breegie",
+    "score": 0.5,
+    "en_phones": [
+      "B",
+      "R",
+      "I",
+      "NG"
+    ],
+    "sim_phones": [
+      "B",
+      "R",
+      "I",
+      "G",
+      "I",
+      "E"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 10
+  },
+  {
+    "en": "lamb",
+    "sim": "lem",
+    "score": 0.5,
+    "en_phones": [
+      "L",
+      "A",
+      "M",
+      "B"
+    ],
+    "sim_phones": [
+      "L",
+      "E",
+      "M"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 10
+  },
+  {
+    "en": "i",
+    "sim": "shi",
+    "score": 0.5,
+    "en_phones": [
+      "I"
+    ],
+    "sim_phones": [
+      "SH",
+      "I"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 11
+  },
+  {
+    "en": "part",
+    "sim": "plar",
+    "score": 0.5,
+    "en_phones": [
+      "P",
+      "A",
+      "R",
+      "T"
+    ],
+    "sim_phones": [
+      "P",
+      "L",
+      "A",
+      "R"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 12
+  },
+  {
+    "en": "heart",
+    "sim": "har",
+    "score": 0.6,
+    "en_phones": [
+      "H",
+      "E",
+      "A",
+      "R",
+      "T"
+    ],
+    "sim_phones": [
+      "H",
+      "A",
+      "R"
+    ],
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "line_index": 14
+  }
+]

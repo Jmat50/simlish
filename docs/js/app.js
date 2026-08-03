@@ -4,6 +4,7 @@ import {
   lookupSimlishForms,
   openDictionaryDb,
 } from "./dictionary-db.js";
+import { convertTextV2, loadV2Models } from "./v2-convert.js";
 
 /** @type {Map<string, import("./markov.js").WeightTable>} */
 const cache = new Map();
@@ -15,6 +16,8 @@ const els = {
   output: /** @type {HTMLElement} */ (document.getElementById("output")),
   lang: /** @type {HTMLSelectElement} */ (document.getElementById("lang-select")),
   mode: /** @type {HTMLSelectElement} */ (document.getElementById("mode-select")),
+  engine: /** @type {HTMLInputElement} */ (document.getElementById("engine-toggle")),
+  toolbar: /** @type {HTMLElement} */ (document.querySelector(".toolbar")),
   showIpa: /** @type {HTMLInputElement} */ (document.getElementById("show-ipa")),
   translate: /** @type {HTMLButtonElement} */ (document.getElementById("translate-btn")),
   clear: /** @type {HTMLButtonElement} */ (document.getElementById("clear-btn")),
@@ -24,6 +27,19 @@ const els = {
 
 /** @type {{ display: string, ipa: string } | null} */
 let lastResult = null;
+
+function isV2() {
+  return els.engine.checked;
+}
+
+function syncEngineUi() {
+  const v2 = isV2();
+  els.engine.setAttribute("aria-checked", v2 ? "true" : "false");
+  els.toolbar.classList.toggle("is-engine-v2", v2);
+  if (v2) {
+    els.showIpa.checked = false;
+  }
+}
 
 /**
  * @param {string} profile
@@ -45,7 +61,8 @@ function renderOutput() {
     els.output.classList.remove("has-content", "flash");
     return;
   }
-  const text = els.showIpa.checked ? lastResult.ipa : lastResult.display;
+  const text =
+    !isV2() && els.showIpa.checked ? lastResult.ipa : lastResult.display;
   els.output.textContent = text;
   els.output.classList.add("has-content");
   els.output.classList.remove("flash");
@@ -53,7 +70,7 @@ function renderOutput() {
   els.output.classList.add("flash");
 }
 
-function updateShareUrl(text, lang, mode) {
+function updateShareUrl(text, lang, mode, engine) {
   const url = new URL(window.location.href);
   if (text && text.length <= MAX_SHARE_CHARS) {
     url.searchParams.set("t", text);
@@ -62,7 +79,8 @@ function updateShareUrl(text, lang, mode) {
   }
   url.searchParams.set("lang", lang);
   url.searchParams.set("mode", mode);
-  if (els.showIpa.checked) url.searchParams.set("ipa", "1");
+  url.searchParams.set("engine", engine);
+  if (!isV2() && els.showIpa.checked) url.searchParams.set("ipa", "1");
   else url.searchParams.delete("ipa");
   history.replaceState(null, "", url);
 }
@@ -71,8 +89,23 @@ async function translate() {
   const text = els.input.value;
   const lang = els.lang.value;
   const mode = els.mode.value === "orthodox" ? "orthodox" : "generative";
+  const engine = isV2() ? "v2" : "v1";
   try {
     els.translate.disabled = true;
+    if (engine === "v2") {
+      els.status.textContent = "Loading v2 models…";
+      await loadV2Models();
+      const display = convertTextV2(text);
+      lastResult = { display, ipa: display };
+      renderOutput();
+      updateShareUrl(text, lang, mode, engine);
+      els.output.focus({ preventScroll: true });
+      els.status.textContent = text
+        ? "v2 · sound-alike + rhyme + meter + phrase memory"
+        : "";
+      return;
+    }
+
     const table = await loadProfile(lang);
     /** @type {(key: string) => string[]} */
     let lookupForms = () => [];
@@ -86,14 +119,14 @@ async function translate() {
       lookupForms,
     });
     renderOutput();
-    updateShareUrl(text, lang, mode);
+    updateShareUrl(text, lang, mode, engine);
     els.output.focus({ preventScroll: true });
     if (!text) {
       els.status.textContent = "";
     } else if (mode === "orthodox") {
-      els.status.textContent = `Orthodox · ${getDictionaryEntryCount()} sqlite entries · Markov fallback`;
+      els.status.textContent = `v1 Orthodox · ${getDictionaryEntryCount()} sqlite entries · Markov fallback`;
     } else {
-      els.status.textContent = `Generative · ${table.meta?.edgeCount ?? "?"} phoneme edges`;
+      els.status.textContent = `v1 Generative · ${table.meta?.edgeCount ?? "?"} phoneme edges`;
     }
   } catch (err) {
     console.error(err);
@@ -119,7 +152,7 @@ function clearAll() {
   lastResult = null;
   renderOutput();
   els.status.textContent = "";
-  updateShareUrl("", els.lang.value, els.mode.value);
+  updateShareUrl("", els.lang.value, els.mode.value, isV2() ? "v2" : "v1");
   els.input.focus();
 }
 
@@ -129,9 +162,13 @@ function readQuery() {
   if (lang === "en_US" || lang === "en_UK") els.lang.value = lang;
   const mode = params.get("mode");
   if (mode === "orthodox" || mode === "generative") els.mode.value = mode;
+  const engine = params.get("engine");
+  // Default v2; only force v1 when explicitly requested.
+  els.engine.checked = engine !== "v1";
   const t = params.get("t");
   if (t != null) els.input.value = t;
-  els.showIpa.checked = params.get("ipa") === "1";
+  els.showIpa.checked = params.get("ipa") === "1" && !isV2();
+  syncEngineUi();
 }
 
 els.translate.addEventListener("click", () => translate());
@@ -139,13 +176,23 @@ els.clear.addEventListener("click", () => clearAll());
 els.copy.addEventListener("click", () => copyOutput());
 els.showIpa.addEventListener("change", () => {
   renderOutput();
-  updateShareUrl(els.input.value, els.lang.value, els.mode.value);
+  updateShareUrl(els.input.value, els.lang.value, els.mode.value, isV2() ? "v2" : "v1");
 });
 els.lang.addEventListener("change", () => {
   if (els.input.value) translate();
 });
 els.mode.addEventListener("change", () => {
   if (els.input.value) translate();
+});
+els.engine.addEventListener("change", () => {
+  syncEngineUi();
+  if (els.input.value) translate();
+  else {
+    updateShareUrl("", els.lang.value, els.mode.value, isV2() ? "v2" : "v1");
+    els.status.textContent = isV2()
+      ? "Tip: Ctrl/Cmd+Enter to translate (v2)."
+      : "Tip: Ctrl/Cmd+Enter to translate (v1).";
+  }
 });
 
 els.input.addEventListener("keydown", (e) => {
@@ -159,5 +206,7 @@ readQuery();
 if (els.input.value.trim()) {
   translate();
 } else {
-  els.status.textContent = "Tip: Ctrl/Cmd+Enter to translate.";
+  els.status.textContent = isV2()
+    ? "Tip: Ctrl/Cmd+Enter to translate (v2)."
+    : "Tip: Ctrl/Cmd+Enter to translate (v1).";
 }

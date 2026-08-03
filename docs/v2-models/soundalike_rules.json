@@ -1,0 +1,4222 @@
+{
+  "lexicon": {
+    "na": [
+      {
+        "simlish": "na",
+        "n": 154
+      }
+    ],
+    "shake": [
+      {
+        "simlish": "sheeky",
+        "n": 42
+      }
+    ],
+    "girl": [
+      {
+        "simlish": "gurn",
+        "n": 30
+      },
+      {
+        "simlish": "gurl",
+        "n": 1
+      }
+    ],
+    "the": [
+      {
+        "simlish": "th'",
+        "n": 13
+      },
+      {
+        "simlish": "ze",
+        "n": 2
+      },
+      {
+        "simlish": "me",
+        "n": 1
+      },
+      {
+        "simlish": "he",
+        "n": 1
+      }
+    ],
+    "smile": [
+      {
+        "simlish": "asmil",
+        "n": 16
+      }
+    ],
+    "we": [
+      {
+        "simlish": "wi",
+        "n": 6
+      },
+      {
+        "simlish": "we",
+        "n": 6
+      },
+      {
+        "simlish": "wa",
+        "n": 1
+      }
+    ],
+    "wanna": [
+      {
+        "simlish": "wanna",
+        "n": 6
+      },
+      {
+        "simlish": "wabba",
+        "n": 5
+      }
+    ],
+    "a": [
+      {
+        "simlish": "a",
+        "n": 6
+      },
+      {
+        "simlish": "da",
+        "n": 2
+      },
+      {
+        "simlish": "va",
+        "n": 1
+      }
+    ],
+    "in": [
+      {
+        "simlish": "on",
+        "n": 3
+      },
+      {
+        "simlish": "in",
+        "n": 3
+      },
+      {
+        "simlish": "an'",
+        "n": 2
+      },
+      {
+        "simlish": "en",
+        "n": 1
+      }
+    ],
+    "c'mon": [
+      {
+        "simlish": "on",
+        "n": 9
+      }
+    ],
+    "an'": [
+      {
+        "simlish": "an'",
+        "n": 6
+      },
+      {
+        "simlish": "a",
+        "n": 3
+      }
+    ],
+    "to": [
+      {
+        "simlish": "tu",
+        "n": 3
+      },
+      {
+        "simlish": "to",
+        "n": 2
+      },
+      {
+        "simlish": "sho",
+        "n": 2
+      }
+    ],
+    "i": [
+      {
+        "simlish": "in",
+        "n": 4
+      },
+      {
+        "simlish": "shi",
+        "n": 2
+      },
+      {
+        "simlish": "i",
+        "n": 1
+      }
+    ],
+    "really": [
+      {
+        "simlish": "really",
+        "n": 6
+      }
+    ],
+    "la": [
+      {
+        "simlish": "la",
+        "n": 6
+      }
+    ],
+    "now": [
+      {
+        "simlish": "nawa",
+        "n": 2
+      },
+      {
+        "simlish": "no",
+        "n": 1
+      },
+      {
+        "simlish": "dowm",
+        "n": 1
+      },
+      {
+        "simlish": "zow",
+        "n": 1
+      }
+    ],
+    "my": [
+      {
+        "simlish": "pumi",
+        "n": 2
+      },
+      {
+        "simlish": "i",
+        "n": 1
+      },
+      {
+        "simlish": "dee",
+        "n": 1
+      },
+      {
+        "simlish": "my",
+        "n": 1
+      }
+    ],
+    "more": [
+      {
+        "simlish": "zor",
+        "n": 5
+      }
+    ],
+    "snow": [
+      {
+        "simlish": "snobie",
+        "n": 3
+      },
+      {
+        "simlish": "snobe",
+        "n": 2
+      }
+    ],
+    "oh": [
+      {
+        "simlish": "oh",
+        "n": 4
+      }
+    ],
+    "like": [
+      {
+        "simlish": "laka",
+        "n": 3
+      },
+      {
+        "simlish": "leed",
+        "n": 1
+      }
+    ],
+    "for": [
+      {
+        "simlish": "fona",
+        "n": 4
+      }
+    ],
+    "down": [
+      {
+        "simlish": "fown",
+        "n": 3
+      },
+      {
+        "simlish": "down",
+        "n": 1
+      }
+    ],
+    "give": [
+      {
+        "simlish": "gibs",
+        "n": 2
+      },
+      {
+        "simlish": "gimme",
+        "n": 2
+      }
+    ],
+    "white": [
+      {
+        "simlish": "why",
+        "n": 3
+      }
+    ],
+    "kiss": [
+      {
+        "simlish": "kip",
+        "n": 3
+      }
+    ],
+    "stay": [
+      {
+        "simlish": "sti",
+        "n": 3
+      }
+    ],
+    "so": [
+      {
+        "simlish": "su",
+        "n": 1
+      },
+      {
+        "simlish": "to",
+        "n": 1
+      },
+      {
+        "simlish": "slo",
+        "n": 1
+      }
+    ],
+    "ja": [
+      {
+        "simlish": "jo",
+        "n": 1
+      },
+      {
+        "simlish": "wa",
+        "n": 1
+      },
+      {
+        "simlish": "ya",
+        "n": 1
+      }
+    ],
+    "me": [
+      {
+        "simlish": "me",
+        "n": 3
+      }
+    ],
+    "sittin'": [
+      {
+        "simlish": "simpit",
+        "n": 3
+      }
+    ],
+    "honky": [
+      {
+        "simlish": "hurky",
+        "n": 3
+      }
+    ],
+    "break": [
+      {
+        "simlish": "back",
+        "n": 3
+      }
+    ],
+    "dj": [
+      {
+        "simlish": "gj",
+        "n": 3
+      }
+    ],
+    "birds": [
+      {
+        "simlish": "burrs",
+        "n": 3
+      }
+    ],
+    "bees": [
+      {
+        "simlish": "bwees",
+        "n": 3
+      }
+    ],
+    "swimmin'": [
+      {
+        "simlish": "simma",
+        "n": 3
+      }
+    ],
+    "deep": [
+      {
+        "simlish": "deepin'",
+        "n": 3
+      }
+    ],
+    "crickets": [
+      {
+        "simlish": "crickles",
+        "n": 3
+      }
+    ],
+    "squirrels": [
+      {
+        "simlish": "squirn",
+        "n": 3
+      }
+    ],
+    "moon": [
+      {
+        "simlish": "moom",
+        "n": 3
+      }
+    ],
+    "and": [
+      {
+        "simlish": "and",
+        "n": 2
+      },
+      {
+        "simlish": "an'",
+        "n": 1
+      }
+    ],
+    "an": [
+      {
+        "simlish": "a",
+        "n": 2
+      },
+      {
+        "simlish": "an",
+        "n": 1
+      }
+    ],
+    "us": [
+      {
+        "simlish": "as",
+        "n": 2
+      },
+      {
+        "simlish": "us",
+        "n": 1
+      }
+    ],
+    "wants": [
+      {
+        "simlish": "wansa",
+        "n": 2
+      },
+      {
+        "simlish": "wants",
+        "n": 1
+      }
+    ],
+    "battery": [
+      {
+        "simlish": "batteronk",
+        "n": 1
+      },
+      {
+        "simlish": "gattory",
+        "n": 1
+      }
+    ],
+    "love": [
+      {
+        "simlish": "luv",
+        "n": 2
+      }
+    ],
+    "can't": [
+      {
+        "simlish": "can't",
+        "n": 2
+      }
+    ],
+    "du": [
+      {
+        "simlish": "du",
+        "n": 1
+      },
+      {
+        "simlish": "tu",
+        "n": 1
+      }
+    ],
+    "hesch": [
+      {
+        "simlish": "hezh",
+        "n": 1
+      },
+      {
+        "simlish": "misch",
+        "n": 1
+      }
+    ],
+    "you": [
+      {
+        "simlish": "in",
+        "n": 1
+      },
+      {
+        "simlish": "you",
+        "n": 1
+      }
+    ],
+    "friends": [
+      {
+        "simlish": "fuens",
+        "n": 2
+      }
+    ],
+    "end": [
+      {
+        "simlish": "uens",
+        "n": 2
+      }
+    ],
+    "watch": [
+      {
+        "simlish": "wahn",
+        "n": 1
+      },
+      {
+        "simlish": "watch",
+        "n": 1
+      }
+    ],
+    "little": [
+      {
+        "simlish": "liddle",
+        "n": 1
+      },
+      {
+        "simlish": "pitta",
+        "n": 1
+      }
+    ],
+    "what": [
+      {
+        "simlish": "wah",
+        "n": 1
+      },
+      {
+        "simlish": "rat",
+        "n": 1
+      }
+    ],
+    "gimme": [
+      {
+        "simlish": "gimme",
+        "n": 2
+      }
+    ],
+    "made": [
+      {
+        "simlish": "made",
+        "n": 1
+      },
+      {
+        "simlish": "moe",
+        "n": 1
+      }
+    ],
+    "think": [
+      {
+        "simlish": "zonk",
+        "n": 1
+      }
+    ],
+    "cryptically": [
+      {
+        "simlish": "cryptozeek",
+        "n": 1
+      }
+    ],
+    "be": [
+      {
+        "simlish": "bey",
+        "n": 1
+      }
+    ],
+    "just": [
+      {
+        "simlish": "juk",
+        "n": 1
+      }
+    ],
+    "twins": [
+      {
+        "simlish": "twip",
+        "n": 1
+      }
+    ],
+    "sync": [
+      {
+        "simlish": "sip",
+        "n": 1
+      }
+    ],
+    "energy": [
+      {
+        "simlish": "enerjonk",
+        "n": 1
+      }
+    ],
+    "nothing": [
+      {
+        "simlish": "nuthing",
+        "n": 1
+      }
+    ],
+    "plain": [
+      {
+        "simlish": "playy",
+        "n": 1
+      }
+    ],
+    "call": [
+      {
+        "simlish": "cul",
+        "n": 1
+      }
+    ],
+    "doctor": [
+      {
+        "simlish": "docturg",
+        "n": 1
+      }
+    ],
+    "case": [
+      {
+        "simlish": "case",
+        "n": 1
+      }
+    ],
+    "of": [
+      {
+        "simlish": "o",
+        "n": 1
+      }
+    ],
+    "bipolar": [
+      {
+        "simlish": "bicoler",
+        "n": 1
+      }
+    ],
+    "roller": [
+      {
+        "simlish": "roli",
+        "n": 1
+      }
+    ],
+    "coaster": [
+      {
+        "simlish": "nowster",
+        "n": 1
+      }
+    ],
+    "clothes": [
+      {
+        "simlish": "claps",
+        "n": 1
+      }
+    ],
+    "isch": [
+      {
+        "simlish": "misch",
+        "n": 1
+      }
+    ],
+    "nid": [
+      {
+        "simlish": "ni",
+        "n": 1
+      }
+    ],
+    "mau": [
+      {
+        "simlish": "blau",
+        "n": 1
+      }
+    ],
+    "kuno": [
+      {
+        "simlish": "kuzu",
+        "n": 1
+      }
+    ],
+    "immer": [
+      {
+        "simlish": "imma",
+        "n": 1
+      }
+    ],
+    "hifi": [
+      {
+        "simlish": "hafi",
+        "n": 1
+      }
+    ],
+    "alag": [
+      {
+        "simlish": "anag",
+        "n": 1
+      }
+    ],
+    "het": [
+      {
+        "simlish": "hekbt",
+        "n": 1
+      }
+    ],
+    "schliimer": [
+      {
+        "simlish": "slimer",
+        "n": 1
+      }
+    ],
+    "ging": [
+      {
+        "simlish": "sing",
+        "n": 1
+      }
+    ],
+    "parat": [
+      {
+        "simlish": "parat",
+        "n": 1
+      }
+    ],
+    "chlini": [
+      {
+        "simlish": "blini",
+        "n": 1
+      }
+    ],
+    "frag": [
+      {
+        "simlish": "fla",
+        "n": 1
+      }
+    ],
+    "und": [
+      {
+        "simlish": "un",
+        "n": 1
+      }
+    ],
+    "been": [
+      {
+        "simlish": "wiin",
+        "n": 1
+      }
+    ],
+    "help": [
+      {
+        "simlish": "hip",
+        "n": 1
+      }
+    ],
+    "health": [
+      {
+        "simlish": "hel",
+        "n": 1
+      }
+    ],
+    "hey": [
+      {
+        "simlish": "hee",
+        "n": 1
+      }
+    ],
+    "lookin'": [
+      {
+        "simlish": "locky",
+        "n": 1
+      }
+    ],
+    "boom": [
+      {
+        "simlish": "boom",
+        "n": 1
+      }
+    ],
+    "gonna": [
+      {
+        "simlish": "gobba",
+        "n": 1
+      }
+    ],
+    "doors": [
+      {
+        "simlish": "doo",
+        "n": 1
+      }
+    ],
+    "turn": [
+      {
+        "simlish": "turnip",
+        "n": 1
+      }
+    ],
+    "boots": [
+      {
+        "simlish": "noops",
+        "n": 1
+      }
+    ],
+    "get": [
+      {
+        "simlish": "git",
+        "n": 1
+      }
+    ],
+    "hood": [
+      {
+        "simlish": "hoo",
+        "n": 1
+      }
+    ],
+    "it": [
+      {
+        "simlish": "dit",
+        "n": 1
+      }
+    ],
+    "don't": [
+      {
+        "simlish": "dock",
+        "n": 1
+      }
+    ],
+    "matter": [
+      {
+        "simlish": "mat",
+        "n": 1
+      }
+    ],
+    "on": [
+      {
+        "simlish": "on",
+        "n": 1
+      }
+    ],
+    "wait": [
+      {
+        "simlish": "way",
+        "n": 1
+      }
+    ],
+    "thing": [
+      {
+        "simlish": "thing",
+        "n": 1
+      }
+    ],
+    "sweet": [
+      {
+        "simlish": "seed",
+        "n": 1
+      }
+    ],
+    "farmer's": [
+      {
+        "simlish": "farma'",
+        "n": 1
+      }
+    ],
+    "blood": [
+      {
+        "simlish": "bub",
+        "n": 1
+      }
+    ],
+    "wild": [
+      {
+        "simlish": "while",
+        "n": 1
+      }
+    ],
+    "rope": [
+      {
+        "simlish": "roop",
+        "n": 1
+      }
+    ],
+    "mile": [
+      {
+        "simlish": "mine",
+        "n": 1
+      }
+    ],
+    "arms": [
+      {
+        "simlish": "arns",
+        "n": 1
+      }
+    ],
+    "spin": [
+      {
+        "simlish": "spineeya",
+        "n": 1
+      }
+    ],
+    "big": [
+      {
+        "simlish": "bin",
+        "n": 1
+      }
+    ],
+    "barn": [
+      {
+        "simlish": "blarn",
+        "n": 1
+      }
+    ],
+    "tangle": [
+      {
+        "simlish": "teegle",
+        "n": 1
+      }
+    ],
+    "yarn": [
+      {
+        "simlish": "zharn",
+        "n": 1
+      }
+    ],
+    "wind": [
+      {
+        "simlish": "wee",
+        "n": 1
+      }
+    ],
+    "hill": [
+      {
+        "simlish": "hill",
+        "n": 1
+      }
+    ],
+    "move": [
+      {
+        "simlish": "mocha",
+        "n": 1
+      }
+    ],
+    "feel": [
+      {
+        "simlish": "feeba",
+        "n": 1
+      }
+    ],
+    "kick": [
+      {
+        "simlish": "keep",
+        "n": 1
+      }
+    ],
+    "'fore": [
+      {
+        "simlish": "b'fore",
+        "n": 1
+      }
+    ],
+    "through": [
+      {
+        "simlish": "through",
+        "n": 1
+      }
+    ],
+    "need": [
+      {
+        "simlish": "neeba",
+        "n": 1
+      }
+    ],
+    "want": [
+      {
+        "simlish": "wada",
+        "n": 1
+      }
+    ],
+    "x": [
+      {
+        "simlish": "x",
+        "n": 1
+      }
+    ],
+    "enemy": [
+      {
+        "simlish": "nenetay",
+        "n": 1
+      }
+    ],
+    "hands": [
+      {
+        "simlish": "dans",
+        "n": 1
+      }
+    ],
+    "was": [
+      {
+        "simlish": "wa",
+        "n": 1
+      }
+    ],
+    "batman": [
+      {
+        "simlish": "zatlan",
+        "n": 1
+      }
+    ],
+    "nananananananana": [
+      {
+        "simlish": "nananananananana",
+        "n": 1
+      }
+    ],
+    "animal": [
+      {
+        "simlish": "ana",
+        "n": 1
+      }
+    ],
+    "here": [
+      {
+        "simlish": "nere",
+        "n": 1
+      }
+    ],
+    "all": [
+      {
+        "simlish": "all",
+        "n": 1
+      }
+    ],
+    "city": [
+      {
+        "simlish": "nitty",
+        "n": 1
+      }
+    ],
+    "their": [
+      {
+        "simlish": "their",
+        "n": 1
+      }
+    ],
+    "open": [
+      {
+        "simlish": "open",
+        "n": 1
+      }
+    ],
+    "filthy": [
+      {
+        "simlish": "wilpy",
+        "n": 1
+      }
+    ],
+    "palms": [
+      {
+        "simlish": "zalms",
+        "n": 1
+      }
+    ],
+    "tiny": [
+      {
+        "simlish": "dinny",
+        "n": 1
+      }
+    ],
+    "daggers": [
+      {
+        "simlish": "daggers",
+        "n": 1
+      }
+    ],
+    "up": [
+      {
+        "simlish": "up",
+        "n": 1
+      }
+    ],
+    "heaven": [
+      {
+        "simlish": "leven",
+        "n": 1
+      }
+    ],
+    "juvee": [
+      {
+        "simlish": "boony",
+        "n": 1
+      }
+    ],
+    "halls": [
+      {
+        "simlish": "bralls",
+        "n": 1
+      }
+    ],
+    "rats": [
+      {
+        "simlish": "brats",
+        "n": 1
+      }
+    ],
+    "angels": [
+      {
+        "simlish": "angels",
+        "n": 1
+      }
+    ],
+    "neon": [
+      {
+        "simlish": "zeon",
+        "n": 1
+      }
+    ],
+    "garbage": [
+      {
+        "simlish": "garbage",
+        "n": 1
+      }
+    ],
+    "out": [
+      {
+        "simlish": "out",
+        "n": 1
+      }
+    ],
+    "opened": [
+      {
+        "simlish": "nopen",
+        "n": 1
+      }
+    ],
+    "but": [
+      {
+        "simlish": "but",
+        "n": 1
+      }
+    ],
+    "make": [
+      {
+        "simlish": "make",
+        "n": 1
+      }
+    ],
+    "no": [
+      {
+        "simlish": "zo",
+        "n": 1
+      }
+    ],
+    "apology": [
+      {
+        "simlish": "apology",
+        "n": 1
+      }
+    ],
+    "burn": [
+      {
+        "simlish": "boo",
+        "n": 1
+      }
+    ],
+    "i'd": [
+      {
+        "simlish": "ee",
+        "n": 1
+      }
+    ],
+    "than": [
+      {
+        "simlish": "ban",
+        "n": 1
+      }
+    ],
+    "purgatory": [
+      {
+        "simlish": "burgindory",
+        "n": 1
+      }
+    ],
+    "hair": [
+      {
+        "simlish": "lair",
+        "n": 1
+      }
+    ],
+    "bore": [
+      {
+        "simlish": "vore",
+        "n": 1
+      }
+    ],
+    "pull": [
+      {
+        "simlish": "bull",
+        "n": 1
+      }
+    ],
+    "pin": [
+      {
+        "simlish": "bin",
+        "n": 1
+      }
+    ],
+    "let": [
+      {
+        "simlish": "leb",
+        "n": 1
+      }
+    ],
+    "this": [
+      {
+        "simlish": "nis",
+        "n": 1
+      }
+    ],
+    "explode": [
+      {
+        "simlish": "expnode",
+        "n": 1
+      }
+    ],
+    "home": [
+      {
+        "simlish": "ho",
+        "n": 1
+      }
+    ],
+    "them": [
+      {
+        "simlish": "derm",
+        "n": 1
+      }
+    ],
+    "frosty": [
+      {
+        "simlish": "froxy",
+        "n": 1
+      }
+    ],
+    "hard": [
+      {
+        "simlish": "harbis",
+        "n": 1
+      }
+    ],
+    "iron": [
+      {
+        "simlish": "ira",
+        "n": 1
+      }
+    ],
+    "water": [
+      {
+        "simlish": "wobber",
+        "n": 1
+      }
+    ],
+    "stone": [
+      {
+        "simlish": "stoe",
+        "n": 1
+      }
+    ],
+    "midwinter": [
+      {
+        "simlish": "mibwimzer",
+        "n": 1
+      }
+    ],
+    "poor": [
+      {
+        "simlish": "purasa",
+        "n": 1
+      }
+    ],
+    "am": [
+      {
+        "simlish": "nam",
+        "n": 1
+      }
+    ],
+    "bring": [
+      {
+        "simlish": "breegie",
+        "n": 1
+      }
+    ],
+    "lamb": [
+      {
+        "simlish": "lem",
+        "n": 1
+      }
+    ],
+    "part": [
+      {
+        "simlish": "plar",
+        "n": 1
+      }
+    ],
+    "heart": [
+      {
+        "simlish": "har",
+        "n": 1
+      }
+    ]
+  },
+  "phone_map": {
+    "A": [
+      {
+        "to": "A",
+        "n": 255
+      },
+      {
+        "to": "I",
+        "n": 45
+      },
+      {
+        "to": "L",
+        "n": 4
+      },
+      {
+        "to": "O",
+        "n": 3
+      },
+      {
+        "to": "R",
+        "n": 3
+      },
+      {
+        "to": "V",
+        "n": 2
+      }
+    ],
+    "N": [
+      {
+        "to": "N",
+        "n": 228
+      },
+      {
+        "to": "B",
+        "n": 12
+      },
+      {
+        "to": "E",
+        "n": 5
+      },
+      {
+        "to": "R",
+        "n": 5
+      },
+      {
+        "to": "Z",
+        "n": 4
+      },
+      {
+        "to": "M",
+        "n": 4
+      }
+    ],
+    "I": [
+      {
+        "to": "I",
+        "n": 88
+      },
+      {
+        "to": "U",
+        "n": 36
+      },
+      {
+        "to": "M",
+        "n": 21
+      },
+      {
+        "to": "O",
+        "n": 7
+      },
+      {
+        "to": "A",
+        "n": 7
+      },
+      {
+        "to": "E",
+        "n": 4
+      }
+    ],
+    "N+A": [
+      {
+        "to": "N+A",
+        "n": 168
+      },
+      {
+        "to": "B+A",
+        "n": 6
+      }
+    ],
+    "E": [
+      {
+        "to": "I",
+        "n": 52
+      },
+      {
+        "to": "E",
+        "n": 50
+      },
+      {
+        "to": "L",
+        "n": 19
+      },
+      {
+        "to": "A",
+        "n": 8
+      },
+      {
+        "to": "N",
+        "n": 6
+      },
+      {
+        "to": "S",
+        "n": 3
+      }
+    ],
+    "L": [
+      {
+        "to": "L",
+        "n": 48
+      },
+      {
+        "to": "N",
+        "n": 33
+      },
+      {
+        "to": "I",
+        "n": 19
+      },
+      {
+        "to": "P",
+        "n": 2
+      },
+      {
+        "to": "A",
+        "n": 2
+      },
+      {
+        "to": "K",
+        "n": 1
+      }
+    ],
+    "R": [
+      {
+        "to": "R",
+        "n": 78
+      },
+      {
+        "to": "N",
+        "n": 7
+      },
+      {
+        "to": "A",
+        "n": 6
+      },
+      {
+        "to": "U",
+        "n": 2
+      },
+      {
+        "to": "O",
+        "n": 2
+      },
+      {
+        "to": "L",
+        "n": 1
+      }
+    ],
+    "S": [
+      {
+        "to": "S",
+        "n": 43
+      },
+      {
+        "to": "A",
+        "n": 18
+      },
+      {
+        "to": "I",
+        "n": 4
+      },
+      {
+        "to": "P",
+        "n": 3
+      },
+      {
+        "to": "T",
+        "n": 2
+      },
+      {
+        "to": "K",
+        "n": 1
+      }
+    ],
+    "M": [
+      {
+        "to": "M",
+        "n": 27
+      },
+      {
+        "to": "S",
+        "n": 16
+      },
+      {
+        "to": "N",
+        "n": 10
+      },
+      {
+        "to": "Z",
+        "n": 5
+      },
+      {
+        "to": "A",
+        "n": 4
+      },
+      {
+        "to": "R",
+        "n": 2
+      }
+    ],
+    "O": [
+      {
+        "to": "O",
+        "n": 49
+      },
+      {
+        "to": "U",
+        "n": 13
+      },
+      {
+        "to": "A",
+        "n": 4
+      },
+      {
+        "to": "L",
+        "n": 1
+      },
+      {
+        "to": "F",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "K": [
+      {
+        "to": "K",
+        "n": 59
+      },
+      {
+        "to": "D",
+        "n": 1
+      },
+      {
+        "to": "P",
+        "n": 1
+      }
+    ],
+    "T": [
+      {
+        "to": "T",
+        "n": 32
+      },
+      {
+        "to": "P",
+        "n": 4
+      },
+      {
+        "to": "M",
+        "n": 3
+      },
+      {
+        "to": "E",
+        "n": 3
+      },
+      {
+        "to": "D",
+        "n": 3
+      },
+      {
+        "to": "I",
+        "n": 2
+      }
+    ],
+    "W": [
+      {
+        "to": "W",
+        "n": 49
+      },
+      {
+        "to": "B",
+        "n": 5
+      },
+      {
+        "to": "I",
+        "n": 4
+      },
+      {
+        "to": "R",
+        "n": 1
+      }
+    ],
+    "G": [
+      {
+        "to": "G",
+        "n": 47
+      },
+      {
+        "to": "J",
+        "n": 1
+      },
+      {
+        "to": "S",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "K+E": [
+      {
+        "to": "K+I",
+        "n": 42
+      },
+      {
+        "to": "K+A",
+        "n": 3
+      },
+      {
+        "to": "K+L",
+        "n": 3
+      },
+      {
+        "to": "D+X",
+        "n": 1
+      },
+      {
+        "to": "K+E",
+        "n": 1
+      }
+    ],
+    "A+K": [
+      {
+        "to": "I+K",
+        "n": 42
+      },
+      {
+        "to": "X+X",
+        "n": 3
+      },
+      {
+        "to": "A+K",
+        "n": 1
+      }
+    ],
+    "A+N": [
+      {
+        "to": "A+N",
+        "n": 32
+      },
+      {
+        "to": "A+X",
+        "n": 5
+      },
+      {
+        "to": "A+B",
+        "n": 5
+      },
+      {
+        "to": "A+D",
+        "n": 1
+      }
+    ],
+    "SH": [
+      {
+        "to": "SH",
+        "n": 42
+      }
+    ],
+    "SH+A": [
+      {
+        "to": "SH+I",
+        "n": 42
+      }
+    ],
+    "G+I": [
+      {
+        "to": "G+U",
+        "n": 31
+      },
+      {
+        "to": "G+I",
+        "n": 7
+      },
+      {
+        "to": "J+O",
+        "n": 1
+      },
+      {
+        "to": "S+I",
+        "n": 1
+      }
+    ],
+    "I+R": [
+      {
+        "to": "U+R",
+        "n": 34
+      },
+      {
+        "to": "I+R",
+        "n": 5
+      }
+    ],
+    "D": [
+      {
+        "to": "D",
+        "n": 13
+      },
+      {
+        "to": "G",
+        "n": 3
+      },
+      {
+        "to": "R",
+        "n": 3
+      },
+      {
+        "to": "F",
+        "n": 3
+      },
+      {
+        "to": "B",
+        "n": 3
+      },
+      {
+        "to": "N",
+        "n": 2
+      }
+    ],
+    "R+L": [
+      {
+        "to": "R+N",
+        "n": 30
+      },
+      {
+        "to": "R+L",
+        "n": 1
+      }
+    ],
+    "H": [
+      {
+        "to": "H",
+        "n": 22
+      },
+      {
+        "to": "A",
+        "n": 2
+      },
+      {
+        "to": "L",
+        "n": 2
+      },
+      {
+        "to": "M",
+        "n": 1
+      },
+      {
+        "to": "D",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "TH": [
+      {
+        "to": "TH",
+        "n": 17
+      },
+      {
+        "to": "Z",
+        "n": 3
+      },
+      {
+        "to": "P",
+        "n": 2
+      },
+      {
+        "to": "M",
+        "n": 1
+      },
+      {
+        "to": "H",
+        "n": 1
+      },
+      {
+        "to": "B",
+        "n": 1
+      }
+    ],
+    "M+I": [
+      {
+        "to": "S+M",
+        "n": 16
+      },
+      {
+        "to": "A+X",
+        "n": 3
+      },
+      {
+        "to": "M+I",
+        "n": 3
+      },
+      {
+        "to": "P+U",
+        "n": 2
+      },
+      {
+        "to": "I+X",
+        "n": 1
+      },
+      {
+        "to": "D+I",
+        "n": 1
+      }
+    ],
+    "I+N": [
+      {
+        "to": "I+N",
+        "n": 7
+      },
+      {
+        "to": "O+N",
+        "n": 4
+      },
+      {
+        "to": "I+T",
+        "n": 3
+      },
+      {
+        "to": "X+X",
+        "n": 3
+      },
+      {
+        "to": "I+P",
+        "n": 2
+      },
+      {
+        "to": "I+X",
+        "n": 2
+      }
+    ],
+    "U": [
+      {
+        "to": "U",
+        "n": 21
+      },
+      {
+        "to": "A",
+        "n": 3
+      },
+      {
+        "to": "O",
+        "n": 1
+      },
+      {
+        "to": "B",
+        "n": 1
+      }
+    ],
+    "B": [
+      {
+        "to": "B",
+        "n": 20
+      },
+      {
+        "to": "W",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      },
+      {
+        "to": "Z",
+        "n": 1
+      },
+      {
+        "to": "G",
+        "n": 1
+      },
+      {
+        "to": "V",
+        "n": 1
+      }
+    ],
+    "C": [
+      {
+        "to": "C",
+        "n": 10
+      },
+      {
+        "to": "O",
+        "n": 9
+      },
+      {
+        "to": "N",
+        "n": 2
+      },
+      {
+        "to": "Z",
+        "n": 1
+      }
+    ],
+    "L+E": [
+      {
+        "to": "I+L",
+        "n": 16
+      },
+      {
+        "to": "L+E",
+        "n": 3
+      },
+      {
+        "to": "I+X",
+        "n": 1
+      },
+      {
+        "to": "N+E",
+        "n": 1
+      },
+      {
+        "to": "A+X",
+        "n": 1
+      }
+    ],
+    "I+L": [
+      {
+        "to": "M+I",
+        "n": 16
+      },
+      {
+        "to": "I+L",
+        "n": 2
+      },
+      {
+        "to": "H+I",
+        "n": 1
+      },
+      {
+        "to": "I+N",
+        "n": 1
+      },
+      {
+        "to": "I+B",
+        "n": 1
+      }
+    ],
+    "P": [
+      {
+        "to": "P",
+        "n": 14
+      },
+      {
+        "to": "B",
+        "n": 3
+      },
+      {
+        "to": "C",
+        "n": 1
+      },
+      {
+        "to": "Z",
+        "n": 1
+      },
+      {
+        "to": "O",
+        "n": 1
+      }
+    ],
+    "R+E": [
+      {
+        "to": "R+E",
+        "n": 8
+      },
+      {
+        "to": "R+X",
+        "n": 5
+      },
+      {
+        "to": "A+K",
+        "n": 3
+      },
+      {
+        "to": "N+X",
+        "n": 3
+      },
+      {
+        "to": "O+R",
+        "n": 1
+      }
+    ],
+    "TH+E": [
+      {
+        "to": "TH+X",
+        "n": 13
+      },
+      {
+        "to": "Z+E",
+        "n": 2
+      },
+      {
+        "to": "P+S",
+        "n": 1
+      },
+      {
+        "to": "M+E",
+        "n": 1
+      },
+      {
+        "to": "H+E",
+        "n": 1
+      },
+      {
+        "to": "TH+E",
+        "n": 1
+      }
+    ],
+    "W+A": [
+      {
+        "to": "W+A",
+        "n": 18
+      },
+      {
+        "to": "W+O",
+        "n": 1
+      }
+    ],
+    "O+N": [
+      {
+        "to": "X+X",
+        "n": 9
+      },
+      {
+        "to": "U+R",
+        "n": 3
+      },
+      {
+        "to": "O+N",
+        "n": 2
+      },
+      {
+        "to": "O+B",
+        "n": 1
+      },
+      {
+        "to": "O+K",
+        "n": 1
+      },
+      {
+        "to": "A+X",
+        "n": 1
+      }
+    ],
+    "S+M": [
+      {
+        "to": "A+S",
+        "n": 16
+      }
+    ],
+    "L+I": [
+      {
+        "to": "L+I",
+        "n": 9
+      },
+      {
+        "to": "L+A",
+        "n": 3
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      },
+      {
+        "to": "I+M",
+        "n": 1
+      },
+      {
+        "to": "P+I",
+        "n": 1
+      }
+    ],
+    "M+O": [
+      {
+        "to": "N+X",
+        "n": 9
+      },
+      {
+        "to": "Z+O",
+        "n": 5
+      },
+      {
+        "to": "M+O",
+        "n": 1
+      }
+    ],
+    "A+L": [
+      {
+        "to": "A+L",
+        "n": 8
+      },
+      {
+        "to": "I+K",
+        "n": 1
+      },
+      {
+        "to": "U+L",
+        "n": 1
+      },
+      {
+        "to": "A+N",
+        "n": 1
+      },
+      {
+        "to": "L+X",
+        "n": 1
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      }
+    ],
+    "O+W": [
+      {
+        "to": "O+W",
+        "n": 6
+      },
+      {
+        "to": "O+B",
+        "n": 5
+      },
+      {
+        "to": "A+W",
+        "n": 2
+      },
+      {
+        "to": "O+X",
+        "n": 1
+      }
+    ],
+    "L+L": [
+      {
+        "to": "L+L",
+        "n": 9
+      },
+      {
+        "to": "K+X",
+        "n": 1
+      },
+      {
+        "to": "L+X",
+        "n": 1
+      },
+      {
+        "to": "L+I",
+        "n": 1
+      },
+      {
+        "to": "A+L",
+        "n": 1
+      }
+    ],
+    "W+E": [
+      {
+        "to": "W+I",
+        "n": 6
+      },
+      {
+        "to": "W+E",
+        "n": 6
+      },
+      {
+        "to": "W+A",
+        "n": 1
+      }
+    ],
+    "E+R": [
+      {
+        "to": "E+R",
+        "n": 6
+      },
+      {
+        "to": "X+X",
+        "n": 3
+      },
+      {
+        "to": "A+X",
+        "n": 2
+      },
+      {
+        "to": "O+R",
+        "n": 1
+      },
+      {
+        "to": "B+E",
+        "n": 1
+      }
+    ],
+    "N+O": [
+      {
+        "to": "N+O",
+        "n": 6
+      },
+      {
+        "to": "N+A",
+        "n": 2
+      },
+      {
+        "to": "Z+O",
+        "n": 2
+      },
+      {
+        "to": "N+U",
+        "n": 1
+      },
+      {
+        "to": "Z+U",
+        "n": 1
+      },
+      {
+        "to": "D+O",
+        "n": 1
+      }
+    ],
+    "O+R": [
+      {
+        "to": "O+R",
+        "n": 6
+      },
+      {
+        "to": "O+N",
+        "n": 4
+      },
+      {
+        "to": "U+R",
+        "n": 1
+      },
+      {
+        "to": "F+O",
+        "n": 1
+      },
+      {
+        "to": "D+O",
+        "n": 1
+      }
+    ],
+    "F": [
+      {
+        "to": "F",
+        "n": 11
+      },
+      {
+        "to": "B",
+        "n": 1
+      },
+      {
+        "to": "W",
+        "n": 1
+      }
+    ],
+    "E+A": [
+      {
+        "to": "E+A",
+        "n": 6
+      },
+      {
+        "to": "K+X",
+        "n": 3
+      },
+      {
+        "to": "E+L",
+        "n": 1
+      },
+      {
+        "to": "E+V",
+        "n": 1
+      },
+      {
+        "to": "A+R",
+        "n": 1
+      }
+    ],
+    "N+N": [
+      {
+        "to": "N+N",
+        "n": 6
+      },
+      {
+        "to": "B+B",
+        "n": 6
+      }
+    ],
+    "A+T": [
+      {
+        "to": "A+T",
+        "n": 6
+      },
+      {
+        "to": "A+H",
+        "n": 1
+      },
+      {
+        "to": "H+X",
+        "n": 1
+      },
+      {
+        "to": "R+A",
+        "n": 1
+      },
+      {
+        "to": "T+X",
+        "n": 1
+      },
+      {
+        "to": "I+N",
+        "n": 1
+      }
+    ],
+    "I+T": [
+      {
+        "to": "I+X",
+        "n": 3
+      },
+      {
+        "to": "I+M",
+        "n": 3
+      },
+      {
+        "to": "I+T",
+        "n": 2
+      },
+      {
+        "to": "D+I",
+        "n": 1
+      },
+      {
+        "to": "D+X",
+        "n": 1
+      },
+      {
+        "to": "I+D",
+        "n": 1
+      }
+    ],
+    "R+I": [
+      {
+        "to": "R+I",
+        "n": 6
+      },
+      {
+        "to": "U+E",
+        "n": 2
+      },
+      {
+        "to": "R+O",
+        "n": 1
+      },
+      {
+        "to": "O+R",
+        "n": 1
+      }
+    ],
+    "T+O": [
+      {
+        "to": "T+U",
+        "n": 4
+      },
+      {
+        "to": "T+O",
+        "n": 3
+      },
+      {
+        "to": "SH+O",
+        "n": 2
+      },
+      {
+        "to": "N+D",
+        "n": 1
+      }
+    ],
+    "A+R": [
+      {
+        "to": "A+R",
+        "n": 5
+      },
+      {
+        "to": "L+A",
+        "n": 2
+      },
+      {
+        "to": "E+R",
+        "n": 1
+      },
+      {
+        "to": "H+A",
+        "n": 1
+      },
+      {
+        "to": "R+X",
+        "n": 1
+      }
+    ],
+    "N+D": [
+      {
+        "to": "N+X",
+        "n": 2
+      },
+      {
+        "to": "S+X",
+        "n": 2
+      },
+      {
+        "to": "E+N",
+        "n": 2
+      },
+      {
+        "to": "N+D",
+        "n": 2
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      },
+      {
+        "to": "N+S",
+        "n": 1
+      }
+    ],
+    "T+E": [
+      {
+        "to": "X+X",
+        "n": 4
+      },
+      {
+        "to": "T+E",
+        "n": 2
+      },
+      {
+        "to": "T+O",
+        "n": 1
+      },
+      {
+        "to": "B+B",
+        "n": 1
+      },
+      {
+        "to": "Z+E",
+        "n": 1
+      }
+    ],
+    "E+N": [
+      {
+        "to": "E+N",
+        "n": 2
+      },
+      {
+        "to": "N+S",
+        "n": 2
+      },
+      {
+        "to": "U+E",
+        "n": 2
+      },
+      {
+        "to": "N+E",
+        "n": 1
+      },
+      {
+        "to": "N+X",
+        "n": 1
+      },
+      {
+        "to": "P+E",
+        "n": 1
+      }
+    ],
+    "V": [
+      {
+        "to": "V",
+        "n": 2
+      },
+      {
+        "to": "B",
+        "n": 2
+      },
+      {
+        "to": "M",
+        "n": 2
+      },
+      {
+        "to": "CH",
+        "n": 1
+      },
+      {
+        "to": "E",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "B+I": [
+      {
+        "to": "B+U",
+        "n": 3
+      },
+      {
+        "to": "B+W",
+        "n": 3
+      },
+      {
+        "to": "B+I",
+        "n": 2
+      },
+      {
+        "to": "W+I",
+        "n": 1
+      }
+    ],
+    "L+A": [
+      {
+        "to": "L+A",
+        "n": 6
+      },
+      {
+        "to": "L+E",
+        "n": 2
+      },
+      {
+        "to": "N+A",
+        "n": 1
+      }
+    ],
+    "M+E": [
+      {
+        "to": "M+E",
+        "n": 5
+      },
+      {
+        "to": "M+A",
+        "n": 2
+      },
+      {
+        "to": "R+X",
+        "n": 1
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      }
+    ],
+    "H+E": [
+      {
+        "to": "H+E",
+        "n": 3
+      },
+      {
+        "to": "H+I",
+        "n": 2
+      },
+      {
+        "to": "M+I",
+        "n": 1
+      },
+      {
+        "to": "N+E",
+        "n": 1
+      },
+      {
+        "to": "L+E",
+        "n": 1
+      },
+      {
+        "to": "H+A",
+        "n": 1
+      }
+    ],
+    "C+M": [
+      {
+        "to": "O+N",
+        "n": 9
+      }
+    ],
+    "K+I": [
+      {
+        "to": "K+I",
+        "n": 8
+      }
+    ],
+    "I+S": [
+      {
+        "to": "I+P",
+        "n": 3
+      },
+      {
+        "to": "W+I",
+        "n": 3
+      },
+      {
+        "to": "M+I",
+        "n": 1
+      },
+      {
+        "to": "I+S",
+        "n": 1
+      }
+    ],
+    "J": [
+      {
+        "to": "J",
+        "n": 5
+      },
+      {
+        "to": "W",
+        "n": 1
+      },
+      {
+        "to": "I",
+        "n": 1
+      },
+      {
+        "to": "B",
+        "n": 1
+      }
+    ],
+    "W+I": [
+      {
+        "to": "W+I",
+        "n": 3
+      },
+      {
+        "to": "I+M",
+        "n": 3
+      },
+      {
+        "to": "I+D",
+        "n": 1
+      },
+      {
+        "to": "W+H",
+        "n": 1
+      }
+    ],
+    "T+T": [
+      {
+        "to": "T+T",
+        "n": 3
+      },
+      {
+        "to": "M+P",
+        "n": 3
+      },
+      {
+        "to": "T+X",
+        "n": 1
+      },
+      {
+        "to": "D+D",
+        "n": 1
+      }
+    ],
+    "V+E": [
+      {
+        "to": "V+X",
+        "n": 2
+      },
+      {
+        "to": "B+S",
+        "n": 2
+      },
+      {
+        "to": "M+M",
+        "n": 2
+      },
+      {
+        "to": "CH+A",
+        "n": 1
+      },
+      {
+        "to": "E+N",
+        "n": 1
+      }
+    ],
+    "N+T": [
+      {
+        "to": "N+T",
+        "n": 3
+      },
+      {
+        "to": "N+S",
+        "n": 2
+      },
+      {
+        "to": "K+X",
+        "n": 1
+      },
+      {
+        "to": "D+A",
+        "n": 1
+      },
+      {
+        "to": "M+Z",
+        "n": 1
+      }
+    ],
+    "I+K": [
+      {
+        "to": "A+K",
+        "n": 3
+      },
+      {
+        "to": "I+K",
+        "n": 3
+      },
+      {
+        "to": "I+D",
+        "n": 1
+      },
+      {
+        "to": "I+P",
+        "n": 1
+      }
+    ],
+    "I+M": [
+      {
+        "to": "I+M",
+        "n": 3
+      },
+      {
+        "to": "M+M",
+        "n": 3
+      },
+      {
+        "to": "E+R",
+        "n": 1
+      },
+      {
+        "to": "A+X",
+        "n": 1
+      }
+    ],
+    "T+S": [
+      {
+        "to": "E+S",
+        "n": 3
+      },
+      {
+        "to": "S+A",
+        "n": 2
+      },
+      {
+        "to": "P+S",
+        "n": 1
+      },
+      {
+        "to": "A+T",
+        "n": 1
+      },
+      {
+        "to": "T+S",
+        "n": 1
+      }
+    ],
+    "T+I": [
+      {
+        "to": "P+I",
+        "n": 3
+      },
+      {
+        "to": "T+O",
+        "n": 1
+      },
+      {
+        "to": "T+T",
+        "n": 1
+      },
+      {
+        "to": "D+I",
+        "n": 1
+      },
+      {
+        "to": "I+X",
+        "n": 1
+      }
+    ],
+    "S+T": [
+      {
+        "to": "S+T",
+        "n": 5
+      },
+      {
+        "to": "K+X",
+        "n": 1
+      },
+      {
+        "to": "X+I",
+        "n": 1
+      }
+    ],
+    "CH": [
+      {
+        "to": "CH",
+        "n": 2
+      },
+      {
+        "to": "S",
+        "n": 1
+      },
+      {
+        "to": "H",
+        "n": 1
+      },
+      {
+        "to": "L",
+        "n": 1
+      },
+      {
+        "to": "B",
+        "n": 1
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "M+A": [
+      {
+        "to": "M+A",
+        "n": 3
+      },
+      {
+        "to": "B+L",
+        "n": 1
+      },
+      {
+        "to": "L+A",
+        "n": 1
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      },
+      {
+        "to": "M+O",
+        "n": 1
+      }
+    ],
+    "AY": [
+      {
+        "to": "I",
+        "n": 3
+      },
+      {
+        "to": "AY",
+        "n": 3
+      }
+    ],
+    "NG": [
+      {
+        "to": "NG",
+        "n": 4
+      },
+      {
+        "to": "G",
+        "n": 2
+      }
+    ],
+    "D+O": [
+      {
+        "to": "D+O",
+        "n": 3
+      },
+      {
+        "to": "F+O",
+        "n": 3
+      }
+    ],
+    "M+M": [
+      {
+        "to": "M+M",
+        "n": 3
+      },
+      {
+        "to": "M+A",
+        "n": 3
+      }
+    ],
+    "E+T": [
+      {
+        "to": "L+E",
+        "n": 3
+      },
+      {
+        "to": "E+K",
+        "n": 1
+      },
+      {
+        "to": "I+T",
+        "n": 1
+      },
+      {
+        "to": "E+B",
+        "n": 1
+      }
+    ],
+    "D+S": [
+      {
+        "to": "R+S",
+        "n": 3
+      },
+      {
+        "to": "X+X",
+        "n": 2
+      },
+      {
+        "to": "S+X",
+        "n": 1
+      }
+    ],
+    "TH+I": [
+      {
+        "to": "TH+I",
+        "n": 2
+      },
+      {
+        "to": "Z+O",
+        "n": 1
+      },
+      {
+        "to": "P+I",
+        "n": 1
+      },
+      {
+        "to": "N+I",
+        "n": 1
+      }
+    ],
+    "I+P": [
+      {
+        "to": "I+P",
+        "n": 4
+      },
+      {
+        "to": "I+C",
+        "n": 1
+      }
+    ],
+    "C+A": [
+      {
+        "to": "C+A",
+        "n": 3
+      },
+      {
+        "to": "Z+I",
+        "n": 1
+      },
+      {
+        "to": "C+U",
+        "n": 1
+      }
+    ],
+    "W+H": [
+      {
+        "to": "W+H",
+        "n": 3
+      },
+      {
+        "to": "W+A",
+        "n": 1
+      },
+      {
+        "to": "R+A",
+        "n": 1
+      }
+    ],
+    "H+I": [
+      {
+        "to": "H+I",
+        "n": 4
+      },
+      {
+        "to": "H+A",
+        "n": 1
+      }
+    ],
+    "N+E": [
+      {
+        "to": "E+N",
+        "n": 2
+      },
+      {
+        "to": "N+E",
+        "n": 1
+      },
+      {
+        "to": "Z+E",
+        "n": 1
+      },
+      {
+        "to": "E+X",
+        "n": 1
+      }
+    ],
+    "B+A": [
+      {
+        "to": "B+A",
+        "n": 2
+      },
+      {
+        "to": "B+L",
+        "n": 1
+      },
+      {
+        "to": "Z+A",
+        "n": 1
+      },
+      {
+        "to": "G+A",
+        "n": 1
+      }
+    ],
+    "L+O": [
+      {
+        "to": "L+U",
+        "n": 2
+      },
+      {
+        "to": "L+A",
+        "n": 1
+      },
+      {
+        "to": "L+O",
+        "n": 1
+      },
+      {
+        "to": "N+O",
+        "n": 1
+      }
+    ],
+    "N+I": [
+      {
+        "to": "N+I",
+        "n": 3
+      },
+      {
+        "to": "N+A",
+        "n": 1
+      },
+      {
+        "to": "N+N",
+        "n": 1
+      }
+    ],
+    "U+N": [
+      {
+        "to": "U+M",
+        "n": 3
+      },
+      {
+        "to": "U+Z",
+        "n": 1
+      },
+      {
+        "to": "U+N",
+        "n": 1
+      }
+    ],
+    "F+O": [
+      {
+        "to": "F+O",
+        "n": 4
+      },
+      {
+        "to": "B+F",
+        "n": 1
+      }
+    ],
+    "E+L": [
+      {
+        "to": "X+X",
+        "n": 3
+      },
+      {
+        "to": "I+P",
+        "n": 1
+      },
+      {
+        "to": "E+L",
+        "n": 1
+      }
+    ],
+    "U+R": [
+      {
+        "to": "U+R",
+        "n": 3
+      },
+      {
+        "to": "U+X",
+        "n": 2
+      }
+    ],
+    "L+S": [
+      {
+        "to": "X+X",
+        "n": 3
+      },
+      {
+        "to": "L+L",
+        "n": 1
+      },
+      {
+        "to": "L+S",
+        "n": 1
+      }
+    ],
+    "H+A": [
+      {
+        "to": "A+H",
+        "n": 1
+      },
+      {
+        "to": "D+A",
+        "n": 1
+      },
+      {
+        "to": "B+R",
+        "n": 1
+      },
+      {
+        "to": "A+T",
+        "n": 1
+      },
+      {
+        "to": "H+A",
+        "n": 1
+      }
+    ],
+    "S+N": [
+      {
+        "to": "S+N",
+        "n": 5
+      }
+    ],
+    "N+K": [
+      {
+        "to": "R+K",
+        "n": 3
+      },
+      {
+        "to": "N+K",
+        "n": 1
+      }
+    ],
+    "C+R": [
+      {
+        "to": "C+R",
+        "n": 4
+      }
+    ],
+    "O+H": [
+      {
+        "to": "O+H",
+        "n": 4
+      }
+    ],
+    "U+S": [
+      {
+        "to": "A+S",
+        "n": 2
+      },
+      {
+        "to": "U+K",
+        "n": 1
+      },
+      {
+        "to": "U+S",
+        "n": 1
+      }
+    ],
+    "S+I": [
+      {
+        "to": "S+I",
+        "n": 4
+      }
+    ],
+    "I+NG": [
+      {
+        "to": "I+NG",
+        "n": 3
+      },
+      {
+        "to": "I+G",
+        "n": 1
+      }
+    ],
+    "R+O": [
+      {
+        "to": "R+O",
+        "n": 2
+      },
+      {
+        "to": "R+U",
+        "n": 1
+      },
+      {
+        "to": "R+A",
+        "n": 1
+      }
+    ],
+    "S+CH": [
+      {
+        "to": "I+S",
+        "n": 1
+      },
+      {
+        "to": "Z+H",
+        "n": 1
+      },
+      {
+        "to": "S+L",
+        "n": 1
+      },
+      {
+        "to": "S+CH",
+        "n": 1
+      }
+    ],
+    "I+D": [
+      {
+        "to": "I+X",
+        "n": 2
+      },
+      {
+        "to": "I+B",
+        "n": 2
+      }
+    ],
+    "A+G": [
+      {
+        "to": "A+G",
+        "n": 3
+      },
+      {
+        "to": "A+X",
+        "n": 1
+      }
+    ],
+    "F+R": [
+      {
+        "to": "F+U",
+        "n": 2
+      },
+      {
+        "to": "F+L",
+        "n": 1
+      },
+      {
+        "to": "F+R",
+        "n": 1
+      }
+    ],
+    "AW": [
+      {
+        "to": "AW",
+        "n": 3
+      },
+      {
+        "to": "N",
+        "n": 1
+      }
+    ],
+    "B+U": [
+      {
+        "to": "B+U",
+        "n": 3
+      },
+      {
+        "to": "N+U",
+        "n": 1
+      }
+    ],
+    "R+N": [
+      {
+        "to": "A+R",
+        "n": 2
+      },
+      {
+        "to": "R+N",
+        "n": 1
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      }
+    ],
+    "H+O": [
+      {
+        "to": "H+U",
+        "n": 3
+      },
+      {
+        "to": "H+O",
+        "n": 1
+      }
+    ],
+    "B+R": [
+      {
+        "to": "B+A",
+        "n": 3
+      },
+      {
+        "to": "B+R",
+        "n": 1
+      }
+    ],
+    "R+D": [
+      {
+        "to": "R+R",
+        "n": 3
+      },
+      {
+        "to": "R+B",
+        "n": 1
+      }
+    ],
+    "S+W": [
+      {
+        "to": "S+I",
+        "n": 4
+      }
+    ],
+    "W+N": [
+      {
+        "to": "W+N",
+        "n": 4
+      }
+    ],
+    "I+V": [
+      {
+        "to": "I+B",
+        "n": 2
+      },
+      {
+        "to": "I+M",
+        "n": 2
+      }
+    ],
+    "S+S": [
+      {
+        "to": "P+X",
+        "n": 3
+      }
+    ],
+    "T+AY": [
+      {
+        "to": "T+I",
+        "n": 3
+      }
+    ],
+    "S+O": [
+      {
+        "to": "S+U",
+        "n": 1
+      },
+      {
+        "to": "T+O",
+        "n": 1
+      },
+      {
+        "to": "S+L",
+        "n": 1
+      }
+    ],
+    "A+S": [
+      {
+        "to": "A+S",
+        "n": 1
+      },
+      {
+        "to": "W+S",
+        "n": 1
+      },
+      {
+        "to": "A+X",
+        "n": 1
+      }
+    ],
+    "O+V": [
+      {
+        "to": "U+V",
+        "n": 2
+      },
+      {
+        "to": "O+CH",
+        "n": 1
+      }
+    ],
+    "O+L": [
+      {
+        "to": "O+L",
+        "n": 3
+      }
+    ],
+    "E+S": [
+      {
+        "to": "S+X",
+        "n": 1
+      },
+      {
+        "to": "E+Z",
+        "n": 1
+      },
+      {
+        "to": "I+S",
+        "n": 1
+      }
+    ],
+    "D+U": [
+      {
+        "to": "D+U",
+        "n": 2
+      },
+      {
+        "to": "T+U",
+        "n": 1
+      }
+    ],
+    "F+I": [
+      {
+        "to": "F+I",
+        "n": 2
+      },
+      {
+        "to": "W+I",
+        "n": 1
+      }
+    ],
+    "P+A": [
+      {
+        "to": "P+A",
+        "n": 1
+      },
+      {
+        "to": "Z+A",
+        "n": 1
+      },
+      {
+        "to": "P+L",
+        "n": 1
+      }
+    ],
+    "R+A": [
+      {
+        "to": "R+A",
+        "n": 1
+      },
+      {
+        "to": "L+A",
+        "n": 1
+      },
+      {
+        "to": "B+R",
+        "n": 1
+      }
+    ],
+    "J+A": [
+      {
+        "to": "J+O",
+        "n": 1
+      },
+      {
+        "to": "W+A",
+        "n": 1
+      },
+      {
+        "to": "I+A",
+        "n": 1
+      }
+    ],
+    "R+S": [
+      {
+        "to": "X+X",
+        "n": 2
+      },
+      {
+        "to": "R+S",
+        "n": 1
+      }
+    ],
+    "G+E": [
+      {
+        "to": "G+E",
+        "n": 2
+      },
+      {
+        "to": "G+I",
+        "n": 1
+      }
+    ],
+    "D+J": [
+      {
+        "to": "G+J",
+        "n": 3
+      }
+    ],
+    "D+I": [
+      {
+        "to": "D+I",
+        "n": 3
+      }
+    ],
+    "KW": [
+      {
+        "to": "KW",
+        "n": 3
+      }
+    ],
+    "S+KW": [
+      {
+        "to": "S+KW",
+        "n": 3
+      }
+    ],
+    "KW+I": [
+      {
+        "to": "KW+I",
+        "n": 3
+      }
+    ],
+    "R+R": [
+      {
+        "to": "R+N",
+        "n": 3
+      }
+    ],
+    "M+U": [
+      {
+        "to": "M+U",
+        "n": 3
+      }
+    ],
+    "O+P": [
+      {
+        "to": "U+P",
+        "n": 1
+      },
+      {
+        "to": "O+P",
+        "n": 1
+      },
+      {
+        "to": "N+O",
+        "n": 1
+      }
+    ],
+    "P+E": [
+      {
+        "to": "P+X",
+        "n": 1
+      },
+      {
+        "to": "P+E",
+        "n": 1
+      },
+      {
+        "to": "O+P",
+        "n": 1
+      }
+    ],
+    "D+E": [
+      {
+        "to": "D+E",
+        "n": 2
+      },
+      {
+        "to": "E+X",
+        "n": 1
+      }
+    ],
+    "P+U": [
+      {
+        "to": "B+U",
+        "n": 2
+      },
+      {
+        "to": "P+U",
+        "n": 1
+      }
+    ],
+    "J+U": [
+      {
+        "to": "J+U",
+        "n": 1
+      },
+      {
+        "to": "B+U",
+        "n": 1
+      }
+    ],
+    "R+G": [
+      {
+        "to": "R+J",
+        "n": 1
+      },
+      {
+        "to": "R+G",
+        "n": 1
+      }
+    ],
+    "O+TH": [
+      {
+        "to": "U+TH",
+        "n": 1
+      },
+      {
+        "to": "A+P",
+        "n": 1
+      }
+    ],
+    "P+L": [
+      {
+        "to": "P+L",
+        "n": 1
+      },
+      {
+        "to": "P+N",
+        "n": 1
+      }
+    ],
+    "P+O": [
+      {
+        "to": "C+O",
+        "n": 1
+      },
+      {
+        "to": "P+O",
+        "n": 1
+      }
+    ],
+    "CH+L": [
+      {
+        "to": "L+I",
+        "n": 1
+      },
+      {
+        "to": "B+L",
+        "n": 1
+      }
+    ],
+    "I+AW": [
+      {
+        "to": "I+N",
+        "n": 1
+      },
+      {
+        "to": "I+AW",
+        "n": 1
+      }
+    ],
+    "I+E": [
+      {
+        "to": "E+N",
+        "n": 2
+      }
+    ],
+    "L+TH": [
+      {
+        "to": "X+X",
+        "n": 1
+      },
+      {
+        "to": "L+P",
+        "n": 1
+      }
+    ],
+    "E+I": [
+      {
+        "to": "I+X",
+        "n": 1
+      },
+      {
+        "to": "E+I",
+        "n": 1
+      }
+    ],
+    "L+U": [
+      {
+        "to": "L+O",
+        "n": 1
+      },
+      {
+        "to": "U+B",
+        "n": 1
+      }
+    ],
+    "U+T": [
+      {
+        "to": "U+P",
+        "n": 1
+      },
+      {
+        "to": "U+T",
+        "n": 1
+      }
+    ],
+    "T+CH": [
+      {
+        "to": "H+N",
+        "n": 1
+      },
+      {
+        "to": "T+CH",
+        "n": 1
+      }
+    ],
+    "U+D": [
+      {
+        "to": "U+X",
+        "n": 1
+      },
+      {
+        "to": "B+X",
+        "n": 1
+      }
+    ],
+    "R+M": [
+      {
+        "to": "R+M",
+        "n": 1
+      },
+      {
+        "to": "R+N",
+        "n": 1
+      }
+    ],
+    "T+L": [
+      {
+        "to": "D+L",
+        "n": 1
+      },
+      {
+        "to": "T+A",
+        "n": 1
+      }
+    ],
+    "M+S": [
+      {
+        "to": "N+S",
+        "n": 1
+      },
+      {
+        "to": "M+S",
+        "n": 1
+      }
+    ],
+    "P+I": [
+      {
+        "to": "P+I",
+        "n": 1
+      },
+      {
+        "to": "B+I",
+        "n": 1
+      }
+    ],
+    "A+NG": [
+      {
+        "to": "I+G",
+        "n": 1
+      },
+      {
+        "to": "A+NG",
+        "n": 1
+      }
+    ],
+    "X": [
+      {
+        "to": "X",
+        "n": 2
+      }
+    ],
+    "E+M": [
+      {
+        "to": "N+E",
+        "n": 1
+      },
+      {
+        "to": "E+R",
+        "n": 1
+      }
+    ],
+    "A+D": [
+      {
+        "to": "A+D",
+        "n": 1
+      },
+      {
+        "to": "O+E",
+        "n": 1
+      }
+    ],
+    "G+A": [
+      {
+        "to": "G+A",
+        "n": 1
+      },
+      {
+        "to": "G+I",
+        "n": 1
+      }
+    ],
+    "A+M": [
+      {
+        "to": "N+A",
+        "n": 1
+      },
+      {
+        "to": "E+M",
+        "n": 1
+      }
+    ],
+    "R+T": [
+      {
+        "to": "A+R",
+        "n": 1
+      },
+      {
+        "to": "X+X",
+        "n": 1
+      }
+    ],
+    "P+T": [
+      {
+        "to": "P+T",
+        "n": 1
+      }
+    ],
+    "I+C": [
+      {
+        "to": "O+Z",
+        "n": 1
+      }
+    ],
+    "B+E": [
+      {
+        "to": "B+E",
+        "n": 1
+      }
+    ],
+    "T+W": [
+      {
+        "to": "T+W",
+        "n": 1
+      }
+    ],
+    "N+S": [
+      {
+        "to": "P+X",
+        "n": 1
+      }
+    ],
+    "N+C": [
+      {
+        "to": "P+X",
+        "n": 1
+      }
+    ],
+    "L+AY": [
+      {
+        "to": "L+AY",
+        "n": 1
+      }
+    ],
+    "AY+N": [
+      {
+        "to": "AY+I",
+        "n": 1
+      }
+    ],
+    "O+C": [
+      {
+        "to": "O+C",
+        "n": 1
+      }
+    ],
+    "C+T": [
+      {
+        "to": "C+T",
+        "n": 1
+      }
+    ],
+    "S+E": [
+      {
+        "to": "S+E",
+        "n": 1
+      }
+    ],
+    "O+F": [
+      {
+        "to": "O+X",
+        "n": 1
+      }
+    ],
+    "C+O": [
+      {
+        "to": "N+O",
+        "n": 1
+      }
+    ],
+    "O+A": [
+      {
+        "to": "O+W",
+        "n": 1
+      }
+    ],
+    "C+L": [
+      {
+        "to": "C+L",
+        "n": 1
+      }
+    ],
+    "A+U": [
+      {
+        "to": "L+A",
+        "n": 1
+      }
+    ],
+    "K+U": [
+      {
+        "to": "K+U",
+        "n": 1
+      }
+    ],
+    "I+F": [
+      {
+        "to": "A+F",
+        "n": 1
+      }
+    ],
+    "I+I": [
+      {
+        "to": "M+E",
+        "n": 1
+      }
+    ],
+    "L+P": [
+      {
+        "to": "P+X",
+        "n": 1
+      }
+    ],
+    "U+K": [
+      {
+        "to": "O+K",
+        "n": 1
+      }
+    ],
+    "U+M": [
+      {
+        "to": "U+M",
+        "n": 1
+      }
+    ],
+    "G+O": [
+      {
+        "to": "G+O",
+        "n": 1
+      }
+    ],
+    "T+U": [
+      {
+        "to": "T+U",
+        "n": 1
+      }
+    ],
+    "H+U": [
+      {
+        "to": "H+U",
+        "n": 1
+      }
+    ],
+    "W+AY": [
+      {
+        "to": "W+AY",
+        "n": 1
+      }
+    ],
+    "AY+T": [
+      {
+        "to": "AY+X",
+        "n": 1
+      }
+    ],
+    "F+A": [
+      {
+        "to": "F+A",
+        "n": 1
+      }
+    ],
+    "B+L": [
+      {
+        "to": "B+U",
+        "n": 1
+      }
+    ],
+    "L+D": [
+      {
+        "to": "I+L",
+        "n": 1
+      }
+    ],
+    "S+P": [
+      {
+        "to": "S+P",
+        "n": 1
+      }
+    ],
+    "I+G": [
+      {
+        "to": "I+N",
+        "n": 1
+      }
+    ],
+    "T+A": [
+      {
+        "to": "T+I",
+        "n": 1
+      }
+    ],
+    "NG+L": [
+      {
+        "to": "G+L",
+        "n": 1
+      }
+    ],
+    "I+A": [
+      {
+        "to": "Z+H",
+        "n": 1
+      }
+    ],
+    "TH+R": [
+      {
+        "to": "TH+R",
+        "n": 1
+      }
+    ],
+    "R+AW": [
+      {
+        "to": "R+AW",
+        "n": 1
+      }
+    ],
+    "AW+G": [
+      {
+        "to": "AW+G",
+        "n": 1
+      }
+    ],
+    "G+H": [
+      {
+        "to": "G+H",
+        "n": 1
+      }
+    ],
+    "T+M": [
+      {
+        "to": "T+L",
+        "n": 1
+      }
+    ],
+    "C+I": [
+      {
+        "to": "N+I",
+        "n": 1
+      }
+    ],
+    "L+M": [
+      {
+        "to": "L+M",
+        "n": 1
+      }
+    ],
+    "D+A": [
+      {
+        "to": "D+A",
+        "n": 1
+      }
+    ],
+    "G+G": [
+      {
+        "to": "G+G",
+        "n": 1
+      }
+    ],
+    "U+P": [
+      {
+        "to": "U+P",
+        "n": 1
+      }
+    ],
+    "A+V": [
+      {
+        "to": "V+E",
+        "n": 1
+      }
+    ],
+    "U+V": [
+      {
+        "to": "U+N",
+        "n": 1
+      }
+    ],
+    "V+I": [
+      {
+        "to": "N+I",
+        "n": 1
+      }
+    ],
+    "NG+E": [
+      {
+        "to": "NG+E",
+        "n": 1
+      }
+    ],
+    "E+O": [
+      {
+        "to": "E+O",
+        "n": 1
+      }
+    ],
+    "R+B": [
+      {
+        "to": "R+B",
+        "n": 1
+      }
+    ],
+    "AW+T": [
+      {
+        "to": "AW+T",
+        "n": 1
+      }
+    ],
+    "E+D": [
+      {
+        "to": "N+X",
+        "n": 1
+      }
+    ],
+    "A+P": [
+      {
+        "to": "A+P",
+        "n": 1
+      }
+    ],
+    "O+G": [
+      {
+        "to": "O+G",
+        "n": 1
+      }
+    ],
+    "TH+A": [
+      {
+        "to": "B+A",
+        "n": 1
+      }
+    ],
+    "H+AY": [
+      {
+        "to": "L+AY",
+        "n": 1
+      }
+    ],
+    "AY+R": [
+      {
+        "to": "AY+R",
+        "n": 1
+      }
+    ],
+    "B+O": [
+      {
+        "to": "V+O",
+        "n": 1
+      }
+    ],
+    "U+L": [
+      {
+        "to": "U+L",
+        "n": 1
+      }
+    ],
+    "E+X": [
+      {
+        "to": "E+X",
+        "n": 1
+      }
+    ],
+    "X+P": [
+      {
+        "to": "X+P",
+        "n": 1
+      }
+    ],
+    "O+D": [
+      {
+        "to": "O+D",
+        "n": 1
+      }
+    ],
+    "O+M": [
+      {
+        "to": "O+X",
+        "n": 1
+      }
+    ],
+    "O+S": [
+      {
+        "to": "O+X",
+        "n": 1
+      }
+    ],
+    "D+W": [
+      {
+        "to": "B+W",
+        "n": 1
+      }
+    ],
+    "M+B": [
+      {
+        "to": "M+X",
+        "n": 1
+      }
+    ]
+  }
+}

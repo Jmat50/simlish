@@ -1,0 +1,2589 @@
+[
+  {
+    "song_id": "katy-perry__hot-n-cold",
+    "align_quality": "low",
+    "mean_meter_score": 0.0,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 4.222,
+        "en_syllables": 4,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593555,
+        "rms": 0.0,
+        "f0_mean": null
+      },
+      {
+        "line_index": 1,
+        "duration": 4.220999999999999,
+        "en_syllables": 6,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593937,
+        "rms": 0.08218977600336075,
+        "f0_mean": null
+      },
+      {
+        "line_index": 2,
+        "duration": 4.2219999999999995,
+        "en_syllables": 3,
+        "sim_syllables": 6,
+        "syllable_rate": 1.421127427759356,
+        "rms": 0.118973009288311,
+        "f0_mean": 88.96742197970066
+      },
+      {
+        "line_index": 3,
+        "duration": 4.221,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593935,
+        "rms": 0.1276390552520752,
+        "f0_mean": 170.84221198773105
+      },
+      {
+        "line_index": 4,
+        "duration": 4.222000000000001,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593553,
+        "rms": 0.12324418127536774,
+        "f0_mean": 92.76200449378067
+      },
+      {
+        "line_index": 5,
+        "duration": 4.221,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.7107320540156361,
+        "rms": 0.12506617605686188,
+        "f0_mean": 89.49815316919019
+      },
+      {
+        "line_index": 6,
+        "duration": 4.221999999999998,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593564,
+        "rms": 0.11745993793010712,
+        "f0_mean": 90.58221988918648
+      },
+      {
+        "line_index": 7,
+        "duration": 4.221,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312722,
+        "rms": 0.12649604678153992,
+        "f0_mean": 188.8287361417287
+      },
+      {
+        "line_index": 8,
+        "duration": 4.222000000000001,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661293,
+        "rms": 0.15204645693302155,
+        "f0_mean": 368.3771437881827
+      },
+      {
+        "line_index": 9,
+        "duration": 4.222000000000001,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661293,
+        "rms": 0.17635145783424377,
+        "f0_mean": 90.73175477436246
+      },
+      {
+        "line_index": 10,
+        "duration": 4.2209999999999965,
+        "en_syllables": 5,
+        "sim_syllables": 4,
+        "syllable_rate": 0.9476427386875156,
+        "rms": 0.17887449264526367,
+        "f0_mean": 95.87136538525492
+      },
+      {
+        "line_index": 11,
+        "duration": 4.222000000000001,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661293,
+        "rms": 0.18138542771339417,
+        "f0_mean": 90.89331904779499
+      },
+      {
+        "line_index": 12,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593924,
+        "rms": 0.1763332635164261,
+        "f0_mean": 94.60458123326106
+      },
+      {
+        "line_index": 13,
+        "duration": 4.221999999999994,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661313,
+        "rms": 0.1890891045331955,
+        "f0_mean": 83.21470174439247
+      },
+      {
+        "line_index": 14,
+        "duration": 4.221000000000004,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.1321961620469065,
+        "rms": 0.18625742197036743,
+        "f0_mean": 92.16821989927824
+      },
+      {
+        "line_index": 15,
+        "duration": 4.222000000000001,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.131691141639033,
+        "rms": 0.17439576983451843,
+        "f0_mean": 90.07190622950688
+      },
+      {
+        "line_index": 16,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312709,
+        "rms": 0.1117931678891182,
+        "f0_mean": 89.29928917357587
+      },
+      {
+        "line_index": 17,
+        "duration": 4.221999999999994,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661313,
+        "rms": 0.10033823549747467,
+        "f0_mean": 90.32661813109286
+      },
+      {
+        "line_index": 18,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593924,
+        "rms": 0.12844738364219666,
+        "f0_mean": 95.78232599768951
+      },
+      {
+        "line_index": 19,
+        "duration": 4.221999999999994,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.9474182851729052,
+        "rms": 0.12460925430059433,
+        "f0_mean": 86.45285260499534
+      },
+      {
+        "line_index": 20,
+        "duration": 4.222000000000008,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593529,
+        "rms": 0.12291387468576431,
+        "f0_mean": 90.8055318626965
+      },
+      {
+        "line_index": 21,
+        "duration": 4.220999999999989,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593964,
+        "rms": 0.12964454293251038,
+        "f0_mean": 87.93077009821326
+      },
+      {
+        "line_index": 22,
+        "duration": 4.222000000000008,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593529,
+        "rms": 0.12320006638765335,
+        "f0_mean": 93.55919893213056
+      },
+      {
+        "line_index": 23,
+        "duration": 4.220999999999989,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312758,
+        "rms": 0.14196904003620148,
+        "f0_mean": 117.51066954974527
+      },
+      {
+        "line_index": 24,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593529,
+        "rms": 0.1551763415336609,
+        "f0_mean": 309.7095358064557
+      },
+      {
+        "line_index": 25,
+        "duration": 4.221000000000004,
+        "en_syllables": 3,
+        "sim_syllables": 4,
+        "syllable_rate": 0.947642738687514,
+        "rms": 0.17645786702632904,
+        "f0_mean": 89.496462625908
+      },
+      {
+        "line_index": 26,
+        "duration": 4.221999999999994,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593577,
+        "rms": 0.17978572845458984,
+        "f0_mean": 90.76566679986827
+      },
+      {
+        "line_index": 27,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312709,
+        "rms": 0.17624181509017944,
+        "f0_mean": 110.14867142733888
+      },
+      {
+        "line_index": 28,
+        "duration": 4.221999999999994,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661313,
+        "rms": 0.18478411436080933,
+        "f0_mean": 90.63254375689921
+      },
+      {
+        "line_index": 29,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.19098331034183502,
+        "f0_mean": 83.47571090411274
+      },
+      {
+        "line_index": 30,
+        "duration": 4.220999999999989,
+        "en_syllables": 5,
+        "sim_syllables": 4,
+        "syllable_rate": 0.9476427386875171,
+        "rms": 0.17621387541294098,
+        "f0_mean": 89.14850520014173
+      },
+      {
+        "line_index": 31,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.15753497183322906,
+        "f0_mean": 82.46719825441615
+      },
+      {
+        "line_index": 32,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593924,
+        "rms": 0.13623873889446259,
+        "f0_mean": 107.51722774023746
+      },
+      {
+        "line_index": 33,
+        "duration": 4.22199999999998,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661353,
+        "rms": 0.13298659026622772,
+        "f0_mean": 82.07272373984786
+      },
+      {
+        "line_index": 34,
+        "duration": 4.221000000000004,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.1321961620469065,
+        "rms": 0.13424056768417358,
+        "f0_mean": 90.2291993709916
+      },
+      {
+        "line_index": 35,
+        "duration": 4.222000000000008,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.1316911416390294,
+        "rms": 0.15823625028133392,
+        "f0_mean": 497.324797407383
+      },
+      {
+        "line_index": 36,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312709,
+        "rms": 0.17050065100193024,
+        "f0_mean": 82.56799982495538
+      },
+      {
+        "line_index": 37,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.17250464856624603,
+        "f0_mean": 412.5954699255735
+      },
+      {
+        "line_index": 38,
+        "duration": 4.220999999999975,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233594004,
+        "rms": 0.17209598422050476,
+        "f0_mean": 437.20173827945905
+      },
+      {
+        "line_index": 39,
+        "duration": 4.222000000000008,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593529,
+        "rms": 0.07208611816167831,
+        "f0_mean": 269.65561326259393
+      },
+      {
+        "line_index": 40,
+        "duration": 4.222000000000008,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.8948365703458039,
+        "rms": 0.08976290374994278,
+        "f0_mean": 263.71764376464955
+      },
+      {
+        "line_index": 41,
+        "duration": 4.221000000000004,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 1.6583747927031496,
+        "rms": 0.18465597927570343,
+        "f0_mean": 81.91165355391298
+      },
+      {
+        "line_index": 42,
+        "duration": 4.22199999999998,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661353,
+        "rms": 0.1941005140542984,
+        "f0_mean": 87.02590542570978
+      },
+      {
+        "line_index": 43,
+        "duration": 4.221000000000004,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.947642738687514,
+        "rms": 0.18831747770309448,
+        "f0_mean": 83.52701225950047
+      },
+      {
+        "line_index": 44,
+        "duration": 4.222000000000008,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4211274277593529,
+        "rms": 0.19305329024791718,
+        "f0_mean": 87.00996493874028
+      },
+      {
+        "line_index": 45,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312709,
+        "rms": 0.1937301903963089,
+        "f0_mean": 87.08837705454422
+      },
+      {
+        "line_index": 46,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.20340879261493683,
+        "f0_mean": 87.02897163820467
+      },
+      {
+        "line_index": 47,
+        "duration": 4.220999999999975,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233594004,
+        "rms": 0.19244372844696045,
+        "f0_mean": 81.12177411093059
+      },
+      {
+        "line_index": 48,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 4,
+        "syllable_rate": 0.9474182851729019,
+        "rms": 0.20757879316806793,
+        "f0_mean": 85.118673639683
+      },
+      {
+        "line_index": 49,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.2068178951740265,
+        "f0_mean": 86.46771862840897
+      },
+      {
+        "line_index": 50,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233593924,
+        "rms": 0.19270676374435425,
+        "f0_mean": 81.69416593181556
+      },
+      {
+        "line_index": 51,
+        "duration": 4.22199999999998,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661353,
+        "rms": 0.12283322960138321,
+        "f0_mean": 100.22573170487242
+      },
+      {
+        "line_index": 52,
+        "duration": 4.221000000000004,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.1321961620469065,
+        "rms": 0.16656623780727386,
+        "f0_mean": null
+      },
+      {
+        "line_index": 53,
+        "duration": 4.222000000000008,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 2.1316911416390294,
+        "rms": 0.01436127070337534,
+        "f0_mean": null
+      },
+      {
+        "line_index": 54,
+        "duration": 4.221000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 6,
+        "syllable_rate": 1.4214641080312709,
+        "rms": 0.0,
+        "f0_mean": null
+      },
+      {
+        "line_index": 55,
+        "duration": 4.222000000000008,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1842728564661273,
+        "rms": 0.06658323854207993,
+        "f0_mean": 402.64169560453206
+      },
+      {
+        "line_index": 56,
+        "duration": 4.220999999999975,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.1845534233594004,
+        "rms": 0.005695271771401167,
+        "f0_mean": null
+      }
+    ]
+  },
+  {
+    "song_id": "kisha__sowieso",
+    "align_quality": "medium",
+    "mean_meter_score": 0.0,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 9.999999999999998,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.0000000000000002,
+        "rms": 0.09871383756399155,
+        "f0_mean": 223.73448100977612
+      },
+      {
+        "line_index": 1,
+        "duration": 9.999999999999998,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6000000000000001,
+        "rms": 0.09871383756399155,
+        "f0_mean": 223.73448100977612
+      },
+      {
+        "line_index": 2,
+        "duration": 11.000000000000004,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 0.9090909090909088,
+        "rms": 0.10066226124763489,
+        "f0_mean": 229.18984549512248
+      },
+      {
+        "line_index": 3,
+        "duration": 10.0,
+        "en_syllables": 8,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6,
+        "rms": 0.10745953768491745,
+        "f0_mean": 244.70697990155108
+      },
+      {
+        "line_index": 4,
+        "duration": 6.000000000000007,
+        "en_syllables": 8,
+        "sim_syllables": 9,
+        "syllable_rate": 1.4999999999999982,
+        "rms": 0.10521628707647324,
+        "f0_mean": 206.789991676148
+      },
+      {
+        "line_index": 5,
+        "duration": 17.059999999999988,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.351699882766706,
+        "rms": 0.12817709147930145,
+        "f0_mean": 109.84238347170803
+      },
+      {
+        "line_index": 6,
+        "duration": 15.710000000000008,
+        "en_syllables": 7,
+        "sim_syllables": 8,
+        "syllable_rate": 0.5092297899427114,
+        "rms": 0.1302221119403839,
+        "f0_mean": 229.9485805302049
+      },
+      {
+        "line_index": 7,
+        "duration": 15.710000000000008,
+        "en_syllables": 8,
+        "sim_syllables": 6,
+        "syllable_rate": 0.38192234245703355,
+        "rms": 0.1302221119403839,
+        "f0_mean": 229.9485805302049
+      },
+      {
+        "line_index": 8,
+        "duration": 62.28999999999999,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.06421576497030022,
+        "rms": 0.09725303202867508,
+        "f0_mean": 205.49776711119668
+      },
+      {
+        "line_index": 9,
+        "duration": 62.28999999999999,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 0.11237758869802537,
+        "rms": 0.09725303202867508,
+        "f0_mean": 205.49776711119668
+      },
+      {
+        "line_index": 10,
+        "duration": 11.840000000000003,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.3378378378378377,
+        "rms": 0.12364619225263596,
+        "f0_mean": 182.97461558497577
+      },
+      {
+        "line_index": 11,
+        "duration": 11.840000000000003,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 0.5067567567567566,
+        "rms": 0.12364619225263596,
+        "f0_mean": 182.97461558497577
+      }
+    ]
+  },
+  {
+    "song_id": "lily-allen__smile",
+    "align_quality": "low",
+    "mean_meter_score": 0.025441597093382954,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 5.073,
+        "en_syllables": 10,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536366,
+        "rms": 0.0004211597261019051,
+        "f0_mean": null
+      },
+      {
+        "line_index": 1,
+        "duration": 5.073,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 1.379854129706288,
+        "rms": 0.13773663341999054,
+        "f0_mean": 89.67614955469355
+      },
+      {
+        "line_index": 2,
+        "duration": 5.072999999999999,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.971220185294698,
+        "rms": 0.1622929722070694,
+        "f0_mean": 83.39370160475262
+      },
+      {
+        "line_index": 3,
+        "duration": 5.073000000000002,
+        "en_syllables": 12,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536357,
+        "rms": 0.1503356695175171,
+        "f0_mean": 95.82888048176088
+      },
+      {
+        "line_index": 4,
+        "duration": 5.072999999999997,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.7740981667652287,
+        "rms": 0.1629110425710678,
+        "f0_mean": 84.94943226308429
+      },
+      {
+        "line_index": 5,
+        "duration": 5.073,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 1.379854129706288,
+        "rms": 0.16177958250045776,
+        "f0_mean": 84.50513184592165
+      },
+      {
+        "line_index": 6,
+        "duration": 5.073000000000004,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.1827321111768174,
+        "rms": 0.15514785051345825,
+        "f0_mean": 83.70234730612466
+      },
+      {
+        "line_index": 7,
+        "duration": 5.073,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.7740981667652276,
+        "rms": 0.16145482659339905,
+        "f0_mean": 88.3175102894949
+      },
+      {
+        "line_index": 8,
+        "duration": 5.072999999999993,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 2.16834220382417,
+        "rms": 0.15825846791267395,
+        "f0_mean": 91.26828414618991
+      },
+      {
+        "line_index": 9,
+        "duration": 5.073,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.7740981667652276,
+        "rms": 0.17470988631248474,
+        "f0_mean": 85.52422656814433
+      },
+      {
+        "line_index": 10,
+        "duration": 5.073,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946973,
+        "rms": 0.17014636099338531,
+        "f0_mean": 97.23139956665403
+      },
+      {
+        "line_index": 11,
+        "duration": 5.073,
+        "en_syllables": 10,
+        "sim_syllables": 11,
+        "syllable_rate": 2.168342203824167,
+        "rms": 0.17071275413036346,
+        "f0_mean": 84.9295860140509
+      },
+      {
+        "line_index": 12,
+        "duration": 5.073,
+        "en_syllables": 7,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357578,
+        "rms": 0.17468224465847015,
+        "f0_mean": 112.94775819098352
+      },
+      {
+        "line_index": 13,
+        "duration": 5.0730000000000075,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946944,
+        "rms": 0.16053280234336853,
+        "f0_mean": 84.64761395900966
+      },
+      {
+        "line_index": 14,
+        "duration": 5.072999999999993,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.57697614823576,
+        "rms": 0.18079572916030884,
+        "f0_mean": 86.18237888083787
+      },
+      {
+        "line_index": 15,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536335,
+        "rms": 0.1693839728832245,
+        "f0_mean": 85.28612656663155
+      },
+      {
+        "line_index": 16,
+        "duration": 5.072999999999993,
+        "en_syllables": 16,
+        "sim_syllables": 17,
+        "syllable_rate": 3.35107431500099,
+        "rms": 0.18532204627990723,
+        "f0_mean": 85.4212000808487
+      },
+      {
+        "line_index": 17,
+        "duration": 5.072999999999993,
+        "en_syllables": 12,
+        "sim_syllables": 12,
+        "syllable_rate": 2.36546422235364,
+        "rms": 0.18007855117321014,
+        "f0_mean": 105.56872573201896
+      },
+      {
+        "line_index": 18,
+        "duration": 5.0730000000000075,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946944,
+        "rms": 0.1703934520483017,
+        "f0_mean": 82.63644641513267
+      },
+      {
+        "line_index": 19,
+        "duration": 5.072999999999993,
+        "en_syllables": 14,
+        "sim_syllables": 15,
+        "syllable_rate": 2.95683027794205,
+        "rms": 0.16502471268177032,
+        "f0_mean": 86.15782747214429
+      },
+      {
+        "line_index": 20,
+        "duration": 5.0730000000000075,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357556,
+        "rms": 0.15776924788951874,
+        "f0_mean": 87.45093015247232
+      },
+      {
+        "line_index": 21,
+        "duration": 5.072999999999993,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 0.98561009264735,
+        "rms": 0.17171847820281982,
+        "f0_mean": 86.48495033977741
+      },
+      {
+        "line_index": 22,
+        "duration": 5.0730000000000075,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 1.1827321111768168,
+        "rms": 0.16563981771469116,
+        "f0_mean": 104.61349945488158
+      },
+      {
+        "line_index": 23,
+        "duration": 5.072999999999993,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.77409816676523,
+        "rms": 0.18359993398189545,
+        "f0_mean": 84.29968171779325
+      },
+      {
+        "line_index": 24,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 2.1683422038241638,
+        "rms": 0.1808144748210907,
+        "f0_mean": 84.5600554426223
+      },
+      {
+        "line_index": 25,
+        "duration": 5.072999999999993,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.77409816676523,
+        "rms": 0.17443561553955078,
+        "f0_mean": 91.06867825572964
+      },
+      {
+        "line_index": 26,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946944,
+        "rms": 0.1759292036294937,
+        "f0_mean": 86.82129638455844
+      },
+      {
+        "line_index": 27,
+        "duration": 5.0730000000000075,
+        "en_syllables": 10,
+        "sim_syllables": 11,
+        "syllable_rate": 2.1683422038241638,
+        "rms": 0.17179375886917114,
+        "f0_mean": 85.81136742052847
+      },
+      {
+        "line_index": 28,
+        "duration": 5.072999999999979,
+        "en_syllables": 7,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357645,
+        "rms": 0.16889314353466034,
+        "f0_mean": 88.2611642263425
+      },
+      {
+        "line_index": 29,
+        "duration": 5.0730000000000075,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946944,
+        "rms": 0.16125525534152985,
+        "f0_mean": 85.73810843358984
+      },
+      {
+        "line_index": 30,
+        "duration": 5.0730000000000075,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357556,
+        "rms": 0.15356841683387756,
+        "f0_mean": 84.28678987885345
+      },
+      {
+        "line_index": 31,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536335,
+        "rms": 0.17943355441093445,
+        "f0_mean": 83.71893737223749
+      },
+      {
+        "line_index": 32,
+        "duration": 5.072999999999979,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.5913660555884117,
+        "rms": 0.1887323260307312,
+        "f0_mean": 86.872962474093
+      },
+      {
+        "line_index": 33,
+        "duration": 5.0730000000000075,
+        "en_syllables": 7,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357556,
+        "rms": 0.1905963122844696,
+        "f0_mean": 83.02450607395936
+      },
+      {
+        "line_index": 34,
+        "duration": 5.0730000000000075,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852946944,
+        "rms": 0.1856151521205902,
+        "f0_mean": 85.94280208107551
+      },
+      {
+        "line_index": 35,
+        "duration": 5.072999999999979,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357645,
+        "rms": 0.19282691180706024,
+        "f0_mean": 87.65622715909686
+      },
+      {
+        "line_index": 36,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536335,
+        "rms": 0.19218407571315765,
+        "f0_mean": 85.4559261232829
+      },
+      {
+        "line_index": 37,
+        "duration": 5.0730000000000075,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.5913660555884084,
+        "rms": 0.1546359807252884,
+        "f0_mean": 85.5264391486306
+      },
+      {
+        "line_index": 38,
+        "duration": 5.0730000000000075,
+        "en_syllables": 7,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357556,
+        "rms": 0.13417375087738037,
+        "f0_mean": 84.60419441929965
+      },
+      {
+        "line_index": 39,
+        "duration": 5.072999999999979,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.9712201852947056,
+        "rms": 0.07807648926973343,
+        "f0_mean": 403.0746361671404
+      },
+      {
+        "line_index": 40,
+        "duration": 5.0730000000000075,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 1.5769761482357556,
+        "rms": 0.15328550338745117,
+        "f0_mean": 465.37977886606564
+      },
+      {
+        "line_index": 41,
+        "duration": 5.0730000000000075,
+        "en_syllables": 11,
+        "sim_syllables": 12,
+        "syllable_rate": 2.3654642223536335,
+        "rms": 0.0,
+        "f0_mean": null
+      }
+    ]
+  },
+  {
+    "song_id": "luke-bryan__country-girl-shake-it-for-me",
+    "align_quality": "medium",
+    "mean_meter_score": 0.03308315384299102,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 40.82,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 0.1224889759921607,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 1,
+        "duration": 40.82,
+        "en_syllables": 10,
+        "sim_syllables": 11,
+        "syllable_rate": 0.2694757471827536,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 2,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 3,
+        "duration": 40.82,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 0.2694757471827536,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 4,
+        "duration": 40.82,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 5,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 6,
+        "duration": 40.82,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 7,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 8,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 9,
+        "duration": 40.82,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.14698677119059284,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 10,
+        "duration": 40.82,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 0.3184713375796178,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 11,
+        "duration": 40.82,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 0.2694757471827536,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 12,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 13,
+        "duration": 40.82,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.14698677119059284,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 14,
+        "duration": 40.82,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 15,
+        "duration": 40.82,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 0.3184713375796178,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 16,
+        "duration": 40.82,
+        "en_syllables": 12,
+        "sim_syllables": 11,
+        "syllable_rate": 0.2694757471827536,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 17,
+        "duration": 40.82,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 0.2449779519843214,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 18,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.19598236158745713,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 19,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 20,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.19598236158745713,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 21,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 22,
+        "duration": 40.82,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.22048015678588928,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 23,
+        "duration": 40.82,
+        "en_syllables": 12,
+        "sim_syllables": 12,
+        "syllable_rate": 0.29397354238118567,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 24,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 0.17148456638902498,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 25,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.19598236158745713,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 26,
+        "duration": 40.82,
+        "en_syllables": 11,
+        "sim_syllables": 8,
+        "syllable_rate": 0.19598236158745713,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 27,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 0.17148456638902498,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 28,
+        "duration": 40.82,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.19598236158745713,
+        "rms": 0.08999545127153397,
+        "f0_mean": 91.49412268880354
+      },
+      {
+        "line_index": 29,
+        "duration": 9.439999999999998,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.3177966101694916,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 30,
+        "duration": 9.439999999999998,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 1.377118644067797,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 31,
+        "duration": 9.439999999999998,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 1.1652542372881358,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 32,
+        "duration": 9.439999999999998,
+        "en_syllables": 10,
+        "sim_syllables": 9,
+        "syllable_rate": 0.9533898305084748,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 33,
+        "duration": 9.439999999999998,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6355932203389832,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 34,
+        "duration": 9.439999999999998,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 1.0593220338983054,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 35,
+        "duration": 9.439999999999998,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 1.377118644067797,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 36,
+        "duration": 9.439999999999998,
+        "en_syllables": 12,
+        "sim_syllables": 11,
+        "syllable_rate": 1.1652542372881358,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 37,
+        "duration": 9.439999999999998,
+        "en_syllables": 10,
+        "sim_syllables": 11,
+        "syllable_rate": 1.1652542372881358,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 38,
+        "duration": 9.439999999999998,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.8474576271186443,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 39,
+        "duration": 9.439999999999998,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.9533898305084748,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 40,
+        "duration": 9.439999999999998,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.8474576271186443,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 41,
+        "duration": 9.439999999999998,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 0.9533898305084748,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 42,
+        "duration": 9.439999999999998,
+        "en_syllables": 2,
+        "sim_syllables": 2,
+        "syllable_rate": 0.21186440677966106,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 43,
+        "duration": 9.439999999999998,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7415254237288137,
+        "rms": 0.11471477895975113,
+        "f0_mean": 86.65177588390556
+      },
+      {
+        "line_index": 44,
+        "duration": 23.07,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 0.43346337234503685,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 45,
+        "duration": 23.07,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 0.3034243606415258,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 46,
+        "duration": 23.07,
+        "en_syllables": 9,
+        "sim_syllables": 10,
+        "syllable_rate": 0.43346337234503685,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 47,
+        "duration": 23.07,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 0.4768097095795405,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 48,
+        "duration": 23.07,
+        "en_syllables": 12,
+        "sim_syllables": 12,
+        "syllable_rate": 0.5201560468140443,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 49,
+        "duration": 23.07,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 0.4768097095795405,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 50,
+        "duration": 23.07,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 0.3034243606415258,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 51,
+        "duration": 23.07,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 0.5635023840485479,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 52,
+        "duration": 23.07,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 0.4768097095795405,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 53,
+        "duration": 23.07,
+        "en_syllables": 10,
+        "sim_syllables": 9,
+        "syllable_rate": 0.39011703511053314,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 54,
+        "duration": 23.07,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.26007802340702213,
+        "rms": 0.12154824286699295,
+        "f0_mean": 88.98319181172968
+      },
+      {
+        "line_index": 55,
+        "duration": 4.0,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 2.5,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 56,
+        "duration": 4.0,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 3.25,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 57,
+        "duration": 4.0,
+        "en_syllables": 12,
+        "sim_syllables": 11,
+        "syllable_rate": 2.75,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 58,
+        "duration": 4.0,
+        "en_syllables": 11,
+        "sim_syllables": 10,
+        "syllable_rate": 2.5,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 59,
+        "duration": 4.0,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 2.0,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 60,
+        "duration": 4.0,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 3.25,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 61,
+        "duration": 4.0,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 2.0,
+        "rms": 0.1057039275765419,
+        "f0_mean": 82.5582851277954
+      },
+      {
+        "line_index": 62,
+        "duration": 6.909999999999997,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.302460202604921,
+        "rms": 0.11526352167129517,
+        "f0_mean": 82.82311415716963
+      },
+      {
+        "line_index": 63,
+        "duration": 6.909999999999997,
+        "en_syllables": 8,
+        "sim_syllables": 9,
+        "syllable_rate": 1.302460202604921,
+        "rms": 0.11526352167129517,
+        "f0_mean": 82.82311415716963
+      },
+      {
+        "line_index": 64,
+        "duration": 6.909999999999997,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.302460202604921,
+        "rms": 0.11526352167129517,
+        "f0_mean": 82.82311415716963
+      },
+      {
+        "line_index": 65,
+        "duration": 6.909999999999997,
+        "en_syllables": 8,
+        "sim_syllables": 9,
+        "syllable_rate": 1.302460202604921,
+        "rms": 0.11526352167129517,
+        "f0_mean": 82.82311415716963
+      },
+      {
+        "line_index": 66,
+        "duration": 6.909999999999997,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 1.302460202604921,
+        "rms": 0.11526352167129517,
+        "f0_mean": 82.82311415716963
+      }
+    ]
+  },
+  {
+    "song_id": "my-chemical-romance__na-na-na",
+    "align_quality": "low",
+    "mean_meter_score": 0.31241252452453766,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 2.955,
+        "en_syllables": 7,
+        "sim_syllables": 5,
+        "syllable_rate": 1.6920473773265652,
+        "rms": 0.03788371384143829,
+        "f0_mean": 207.8822896781063
+      },
+      {
+        "line_index": 1,
+        "duration": 2.955,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 1.353637901861252,
+        "rms": 0.046227771788835526,
+        "f0_mean": 159.92250297444937
+      },
+      {
+        "line_index": 2,
+        "duration": 2.955,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187817,
+        "rms": 0.04760622978210449,
+        "f0_mean": 155.30403296189257
+      },
+      {
+        "line_index": 3,
+        "duration": 2.955,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 1.353637901861252,
+        "rms": 0.11367737501859665,
+        "f0_mean": 117.4467434482545
+      },
+      {
+        "line_index": 4,
+        "duration": 2.955,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 1.015228426395939,
+        "rms": 0.12789864838123322,
+        "f0_mean": 100.72009806310129
+      },
+      {
+        "line_index": 5,
+        "duration": 2.953999999999999,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 1.0155721056194993,
+        "rms": 0.11994672566652298,
+        "f0_mean": 82.51192346726548
+      },
+      {
+        "line_index": 6,
+        "duration": 2.955000000000002,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918767,
+        "rms": 0.11905227601528168,
+        "f0_mean": 82.60968211277647
+      },
+      {
+        "line_index": 7,
+        "duration": 2.9549999999999983,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187819,
+        "rms": 0.12174569070339203,
+        "f0_mean": 95.42398336680479
+      },
+      {
+        "line_index": 8,
+        "duration": 2.955000000000002,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.3688663282571896,
+        "rms": 0.13950115442276,
+        "f0_mean": 99.66004940316516
+      },
+      {
+        "line_index": 9,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.14529788494110107,
+        "f0_mean": 81.1520508225508
+      },
+      {
+        "line_index": 10,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.14970378577709198,
+        "f0_mean": 94.02757364250117
+      },
+      {
+        "line_index": 11,
+        "duration": 2.9550000000000054,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184366,
+        "rms": 0.1426524966955185,
+        "f0_mean": 91.32827640085107
+      },
+      {
+        "line_index": 12,
+        "duration": 2.9549999999999983,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.14132709801197052,
+        "f0_mean": 96.04330378889016
+      },
+      {
+        "line_index": 13,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.14185526967048645,
+        "f0_mean": 83.19187003267498
+      },
+      {
+        "line_index": 14,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.138066366314888,
+        "f0_mean": 92.10138436585262
+      },
+      {
+        "line_index": 15,
+        "duration": 2.9540000000000006,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.3696682464454972,
+        "rms": 0.14967919886112213,
+        "f0_mean": 105.60334812734305
+      },
+      {
+        "line_index": 16,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.1518232524394989,
+        "f0_mean": 91.40358102572019
+      },
+      {
+        "line_index": 17,
+        "duration": 2.9550000000000054,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918745,
+        "rms": 0.15435999631881714,
+        "f0_mean": 95.32077117621445
+      },
+      {
+        "line_index": 18,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.14988675713539124,
+        "f0_mean": 104.31974942293571
+      },
+      {
+        "line_index": 19,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.1490943729877472,
+        "f0_mean": 88.84768651784522
+      },
+      {
+        "line_index": 20,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.14920757710933685,
+        "f0_mean": 92.24735535370577
+      },
+      {
+        "line_index": 21,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.15188568830490112,
+        "f0_mean": 95.86102898762744
+      },
+      {
+        "line_index": 22,
+        "duration": 2.9549999999999983,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.3688663282571927,
+        "rms": 0.1488364040851593,
+        "f0_mean": 83.07879538876439
+      },
+      {
+        "line_index": 23,
+        "duration": 2.9550000000000125,
+        "en_syllables": 7,
+        "sim_syllables": 5,
+        "syllable_rate": 1.692047377326558,
+        "rms": 0.13278764486312866,
+        "f0_mean": 93.24128190185911
+      },
+      {
+        "line_index": 24,
+        "duration": 2.9549999999999983,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187819,
+        "rms": 0.12426328659057617,
+        "f0_mean": 100.78834142347257
+      },
+      {
+        "line_index": 25,
+        "duration": 2.9549999999999983,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187819,
+        "rms": 0.12201646715402603,
+        "f0_mean": 214.27646591580435
+      },
+      {
+        "line_index": 26,
+        "duration": 2.9539999999999935,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.0467163168585034,
+        "rms": 0.13012969493865967,
+        "f0_mean": 104.16994311371131
+      },
+      {
+        "line_index": 27,
+        "duration": 2.9549999999999983,
+        "en_syllables": 13,
+        "sim_syllables": 13,
+        "syllable_rate": 4.399323181049072,
+        "rms": 0.13732057809829712,
+        "f0_mean": null
+      },
+      {
+        "line_index": 28,
+        "duration": 2.9549999999999983,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187819,
+        "rms": 0.1481589376926422,
+        "f0_mean": 100.32791616255311
+      },
+      {
+        "line_index": 29,
+        "duration": 2.9550000000000125,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918696,
+        "rms": 0.14328116178512573,
+        "f0_mean": 96.67919605745502
+      },
+      {
+        "line_index": 30,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.1487697958946228,
+        "f0_mean": 92.29467678250505
+      },
+      {
+        "line_index": 31,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.15223993360996246,
+        "f0_mean": 98.43243967609716
+      },
+      {
+        "line_index": 32,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.156736359000206,
+        "f0_mean": 87.36338537660455
+      },
+      {
+        "line_index": 33,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.14396028220653534,
+        "f0_mean": 97.8458904554993
+      },
+      {
+        "line_index": 34,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.15074335038661957,
+        "f0_mean": 92.18996795979214
+      },
+      {
+        "line_index": 35,
+        "duration": 2.9549999999999983,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.3688663282571927,
+        "rms": 0.14668063819408417,
+        "f0_mean": 101.6937265903151
+      },
+      {
+        "line_index": 36,
+        "duration": 2.9540000000000077,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7237643872714865,
+        "rms": 0.14400899410247803,
+        "f0_mean": 88.76794220857434
+      },
+      {
+        "line_index": 37,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.1430760771036148,
+        "f0_mean": 109.9876807462124
+      },
+      {
+        "line_index": 38,
+        "duration": 2.9549999999999983,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184454,
+        "rms": 0.1424778550863266,
+        "f0_mean": 92.23013555546807
+      },
+      {
+        "line_index": 39,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.14385733008384705,
+        "f0_mean": 86.30762564583469
+      },
+      {
+        "line_index": 40,
+        "duration": 2.9549999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918794,
+        "rms": 0.16997800767421722,
+        "f0_mean": 103.98057009077284
+      },
+      {
+        "line_index": 41,
+        "duration": 2.9549999999999983,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.3688663282571927,
+        "rms": 0.15470778942108154,
+        "f0_mean": 102.66605875393208
+      },
+      {
+        "line_index": 42,
+        "duration": 2.9550000000000125,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.692047377326558,
+        "rms": 0.14626537263393402,
+        "f0_mean": 93.91624606352347
+      },
+      {
+        "line_index": 43,
+        "duration": 2.954999999999984,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.0456852791878335,
+        "rms": 0.1709243506193161,
+        "f0_mean": null
+      },
+      {
+        "line_index": 44,
+        "duration": 2.9550000000000125,
+        "en_syllables": 12,
+        "sim_syllables": 12,
+        "syllable_rate": 4.060913705583739,
+        "rms": 0.16821859776973724,
+        "f0_mean": 112.51846247468005
+      },
+      {
+        "line_index": 45,
+        "duration": 2.954999999999984,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.0456852791878335,
+        "rms": 0.1603981852531433,
+        "f0_mean": 102.02719230447697
+      },
+      {
+        "line_index": 46,
+        "duration": 2.9550000000000125,
+        "en_syllables": 11,
+        "sim_syllables": 12,
+        "syllable_rate": 4.060913705583739,
+        "rms": 0.15385207533836365,
+        "f0_mean": 86.42080876445034
+      },
+      {
+        "line_index": 47,
+        "duration": 2.9540000000000077,
+        "en_syllables": 12,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7237643872714865,
+        "rms": 0.15451833605766296,
+        "f0_mean": 88.87188421627798
+      },
+      {
+        "line_index": 48,
+        "duration": 2.954999999999984,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.030456852791889,
+        "rms": 0.1665588915348053,
+        "f0_mean": 98.90941063650028
+      },
+      {
+        "line_index": 49,
+        "duration": 2.9550000000000125,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918696,
+        "rms": 0.17675314843654633,
+        "f0_mean": 104.04847355923945
+      },
+      {
+        "line_index": 50,
+        "duration": 2.954999999999984,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.0456852791878335,
+        "rms": 0.16474156081676483,
+        "f0_mean": null
+      },
+      {
+        "line_index": 51,
+        "duration": 2.9550000000000125,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.045685279187804,
+        "rms": 0.1550140529870987,
+        "f0_mean": null
+      },
+      {
+        "line_index": 52,
+        "duration": 2.9550000000000125,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 2.7072758037224927,
+        "rms": 0.14945530891418457,
+        "f0_mean": 103.30401943653041
+      },
+      {
+        "line_index": 53,
+        "duration": 2.954999999999984,
+        "en_syllables": 9,
+        "sim_syllables": 9,
+        "syllable_rate": 3.0456852791878335,
+        "rms": 0.1444416344165802,
+        "f0_mean": 82.4456549742792
+      },
+      {
+        "line_index": 54,
+        "duration": 2.9550000000000125,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.692047377326558,
+        "rms": 0.08138132095336914,
+        "f0_mean": 86.27205949732857
+      },
+      {
+        "line_index": 55,
+        "duration": 2.954999999999984,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.368866328257204,
+        "rms": 0.1498211771249771,
+        "f0_mean": 88.68662540611209
+      },
+      {
+        "line_index": 56,
+        "duration": 2.9550000000000125,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184277,
+        "rms": 0.14435365796089172,
+        "f0_mean": 93.83902937096637
+      },
+      {
+        "line_index": 57,
+        "duration": 2.954999999999984,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.030456852791889,
+        "rms": 0.1550258994102478,
+        "f0_mean": 99.09818718048724
+      },
+      {
+        "line_index": 58,
+        "duration": 2.9540000000000077,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7237643872714865,
+        "rms": 0.1537603735923767,
+        "f0_mean": 82.13030273518531
+      },
+      {
+        "line_index": 59,
+        "duration": 2.9550000000000125,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918696,
+        "rms": 0.15161816775798798,
+        "f0_mean": 103.52760526177055
+      },
+      {
+        "line_index": 60,
+        "duration": 2.954999999999984,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.030456852791889,
+        "rms": 0.14479506015777588,
+        "f0_mean": 90.91734805293827
+      },
+      {
+        "line_index": 61,
+        "duration": 2.9550000000000125,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.368866328257181,
+        "rms": 0.15638332068920135,
+        "f0_mean": 96.2967526816667
+      },
+      {
+        "line_index": 62,
+        "duration": 2.954999999999984,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.722504230118463,
+        "rms": 0.16458004713058472,
+        "f0_mean": 85.71584715248827
+      },
+      {
+        "line_index": 63,
+        "duration": 2.9550000000000125,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918696,
+        "rms": 0.16247619688510895,
+        "f0_mean": 83.42003496447302
+      },
+      {
+        "line_index": 64,
+        "duration": 2.954999999999984,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.030456852791889,
+        "rms": 0.16263170540332794,
+        "f0_mean": 106.7686279368818
+      },
+      {
+        "line_index": 65,
+        "duration": 2.9550000000000125,
+        "en_syllables": 11,
+        "sim_syllables": 11,
+        "syllable_rate": 3.7225042301184277,
+        "rms": 0.1223650798201561,
+        "f0_mean": 124.14770456153116
+      },
+      {
+        "line_index": 66,
+        "duration": 2.9550000000000125,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 2.0304568527918696,
+        "rms": 0.09889363497495651,
+        "f0_mean": 124.33658732615272
+      },
+      {
+        "line_index": 67,
+        "duration": 2.954999999999984,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 2.368866328257204,
+        "rms": 0.058950480073690414,
+        "f0_mean": 148.91326541082452
+      },
+      {
+        "line_index": 68,
+        "duration": 2.9540000000000077,
+        "en_syllables": 10,
+        "sim_syllables": 10,
+        "syllable_rate": 3.385240352064988,
+        "rms": 0.011967006139457226,
+        "f0_mean": 124.12247606821008
+      },
+      {
+        "line_index": 69,
+        "duration": 2.954999999999984,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 1.6920473773265743,
+        "rms": 0.0,
+        "f0_mean": null
+      }
+    ]
+  },
+  {
+    "song_id": "paramore__pressure",
+    "align_quality": "low",
+    "mean_meter_score": 0.0,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 9.747,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7181696932389453,
+        "rms": 0.12861406803131104,
+        "f0_mean": 83.71109422486839
+      },
+      {
+        "line_index": 1,
+        "duration": 9.748000000000001,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7180960196963478,
+        "rms": 0.16168826818466187,
+        "f0_mean": 211.74901389683185
+      },
+      {
+        "line_index": 2,
+        "duration": 9.747,
+        "en_syllables": 7,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7181696932389453,
+        "rms": 0.17674469947814941,
+        "f0_mean": 169.72569716924198
+      },
+      {
+        "line_index": 3,
+        "duration": 9.748000000000001,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.615510874025441,
+        "rms": 0.17664770781993866,
+        "f0_mean": 83.36432965469702
+      },
+      {
+        "line_index": 4,
+        "duration": 9.747,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155740227762388,
+        "rms": 0.17553412914276123,
+        "f0_mean": 85.34203639076232
+      },
+      {
+        "line_index": 5,
+        "duration": 9.747999999999998,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155108740254412,
+        "rms": 0.17296522855758667,
+        "f0_mean": 85.46483258821554
+      },
+      {
+        "line_index": 6,
+        "duration": 9.747,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155740227762388,
+        "rms": 0.144647017121315,
+        "f0_mean": 285.2766613369165
+      },
+      {
+        "line_index": 7,
+        "duration": 9.748000000000005,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.4103405826836272,
+        "rms": 0.17371197044849396,
+        "f0_mean": 97.19974908542788
+      },
+      {
+        "line_index": 8,
+        "duration": 9.747,
+        "en_syllables": 6,
+        "sim_syllables": 5,
+        "syllable_rate": 0.5129783523135324,
+        "rms": 0.17848631739616394,
+        "f0_mean": 87.79500244112158
+      },
+      {
+        "line_index": 9,
+        "duration": 9.74799999999999,
+        "en_syllables": 6,
+        "sim_syllables": 4,
+        "syllable_rate": 0.41034058268362783,
+        "rms": 0.17597968876361847,
+        "f0_mean": 85.69484078719894
+      },
+      {
+        "line_index": 10,
+        "duration": 9.747,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155740227762388,
+        "rms": 0.17066124081611633,
+        "f0_mean": 87.18869994411791
+      },
+      {
+        "line_index": 11,
+        "duration": 9.748000000000005,
+        "en_syllables": 6,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7180960196963476,
+        "rms": 0.1674434393644333,
+        "f0_mean": 86.55586260053015
+      },
+      {
+        "line_index": 12,
+        "duration": 9.747,
+        "en_syllables": 8,
+        "sim_syllables": 8,
+        "syllable_rate": 0.8207653637016518,
+        "rms": 0.16661697626113892,
+        "f0_mean": 85.69824406387693
+      },
+      {
+        "line_index": 13,
+        "duration": 9.748000000000005,
+        "en_syllables": 8,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7180960196963476,
+        "rms": 0.17361199855804443,
+        "f0_mean": 103.6555456561972
+      },
+      {
+        "line_index": 14,
+        "duration": 9.746999999999986,
+        "en_syllables": 6,
+        "sim_syllables": 7,
+        "syllable_rate": 0.7181696932389464,
+        "rms": 0.17321889102458954,
+        "f0_mean": 82.99222114113915
+      },
+      {
+        "line_index": 15,
+        "duration": 9.748000000000019,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155108740254399,
+        "rms": 0.1592397391796112,
+        "f0_mean": 218.75899218530185
+      },
+      {
+        "line_index": 16,
+        "duration": 9.746999999999986,
+        "en_syllables": 7,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155740227762397,
+        "rms": 0.1751147210597992,
+        "f0_mean": 82.1561104403883
+      },
+      {
+        "line_index": 17,
+        "duration": 9.748000000000019,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.6155108740254399,
+        "rms": 0.17236410081386566,
+        "f0_mean": 83.75082304054027
+      },
+      {
+        "line_index": 18,
+        "duration": 9.746999999999986,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.4103826818508265,
+        "rms": 0.08918590098619461,
+        "f0_mean": 84.31441192095446
+      }
+    ]
+  },
+  {
+    "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+    "align_quality": "low",
+    "mean_meter_score": 0.0,
+    "lines": [
+      {
+        "line_index": 0,
+        "duration": 14.8,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 0.33783783783783783,
+        "rms": 0.11264622956514359,
+        "f0_mean": 91.96125354592287
+      },
+      {
+        "line_index": 1,
+        "duration": 14.800999999999998,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.4053780149989866,
+        "rms": 0.11352428048849106,
+        "f0_mean": 195.1227203457903
+      },
+      {
+        "line_index": 2,
+        "duration": 14.800000000000004,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 0.3378378378378377,
+        "rms": 0.27512267231941223,
+        "f0_mean": 105.96782939184058
+      },
+      {
+        "line_index": 3,
+        "duration": 14.800999999999995,
+        "en_syllables": 7,
+        "sim_syllables": 5,
+        "syllable_rate": 0.3378150124991556,
+        "rms": 0.34138137102127075,
+        "f0_mean": 135.2618028021305
+      },
+      {
+        "line_index": 4,
+        "duration": 14.799999999999997,
+        "en_syllables": 3,
+        "sim_syllables": 2,
+        "syllable_rate": 0.13513513513513517,
+        "rms": 0.3174241781234741,
+        "f0_mean": 81.1362610847297
+      },
+      {
+        "line_index": 5,
+        "duration": 14.800000000000011,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.4054054054054051,
+        "rms": 0.33964741230010986,
+        "f0_mean": 113.61191022273337
+      },
+      {
+        "line_index": 6,
+        "duration": 14.800999999999988,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.20268900749949345,
+        "rms": 0.3149220049381256,
+        "f0_mean": 83.03189341474915
+      },
+      {
+        "line_index": 7,
+        "duration": 14.800000000000011,
+        "en_syllables": 5,
+        "sim_syllables": 5,
+        "syllable_rate": 0.33783783783783755,
+        "rms": 0.3337412178516388,
+        "f0_mean": 96.81519653974455
+      },
+      {
+        "line_index": 8,
+        "duration": 14.801000000000002,
+        "en_syllables": 4,
+        "sim_syllables": 4,
+        "syllable_rate": 0.27025200999932436,
+        "rms": 0.33709093928337097,
+        "f0_mean": 91.49116291295978
+      },
+      {
+        "line_index": 9,
+        "duration": 14.799999999999983,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.40540540540540587,
+        "rms": 0.27536070346832275,
+        "f0_mean": 82.74405504147887
+      },
+      {
+        "line_index": 10,
+        "duration": 14.800000000000011,
+        "en_syllables": 5,
+        "sim_syllables": 4,
+        "syllable_rate": 0.27027027027027006,
+        "rms": 0.279020756483078,
+        "f0_mean": 89.05864707957222
+      },
+      {
+        "line_index": 11,
+        "duration": 14.800999999999988,
+        "en_syllables": 6,
+        "sim_syllables": 6,
+        "syllable_rate": 0.4053780149989869,
+        "rms": 0.32268425822257996,
+        "f0_mean": 81.90341839840836
+      },
+      {
+        "line_index": 12,
+        "duration": 14.800000000000011,
+        "en_syllables": 5,
+        "sim_syllables": 4,
+        "syllable_rate": 0.27027027027027006,
+        "rms": 0.33853578567504883,
+        "f0_mean": 81.75763910132635
+      },
+      {
+        "line_index": 13,
+        "duration": 14.800999999999988,
+        "en_syllables": 7,
+        "sim_syllables": 5,
+        "syllable_rate": 0.33781501249915574,
+        "rms": 0.3381119966506958,
+        "f0_mean": 83.05607466094042
+      },
+      {
+        "line_index": 14,
+        "duration": 14.800000000000011,
+        "en_syllables": 3,
+        "sim_syllables": 3,
+        "syllable_rate": 0.20270270270270255,
+        "rms": 0.21036365628242493,
+        "f0_mean": 84.08644830851463
+      }
+    ]
+  }
+]

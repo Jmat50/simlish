@@ -1,0 +1,896 @@
+{
+  "OW1": [
+    {
+      "simlish": "cou",
+      "n": 6
+    },
+    {
+      "simlish": "oh",
+      "n": 6
+    },
+    {
+      "simlish": "snobe",
+      "n": 2
+    },
+    {
+      "simlish": "ashanup",
+      "n": 1
+    },
+    {
+      "simlish": "hip",
+      "n": 1
+    },
+    {
+      "simlish": "dip",
+      "n": 1
+    },
+    {
+      "simlish": "vawmekwai",
+      "n": 1
+    },
+    {
+      "simlish": "bri",
+      "n": 1
+    },
+    {
+      "simlish": "ho",
+      "n": 1
+    }
+  ],
+  "IY0": [
+    {
+      "simlish": "nagatay",
+      "n": 2
+    },
+    {
+      "simlish": "wogatay",
+      "n": 2
+    },
+    {
+      "simlish": "enerjonk",
+      "n": 1
+    },
+    {
+      "simlish": "batteronk",
+      "n": 1
+    },
+    {
+      "simlish": "enay",
+      "n": 1
+    },
+    {
+      "simlish": "nenetay",
+      "n": 1
+    },
+    {
+      "simlish": "eshabatay",
+      "n": 1
+    },
+    {
+      "simlish": "kannasay",
+      "n": 1
+    },
+    {
+      "simlish": "nitty",
+      "n": 1
+    },
+    {
+      "simlish": "wickasay",
+      "n": 1
+    },
+    {
+      "simlish": "loratay",
+      "n": 1
+    },
+    {
+      "simlish": "burgindory",
+      "n": 1
+    }
+  ],
+  "AA1": [
+    {
+      "simlish": "na",
+      "n": 14
+    },
+    {
+      "simlish": "la",
+      "n": 2
+    }
+  ],
+  "AY1 L": [
+    {
+      "simlish": "asmil",
+      "n": 8
+    },
+    {
+      "simlish": "wi",
+      "n": 4
+    },
+    {
+      "simlish": "smurf",
+      "n": 1
+    },
+    {
+      "simlish": "mine",
+      "n": 1
+    }
+  ],
+  "IY1": [
+    {
+      "simlish": "fabby",
+      "n": 7
+    },
+    {
+      "simlish": "vina",
+      "n": 1
+    },
+    {
+      "simlish": "bey",
+      "n": 1
+    },
+    {
+      "simlish": "natty",
+      "n": 1
+    },
+    {
+      "simlish": "say",
+      "n": 1
+    }
+  ],
+  "ER1 L": [
+    {
+      "simlish": "gurn",
+      "n": 9
+    },
+    {
+      "simlish": "uh",
+      "n": 1
+    }
+  ],
+  "OW1 N": [
+    {
+      "simlish": "pawapu",
+      "n": 2
+    },
+    {
+      "simlish": "mu",
+      "n": 2
+    },
+    {
+      "simlish": "u",
+      "n": 2
+    },
+    {
+      "simlish": "oleh",
+      "n": 1
+    },
+    {
+      "simlish": "moe",
+      "n": 1
+    },
+    {
+      "simlish": "stoe",
+      "n": 1
+    }
+  ],
+  "AH1 P": [
+    {
+      "simlish": "dap",
+      "n": 3
+    },
+    {
+      "simlish": "daw",
+      "n": 3
+    },
+    {
+      "simlish": "nerb",
+      "n": 1
+    },
+    {
+      "simlish": "dorbs",
+      "n": 1
+    }
+  ],
+  "ER0": [
+    {
+      "simlish": "docturg",
+      "n": 1
+    },
+    {
+      "simlish": "bicoler",
+      "n": 1
+    },
+    {
+      "simlish": "nowster",
+      "n": 1
+    },
+    {
+      "simlish": "ep",
+      "n": 1
+    },
+    {
+      "simlish": "mat",
+      "n": 1
+    },
+    {
+      "simlish": "westesho",
+      "n": 1
+    },
+    {
+      "simlish": "mibwimzer",
+      "n": 1
+    }
+  ],
+  "AW1 T": [
+    {
+      "simlish": "blo",
+      "n": 6
+    }
+  ],
+  "AW1 N": [
+    {
+      "simlish": "taw",
+      "n": 6
+    }
+  ],
+  "AY1 T": [
+    {
+      "simlish": "rishwai",
+      "n": 3
+    },
+    {
+      "simlish": "why",
+      "n": 3
+    }
+  ],
+  "AO1 R": [
+    {
+      "simlish": "zor",
+      "n": 2
+    },
+    {
+      "simlish": "u",
+      "n": 1
+    },
+    {
+      "simlish": "gunitu",
+      "n": 1
+    },
+    {
+      "simlish": "fuuu",
+      "n": 1
+    },
+    {
+      "simlish": "za",
+      "n": 1
+    }
+  ],
+  "AY1": [
+    {
+      "simlish": "fui",
+      "n": 4
+    },
+    {
+      "simlish": "bly",
+      "n": 1
+    },
+    {
+      "simlish": "tie",
+      "n": 1
+    }
+  ],
+  "AH0 N": [
+    {
+      "simlish": "shun",
+      "n": 4
+    },
+    {
+      "simlish": "lurn",
+      "n": 1
+    },
+    {
+      "simlish": "leven",
+      "n": 1
+    }
+  ],
+  "UW1": [
+    {
+      "simlish": "boose",
+      "n": 1
+    },
+    {
+      "simlish": "goo",
+      "n": 1
+    },
+    {
+      "simlish": "through",
+      "n": 1
+    },
+    {
+      "simlish": "chizzoo",
+      "n": 1
+    },
+    {
+      "simlish": "rom",
+      "n": 1
+    }
+  ],
+  "EH1 L": [
+    {
+      "simlish": "tuapbel",
+      "n": 1
+    },
+    {
+      "simlish": "bobatay",
+      "n": 1
+    },
+    {
+      "simlish": "seepashay",
+      "n": 1
+    },
+    {
+      "simlish": "shobbycay",
+      "n": 1
+    }
+  ],
+  "IY2": [
+    {
+      "simlish": "sagatay",
+      "n": 2
+    },
+    {
+      "simlish": "wanatay",
+      "n": 1
+    },
+    {
+      "simlish": "apology",
+      "n": 1
+    }
+  ],
+  "AA1 R": [
+    {
+      "simlish": "va",
+      "n": 1
+    },
+    {
+      "simlish": "gashta",
+      "n": 1
+    },
+    {
+      "simlish": "gibbone",
+      "n": 1
+    }
+  ],
+  "EY1": [
+    {
+      "simlish": "swin",
+      "n": 1
+    },
+    {
+      "simlish": "wiin",
+      "n": 1
+    },
+    {
+      "simlish": "twin",
+      "n": 1
+    }
+  ],
+  "EH1 N": [
+    {
+      "simlish": "kuatuen",
+      "n": 2
+    },
+    {
+      "simlish": "owbrey",
+      "n": 1
+    }
+  ],
+  "AE1 K": [
+    {
+      "simlish": "puaka",
+      "n": 2
+    },
+    {
+      "simlish": "bra",
+      "n": 1
+    }
+  ],
+  "AW1": [
+    {
+      "simlish": "dowm",
+      "n": 1
+    },
+    {
+      "simlish": "zow",
+      "n": 1
+    },
+    {
+      "simlish": "briye",
+      "n": 1
+    }
+  ],
+  "AA1 NG K S": [
+    {
+      "simlish": "durks",
+      "n": 3
+    }
+  ],
+  "AO1 N": [
+    {
+      "simlish": "dirk",
+      "n": 3
+    }
+  ],
+  "AO1 NG": [
+    {
+      "simlish": "snurf",
+      "n": 3
+    }
+  ],
+  "AA1 N": [
+    {
+      "simlish": "on",
+      "n": 3
+    }
+  ],
+  "IY1 Z": [
+    {
+      "simlish": "bwees",
+      "n": 3
+    }
+  ],
+  "IY1 K": [
+    {
+      "simlish": "kreeze",
+      "n": 3
+    }
+  ],
+  "AH0 L Z": [
+    {
+      "simlish": "squirn",
+      "n": 3
+    }
+  ],
+  "IH1 T": [
+    {
+      "simlish": "neeba",
+      "n": 1
+    },
+    {
+      "simlish": "weeba",
+      "n": 1
+    },
+    {
+      "simlish": "free",
+      "n": 1
+    }
+  ],
+  "AA1 R T": [
+    {
+      "simlish": "na",
+      "n": 1
+    },
+    {
+      "simlish": "plar",
+      "n": 1
+    },
+    {
+      "simlish": "har",
+      "n": 1
+    }
+  ],
+  "AE1 N": [
+    {
+      "simlish": "la",
+      "n": 1
+    },
+    {
+      "simlish": "blascan",
+      "n": 1
+    },
+    {
+      "simlish": "wizmon",
+      "n": 1
+    }
+  ],
+  "EH1 N T": [
+    {
+      "simlish": "yundzak",
+      "n": 1
+    },
+    {
+      "simlish": "ra",
+      "n": 1
+    },
+    {
+      "simlish": "renzais",
+      "n": 1
+    }
+  ],
+  "AY1 N D": [
+    {
+      "simlish": "claps",
+      "n": 1
+    },
+    {
+      "simlish": "hip",
+      "n": 1
+    }
+  ],
+  "OW1 DH Z": [
+    {
+      "simlish": "rex",
+      "n": 1
+    },
+    {
+      "simlish": "claps",
+      "n": 1
+    }
+  ],
+  "IH1 NG K": [
+    {
+      "simlish": "zonk",
+      "n": 1
+    },
+    {
+      "simlish": "sip",
+      "n": 1
+    }
+  ],
+  "IH0 NG": [
+    {
+      "simlish": "nuthing",
+      "n": 1
+    },
+    {
+      "simlish": "amorengk",
+      "n": 1
+    }
+  ],
+  "eso": [
+    {
+      "simlish": "sto",
+      "n": 2
+    }
+  ],
+  "cht": [
+    {
+      "simlish": "ruks",
+      "n": 1
+    },
+    {
+      "simlish": "tsoks",
+      "n": 1
+    }
+  ],
+  "EH1 N D Z": [
+    {
+      "simlish": "fuens",
+      "n": 2
+    }
+  ],
+  "EH1 N D": [
+    {
+      "simlish": "uens",
+      "n": 2
+    }
+  ],
+  "AH1 V": [
+    {
+      "simlish": "luv",
+      "n": 1
+    },
+    {
+      "simlish": "sha",
+      "n": 1
+    }
+  ],
+  "AH1": [
+    {
+      "simlish": "gurn",
+      "n": 2
+    }
+  ],
+  "AY1 L D": [
+    {
+      "simlish": "shod",
+      "n": 1
+    },
+    {
+      "simlish": "while",
+      "n": 1
+    }
+  ],
+  "AA1 R N": [
+    {
+      "simlish": "blarn",
+      "n": 1
+    },
+    {
+      "simlish": "zharn",
+      "n": 1
+    }
+  ],
+  "OW1 Z": [
+    {
+      "simlish": "foo",
+      "n": 1
+    },
+    {
+      "simlish": "batoons",
+      "n": 1
+    }
+  ],
+  "ER1 L D": [
+    {
+      "simlish": "sho",
+      "n": 2
+    }
+  ],
+  "EY1 K": [
+    {
+      "simlish": "yan",
+      "n": 1
+    },
+    {
+      "simlish": "korberya",
+      "n": 1
+    }
+  ],
+  "IH1 M": [
+    {
+      "simlish": "gibsom",
+      "n": 2
+    }
+  ],
+  "AE1 M": [
+    {
+      "simlish": "nam",
+      "n": 1
+    },
+    {
+      "simlish": "lem",
+      "n": 1
+    }
+  ],
+  "pms": [
+    {
+      "simlish": "nup",
+      "n": 1
+    }
+  ],
+  "lly": [
+    {
+      "simlish": "cryptozeek",
+      "n": 1
+    }
+  ],
+  "EY1 N JH": [
+    {
+      "simlish": "claps",
+      "n": 1
+    }
+  ],
+  "AY1 D": [
+    {
+      "simlish": "wey",
+      "n": 1
+    }
+  ],
+  "uno": [
+    {
+      "simlish": "kuzu",
+      "n": 1
+    }
+  ],
+  "rbi": [
+    {
+      "simlish": "dobli",
+      "n": 1
+    }
+  ],
+  "lag": [
+    {
+      "simlish": "anag",
+      "n": 1
+    }
+  ],
+  "mmi": [
+    {
+      "simlish": "bavi",
+      "n": 1
+    }
+  ],
+  "IH1 SH": [
+    {
+      "simlish": "blezh",
+      "n": 1
+    }
+  ],
+  "AO1 T": [
+    {
+      "simlish": "va",
+      "n": 1
+    }
+  ],
+  "EH1 L F": [
+    {
+      "simlish": "tobel",
+      "n": 1
+    }
+  ],
+  "EH1 L TH": [
+    {
+      "simlish": "hel",
+      "n": 1
+    }
+  ],
+  "kin": [
+    {
+      "simlish": "locky",
+      "n": 1
+    }
+  ],
+  "AH1 K": [
+    {
+      "simlish": "her",
+      "n": 1
+    }
+  ],
+  "AH1 D": [
+    {
+      "simlish": "jimmup",
+      "n": 1
+    }
+  ],
+  "EY1 T": [
+    {
+      "simlish": "way",
+      "n": 1
+    }
+  ],
+  "IH1 NG": [
+    {
+      "simlish": "thing",
+      "n": 1
+    }
+  ],
+  "AA1 R M Z": [
+    {
+      "simlish": "arns",
+      "n": 1
+    }
+  ],
+  "AE1": [
+    {
+      "simlish": "yibs",
+      "n": 1
+    }
+  ],
+  "AY1 N Z": [
+    {
+      "simlish": "pwye",
+      "n": 1
+    }
+  ],
+  "AE1 G": [
+    {
+      "simlish": "deg",
+      "n": 1
+    }
+  ],
+  "AA1 K S": [
+    {
+      "simlish": "shat",
+      "n": 1
+    }
+  ],
+  "AE1 N D Z": [
+    {
+      "simlish": "dans",
+      "n": 1
+    }
+  ],
+  "AE2 N": [
+    {
+      "simlish": "lan",
+      "n": 1
+    }
+  ],
+  "ana": [
+    {
+      "simlish": "nananananananana",
+      "n": 1
+    }
+  ],
+  "AH0 L": [
+    {
+      "simlish": "ana",
+      "n": 1
+    }
+  ],
+  "AA1 M Z": [
+    {
+      "simlish": "zalms",
+      "n": 1
+    }
+  ],
+  "AE1 T S": [
+    {
+      "simlish": "brats",
+      "n": 1
+    }
+  ],
+  "IH0 JH": [
+    {
+      "simlish": "garbage",
+      "n": 1
+    }
+  ],
+  "AH1 S": [
+    {
+      "simlish": "us",
+      "n": 1
+    }
+  ],
+  "AH0": [
+    {
+      "simlish": "wabba",
+      "n": 1
+    }
+  ],
+  "tor": [
+    {
+      "simlish": "zaba",
+      "n": 1
+    }
+  ],
+  "IH0 D": [
+    {
+      "simlish": "ay",
+      "n": 1
+    }
+  ],
+  "IH1 N": [
+    {
+      "simlish": "bin",
+      "n": 1
+    }
+  ],
+  "OW1 D": [
+    {
+      "simlish": "expnode",
+      "n": 1
+    }
+  ],
+  "IY1 P": [
+    {
+      "simlish": "inzai",
+      "n": 1
+    }
+  ],
+  "OW1 P": [
+    {
+      "simlish": "hash",
+      "n": 1
+    }
+  ],
+  "OW1 M": [
+    {
+      "simlish": "ho",
+      "n": 1
+    }
+  ],
+  "ER0 N": [
+    {
+      "simlish": "ira",
+      "n": 1
+    }
+  ],
+  "ER0 D": [
+    {
+      "simlish": "bepper",
+      "n": 1
+    }
+  ]
+}

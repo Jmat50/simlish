@@ -1,6 +1,7 @@
 /**
  * Sync DICTIONARY/dictionary.sqlite → docs/dictionary.sqlite and refresh
  * vendored sql.js wasm assets from node_modules when present.
+ * Also copies v2 model JSON into docs/v2-models when present.
  */
 import fs from "node:fs";
 import path from "node:path";
@@ -43,4 +44,28 @@ const jsonLegacy = path.join(root, "docs", "dictionary.json");
 if (fs.existsSync(jsonLegacy)) {
   fs.unlinkSync(jsonLegacy);
   console.log("removed legacy docs/dictionary.json");
+}
+
+const v2Src = path.join(root, "v2", "models");
+const v2Dest = path.join(root, "docs", "v2-models");
+const v2Files = [
+  "soundalike_rules.json",
+  "rhyme_classes.json",
+  "syllable_templates.json",
+  "phrase_memory.json",
+  "function_words.json",
+];
+if (fs.existsSync(v2Src)) {
+  fs.mkdirSync(v2Dest, { recursive: true });
+  for (const name of v2Files) {
+    const from = path.join(v2Src, name);
+    if (!fs.existsSync(from)) {
+      console.warn(`skip missing ${from}`);
+      continue;
+    }
+    fs.copyFileSync(from, path.join(v2Dest, name));
+    console.log(`copied v2 model ${name}`);
+  }
+} else {
+  console.log("v2/models not found — keeping existing docs/v2-models");
 }

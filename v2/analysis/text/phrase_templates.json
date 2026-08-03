@@ -1,0 +1,1980 @@
+{
+  "templates": [
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 3,
+      "sim_n": 4,
+      "token_ratio": 1.333,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 3,
+      "sim_n": 1,
+      "token_ratio": 0.333,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "katy-perry__hot-n-cold",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 9,
+      "sim_n": 9,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 8,
+      "sim_n": 6,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 7,
+      "sim_n": 8,
+      "token_ratio": 1.143,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 6,
+      "sim_n": 7,
+      "token_ratio": 1.167,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 8,
+      "sim_n": 3,
+      "token_ratio": 0.375,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 2,
+      "sim_n": 3,
+      "token_ratio": 1.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 2,
+      "sim_n": 3,
+      "token_ratio": 1.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "kisha__sowieso",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 9,
+      "sim_n": 7,
+      "token_ratio": 0.778,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 4,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 11,
+      "sim_n": 5,
+      "token_ratio": 0.455,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 9,
+      "token_ratio": 0.9,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 4,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 5,
+      "token_ratio": 0.625,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 14,
+      "sim_n": 8,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 12,
+      "sim_n": 5,
+      "token_ratio": 0.417,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 6,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 7,
+      "token_ratio": 0.7,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 4,
+      "sim_n": 2,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 9,
+      "token_ratio": 0.9,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 4,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 5,
+      "token_ratio": 0.625,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 4,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 5,
+      "token_ratio": 0.625,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 4,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 8,
+      "sim_n": 5,
+      "token_ratio": 0.625,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "lily-allen__smile",
+      "en_n": 10,
+      "sim_n": 5,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 8,
+      "sim_n": 7,
+      "token_ratio": 0.875,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 7,
+      "token_ratio": 0.778,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 8,
+      "sim_n": 8,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 8,
+      "sim_n": 8,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 9,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 7,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 8,
+      "sim_n": 9,
+      "token_ratio": 1.125,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 3,
+      "sim_n": 6,
+      "token_ratio": 2.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 6,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 6,
+      "token_ratio": 0.545,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 5,
+      "sim_n": 8,
+      "token_ratio": 1.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 7,
+      "token_ratio": 0.636,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 5,
+      "sim_n": 6,
+      "token_ratio": 1.2,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 7,
+      "token_ratio": 0.7,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 7,
+      "token_ratio": 1.167,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 3,
+      "sim_n": 6,
+      "token_ratio": 2.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 6,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 7,
+      "token_ratio": 0.7,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 1,
+      "sim_n": 1,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 5,
+      "sim_n": 6,
+      "token_ratio": 1.2,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 9,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 6,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 8,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 10,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 3,
+      "sim_n": 6,
+      "token_ratio": 2.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 10,
+      "sim_n": 6,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 9,
+      "token_ratio": 0.818,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 11,
+      "sim_n": 6,
+      "token_ratio": 0.545,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 12,
+      "sim_n": 8,
+      "token_ratio": 0.667,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 7,
+      "sim_n": 6,
+      "token_ratio": 0.857,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "luke-bryan__country-girl-shake-it-for-me",
+      "en_n": 9,
+      "sim_n": 5,
+      "token_ratio": 0.556,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 6,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 6,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 4,
+      "token_ratio": 1.333,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 7,
+      "token_ratio": 1.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 7,
+      "token_ratio": 1.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 6,
+      "token_ratio": 0.667,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 6,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 8,
+      "sim_n": 6,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 7,
+      "token_ratio": 2.333,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 7,
+      "token_ratio": 1.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 4,
+      "token_ratio": 0.8,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 8,
+      "sim_n": 8,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 7,
+      "token_ratio": 0.778,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 9,
+      "sim_n": 8,
+      "token_ratio": 0.889,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 5,
+      "token_ratio": 0.833,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 7,
+      "token_ratio": 1.167,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 7,
+      "token_ratio": 1.167,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 8,
+      "sim_n": 8,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 6,
+      "sim_n": 6,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 11,
+      "sim_n": 11,
+      "token_ratio": 1.0,
+      "vocable_retained": true
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 10,
+      "sim_n": 10,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "my-chemical-romance__na-na-na",
+      "en_n": 4,
+      "sim_n": 4,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 7,
+      "sim_n": 3,
+      "token_ratio": 0.429,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 3,
+      "sim_n": 3,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 7,
+      "sim_n": 3,
+      "token_ratio": 0.429,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 4,
+      "sim_n": 2,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 2,
+      "sim_n": 1,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 5,
+      "sim_n": 2,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 4,
+      "sim_n": 2,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 5,
+      "sim_n": 5,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 7,
+      "sim_n": 5,
+      "token_ratio": 0.714,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 8,
+      "sim_n": 4,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 5,
+      "sim_n": 2,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 7,
+      "sim_n": 4,
+      "token_ratio": 0.571,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 4,
+      "sim_n": 2,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "paramore__pressure",
+      "en_n": 2,
+      "sim_n": 1,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 6,
+      "sim_n": 4,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 3,
+      "sim_n": 2,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 4,
+      "sim_n": 3,
+      "token_ratio": 0.75,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 2,
+      "sim_n": 2,
+      "token_ratio": 1.0,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 5,
+      "sim_n": 2,
+      "token_ratio": 0.4,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 4,
+      "sim_n": 2,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 6,
+      "sim_n": 3,
+      "token_ratio": 0.5,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 5,
+      "sim_n": 3,
+      "token_ratio": 0.6,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 7,
+      "sim_n": 3,
+      "token_ratio": 0.429,
+      "vocable_retained": false
+    },
+    {
+      "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
+      "en_n": 3,
+      "sim_n": 2,
+      "token_ratio": 0.667,
+      "vocable_retained": false
+    }
+  ],
+  "mean_token_ratio": 0.805,
+  "mean_syllable_ratio": 0.998
+}

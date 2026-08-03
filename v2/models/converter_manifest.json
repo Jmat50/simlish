@@ -1,0 +1,26 @@
+{
+  "models": [
+    "soundalike_rules.json",
+    "rhyme_classes.json",
+    "syllable_templates.json",
+    "phrase_memory.json"
+  ],
+  "smoke": [
+    {
+      "en": "You're yes then you're no",
+      "simlish": "Kavahap ninap cou"
+    },
+    {
+      "en": "I can feel the pressure",
+      "simlish": "Kummik westesho"
+    },
+    {
+      "en": "Always speak cryptically",
+      "simlish": "Ibu seek, cryptozeek"
+    },
+    {
+      "en": "Hello world",
+      "simlish": "Lelxno sho"
+    }
+  ]
+}
