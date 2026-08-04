@@ -90,23 +90,6 @@ body {
   text-shadow: 0 0 40px var(--glow);
 }
 
-.headline {
-  font-family: var(--font-display);
-  font-weight: 500;
-  font-size: clamp(1.35rem, 3.2vw, 1.85rem);
-  line-height: 1.25;
-  margin: 0 0 0.75rem;
-  color: #dce8e1;
-  max-width: 18ch;
-}
-
-.lede {
-  margin: 0 0 1.5rem;
-  max-width: 36rem;
-  color: #a8bfb4;
-  font-size: 1rem;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
