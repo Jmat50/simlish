@@ -29,7 +29,11 @@ def espeak_ipa(wav: Path) -> str | None:
 
 
 def try_phoneme_asr(wav: Path) -> str | None:
-    """Optional: transformers wav2vec2 phoneme CTC if installed + torch available."""
+    """Optional: transformers wav2vec2 phoneme CTC if installed + torch available.
+
+    Requires eSpeak NG (phonemizer). On Windows set:
+      PHONEMIZER_ESPEAK_LIBRARY=C:\\Program Files\\eSpeak NG\\libespeak-ng.dll
+    """
     try:
         import torch
         from transformers import AutoModelForCTC, AutoProcessor
@@ -83,12 +87,12 @@ def main() -> int:
     labeled = 0
     for wav in files:
         ipa = try_phoneme_asr(wav)
+        if ipa is None and args.require_asr:
+            print(f"ASR unavailable for {wav.name}", file=sys.stderr)
+            return 2
         if ipa:
             labeled += 1
             (IPA_DIR / (wav.stem + ".ipa.txt")).write_text(ipa, encoding="utf-8")
-        elif args.require_asr:
-            print(f"ASR unavailable/failed for {wav.name}", file=sys.stderr)
-            return 2
         rows.append({"id": wav.stem, "target_audio": wav.name, "text": ipa or "", "labeled": bool(ipa)})
 
     csv_path = MANIFEST_DIR / "train_ipa.csv"

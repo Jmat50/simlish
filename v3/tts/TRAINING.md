@@ -18,6 +18,8 @@ python v3/tts/scripts/07_package_kokoro_bundle.py  # -> data/kokoro_ft_bundle.zi
 
 1. Upload `data/kokoro_ft_bundle.zip` (private).
 2. If `train.csv` `text` is empty, label with `facebook/wav2vec2-lv-60-espeak-cv-ft`.
+   - Needs **eSpeak NG** on the host (`PHONEMIZER_ESPEAK_LIBRARY` on Windows pointing at `libespeak-ng.dll`).
+   - Local smoke: `04_auto_ipa.py --limit 10 --require-asr` and `07_package_kokoro_bundle.py --label --limit 20` both work under Python 3.12 once eSpeak is installed.
 3. Clone https://github.com/Jeevav62/tts-finetune-recipes → `kokoro-recipe`.
 4. Stage 1 + Stage 2: `batch_size: 1`, `joint_epoch: 99` on 12–16 GB.
 5. Export ONNX + voicepack into **gitignored** `v3/tts/checkpoints/`.
@@ -25,8 +27,13 @@ python v3/tts/scripts/07_package_kokoro_bundle.py  # -> data/kokoro_ft_bundle.zi
 Colab / HF Jobs sketch:
 
 ```bash
-pip install torch transformers soundfile
-# unzip bundle; run ASR labeler; follow kokoro-recipe README
+# cloud one-liner sketch (after unzipping kokoro_ft_bundle.zip)
+pip install torch transformers soundfile phonemizer
+# apt-get install -y espeak-ng   # Linux
+python - <<'PY'
+# run phoneme ASR into train.csv text column, then follow kokoro-recipe Stage1/2
+print("label then train")
+PY
 ```
 
 ## Prefer OpenVoice for Sims timbre

@@ -217,7 +217,7 @@ v1 Orthodox reads the **docs** sqlite only. v2 site reads **docs/v2-models** onl
 
 - Root `README.md`, `CITATIONS.md`
 - `DICTIONARY/README.md`, `DICTIONARY/CITATIONS.md`
-- `v2/README.md`, `v3/tts/README.md`, `v3/tts/TRAINING.md`
+- `v2/README.md`, `v3/tts/README.md`, `v3/tts/TRAINING.md`, `v3/tts/SPEAK_STACK.md`
 - `chrome-extension/README.md`
 - Coverage after a dictionary run: `DICTIONARY/data/reports/coverage.md`
 - v2 eval / smoke notes: `v2/analysis/reports/`

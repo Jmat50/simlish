@@ -216,13 +216,19 @@ def main() -> int:
         else:
             entry["kokoro"] = generate_kokoro(base, text)
 
+        ov_path = sample_dir / "02_openvoice.wav"
         if entry["kokoro"].get("ok") and not args.skip_openvoice:
-            entry["openvoice"] = try_openvoice(base, ref, sample_dir / "02_openvoice.wav")
+            entry["openvoice"] = try_openvoice(base, ref, ov_path)
+        elif ov_path.exists():
+            entry["openvoice"] = {"ok": True, "path": str(ov_path), "skipped_regen": True}
         else:
             entry["openvoice"] = {"ok": False, "error": "skipped or no kokoro base"}
 
+        cb_path = sample_dir / "03_chatterbox.wav"
         if not args.skip_chatterbox:
-            entry["chatterbox"] = try_chatterbox(text, ref, sample_dir / "03_chatterbox.wav")
+            entry["chatterbox"] = try_chatterbox(text, ref, cb_path)
+        elif cb_path.exists():
+            entry["chatterbox"] = {"ok": True, "path": str(cb_path), "skipped_regen": True}
         else:
             entry["chatterbox"] = {"ok": False, "error": "skipped"}
 
