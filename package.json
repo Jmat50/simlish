@@ -3,13 +3,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "build:weights": "node scripts/build-weights.mjs",
-    "build:dictionary": "node scripts/sync-dictionary.mjs",
-    "build": "npm run build:weights && npm run build:dictionary",
-    "smoke": "node scripts/smoke-markov.mjs",
+    "build:models": "node scripts/sync-models.mjs",
+    "build": "npm run build:models",
     "serve": "npx --yes serve docs -p 4173"
-  },
-  "dependencies": {
-    "sql.js": "^1.14.1"
   }
 }

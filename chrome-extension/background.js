@@ -3,7 +3,7 @@ import { DEFAULT_BRIDGE_URL, MAX_BATCH } from "./shared.js";
 const OFFSCREEN_URL = "offscreen.html";
 const OFFSCREEN_REASONS = ["IFRAME_SCRIPTING"];
 const OFFSCREEN_JUSTIFICATION =
-  "Embed the Simlish GitHub Pages bridge iframe to run v2 translation.";
+  "Embed the Simlish GitHub Pages bridge iframe to run translation.";
 
 /** @type {Promise<unknown>|null} */
 let queueTail = null;

@@ -1,6 +1,6 @@
 /**
  * Map Simlish orthography to a Kokoro-friendly phoneme string.
- * Uses the same coarse Latin→phone inventory as v2 approx_phones, then
+ * Uses the same coarse Latin→phone inventory as convert approx_phones, then
  * emits Misaki-style IPA so English G2P does not re-interpret nonsense.
  */
 

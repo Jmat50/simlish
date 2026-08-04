@@ -1,16 +1,13 @@
 # Citations
 
-This project’s phonotactic weight tables are **derived** (transition counts /
-probabilities) from IPA pronunciation wordlists. Raw multi-megabyte lexicons
-are not redistributed in this repository by default.
+This project’s convert models are **induced** from official Sims soundtrack EN|SIMLISH lyric tables and research audio alignments. Raw multi-megabyte lexicons and audio dumps are not redistributed in this repository by default.
 
-## Primary data source
+## Primary lyric / catalog source
 
-- [open-dict-data/ipa-dict](https://github.com/open-dict-data/ipa-dict) — monolingual wordlists with IPA pronunciations. Released under the **MIT license** unless otherwise noted for specific language files (see that project’s Credits section for third-party dataset licenses).
-
-English (US) IPA in ipa-dict is based on a modified [cmudict-ipa](https://github.com/lingz/cmudict-ipa) (MIT). English (UK) IPA is derived from [ipacards](https://github.com/leoboiko/ipacards) (GPL-3.0).
+- [Songs in Simlish](https://sims.fandom.com/wiki/Songs_in_Simlish) — official soundtrack EN|SIMLISH wiki tables (Maxis / EA soundtrack listings as published on the Sims Wiki). Used as the orthography source for induction targets only; full lyric sheets are not redistributed here.
 
 ## Related tooling
 
 - Naming and the general idea of language-sounding nonsense generation were inspired by exploration of [TEParsons/simlish](https://github.com/TEParsons/simlish). This site does **not** depend on that Python package at runtime.
-- [sql.js](https://github.com/sql-js/sql.js) (MIT) — SQLite compiled to WebAssembly; used read-only in the browser to query `dictionary.sqlite` for Orthodox mode.
+- [Kokoro](https://github.com/hexgrad/kokoro) — stock in-browser TTS for Speak (not an official Sims voice).
+- CMU-style pronunciation helpers via [`pronouncing`](https://github.com/aparrish/pronouncingpy) when building `docs/models/rhyme_keys.json` offline.

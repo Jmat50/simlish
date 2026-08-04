@@ -1,4 +1,4 @@
-"""Build docs/v2-models/rhyme_keys.json for the browser v2 converter."""
+"""Build docs/models/rhyme_keys.json for the browser converter."""
 from __future__ import annotations
 
 import json
@@ -8,7 +8,7 @@ from pathlib import Path
 import pronouncing
 
 ROOT = Path(__file__).resolve().parents[1]
-MODELS = ROOT / "docs" / "v2-models"
+MODELS = ROOT / "docs" / "models"
 
 
 def rhyme_key(word: str) -> str:

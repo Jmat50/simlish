@@ -1,6 +1,6 @@
 # Simlish Chrome Extension
 
-Manifest V3 extension that rewrites visible page text into Simlish using the **GitHub Pages v2 bridge**. The extension does not ship models or convert logic — translation always runs in a Pages document framed by an offscreen iframe.
+Manifest V3 extension that rewrites visible page text into Simlish using the **GitHub Pages convert bridge**. The extension does not ship models or convert logic — translation always runs in a Pages document framed by an offscreen iframe.
 
 ## Load unpacked
 
@@ -20,10 +20,10 @@ content script (DOM text nodes)
   → service worker (queue / batch)
     → offscreen document (hidden iframe)
       → https://jmat50.github.io/simlish/bridge.html
-        → docs/js/bridge.js → loadV2Models + convertTextV2
+        → docs/js/bridge.js → loadModels + convertText
 ```
 
-Protocol: `postMessage` channel `simlish-bridge` v1 (`ping` / `translate` / `status`).
+Protocol: `postMessage` channel `simlish-bridge` (`ping` / `translate` / `status`).
 
 ## Bridge URL
 
@@ -38,11 +38,9 @@ npx --yes serve docs -p 4173
 
 In the extension popup → **Bridge URL** → **Use local :4173** → **Save & reload**.
 
-That points the offscreen iframe at `http://127.0.0.1:4173/bridge.html`.
-
 ## Packaging
 
-Zip **only** the contents of `chrome-extension/` (not the whole repo). Do not include `docs/v2-models` or `v2-convert.js` in the zip — Pages remains the translation runtime.
+Zip **only** the contents of `chrome-extension/` (not the whole repo). Do not include `docs/models` or `convert.js` in the zip — Pages remains the translation runtime.
 
 ## Limitations
 

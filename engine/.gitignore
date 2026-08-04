@@ -1,0 +1,24 @@
+# Engine local artifacts
+audio/phase1/*
+audio/phase2/*
+!audio/phase1/.gitkeep
+!audio/phase2/.gitkeep
+audio/meta/*.youtube.json
+!audio/meta/.gitkeep
+
+**/__pycache__/
+*.pyc
+.venv/
+*.wav
+*.mp3
+*.m4a
+*.webm
+*.opus
+*.ogg
+
+models/phrase_lm/**
+!models/phrase_lm/.gitkeep
+
+analysis/audio/*.alignment.json
+analysis/text/*.jsonl
+analysis/reports/*.log

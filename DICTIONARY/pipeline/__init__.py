@@ -1,1 +1,0 @@
-# Simlish dictionary pipeline package

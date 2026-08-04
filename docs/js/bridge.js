@@ -1,9 +1,9 @@
 /**
- * Extension RPC surface for v2 convert.
+ * Extension RPC surface for the Simlish converter.
  * Protocol: postMessage channel "simlish-bridge" v1.
  * Loaded only by chrome-extension offscreen iframe (docs/bridge.html).
  */
-import { convertTextV2, loadV2Models } from "./v2-convert.js";
+import { convertText, loadModels } from "./convert.js";
 
 const CHANNEL = "simlish-bridge";
 const VERSION = 1;
@@ -19,7 +19,6 @@ let loadError = null;
 function isAllowedOrigin(origin) {
   if (!origin || typeof origin !== "string") return false;
   if (origin.startsWith("chrome-extension://")) return true;
-  // Local unpacked / serve smoke tests
   if (origin === "http://127.0.0.1:4173" || origin === "http://localhost:4173") {
     return true;
   }
@@ -48,7 +47,6 @@ function isBridgeMessage(data) {
 function reply(event, payload) {
   const source = event.source;
   if (!source || typeof source.postMessage !== "function") return;
-  // targetOrigin must match the extension document that framed us
   source.postMessage(
     { channel: CHANNEL, version: VERSION, ...payload },
     event.origin
@@ -72,7 +70,7 @@ function translateBatch(texts) {
     if (raw.length > MAX_CHARS) {
       throw new Error(`string exceeds ${MAX_CHARS} characters`);
     }
-    return convertTextV2(raw);
+    return convertText(raw);
   });
 }
 
@@ -108,7 +106,7 @@ function onMessage(event) {
         type: "translate-result",
         id,
         results: null,
-        error: loadError || "v2 models not ready",
+        error: loadError || "models not ready",
       });
       return;
     }
@@ -134,7 +132,7 @@ function onMessage(event) {
 
 window.addEventListener("message", onMessage);
 
-loadV2Models()
+loadModels()
   .then(() => {
     loadState = "ready";
     loadError = null;

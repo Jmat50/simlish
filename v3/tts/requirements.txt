@@ -1,5 +1,0 @@
-# Optional for 04_auto_ipa.py on a machine with enough RAM/GPU
-torch>=2.1
-transformers>=4.40
-soundfile>=0.12
-numpy>=1.24

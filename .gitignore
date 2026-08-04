@@ -5,24 +5,16 @@ desktop.ini
 *.code-workspace
 .venv/
 __pycache__/
-data/profiles/
 scratch.*
 .cursor/
 _tmp_explore.py
 _snr_sample*
 
-# Dictionary pipeline artifacts (keep code + sqlite; ignore bulky/raw)
-DICTIONARY/data/cache/
-DICTIONARY/data/lyrics/original/
-DICTIONARY/data/lyrics/simlish/
-DICTIONARY/data/alignments/
-DICTIONARY/**/__pycache__/
-DICTIONARY/.venv/
-
-# v3 TTS — EA extracts, tools binaries, fine-tune weights (never publish)
-v3/tts/data/
-v3/tts/checkpoints/
-v3/tts/tools/
-v3/**/__pycache__/
-v3/**/.venv/
-
+# Engine research audio / phrase LM weights (keep induced JSON models)
+engine/audio/phase1/**
+engine/audio/phase2/**
+!engine/audio/phase1/.gitkeep
+!engine/audio/phase2/.gitkeep
+engine/models/phrase_lm/
+engine/**/__pycache__/
+engine/**/.venv/

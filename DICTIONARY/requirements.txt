@@ -1,4 +1,0 @@
-requests>=2.31
-python-slugify>=8.0
-regex>=2024.1
-tqdm>=4.66

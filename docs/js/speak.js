@@ -1,7 +1,6 @@
 /**
  * Lazy-load stock Kokoro TTS in the browser (kokoro-js via jsDelivr).
- * Public Pages always uses stock Kokoro + Simlish IPA — never EA-derived
- * OpenVoice/Chatterbox/FT weights. Local Sims-timbre demos: v3/tts/SPEAK_STACK.md.
+ * Public Pages always uses stock Kokoro + Simlish IPA — never EA-derived weights.
  */
 
 import { simlishToKokoroInput } from "./simlish-ipa.js";

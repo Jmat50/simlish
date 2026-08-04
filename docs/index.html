@@ -24,8 +24,8 @@
         <p class="brand">Simlish</p>
         <h1 class="headline">Nonsense that still sounds like speech.</h1>
         <p class="lede">
-          Paste a phrase. Get a stable, language-flavored rewrite — generated
-          locally from phonotactic patterns, never sent anywhere.
+          Paste a phrase. Get a line-first Simlish rewrite — sound-alike,
+          rhyme, and meter from official soundtrack pairs, never sent anywhere.
         </p>
         <div class="hero-actions">
           <button type="button" class="btn btn-primary" id="translate-btn">
@@ -38,50 +38,6 @@
       </header>
 
       <main class="workspace">
-        <div class="toolbar">
-          <div class="toolbar-fields">
-            <label class="field">
-              <span class="field-label">Mode</span>
-              <select id="mode-select" name="mode">
-                <option value="generative">Generative</option>
-                <option value="orthodox">Orthodox</option>
-              </select>
-            </label>
-            <label class="field">
-              <span class="field-label">Profile</span>
-              <select id="lang-select" name="lang">
-                <option value="en_US">English (US)</option>
-                <option value="en_UK">English (UK)</option>
-              </select>
-            </label>
-            <label
-              class="engine-switch"
-              title="v1 Markov / Orthodox · v2 sound-alike engine"
-            >
-              <span class="field-label">Engine</span>
-              <span class="engine-row">
-                <span class="engine-label" id="engine-label-v1">v1</span>
-                <input
-                  type="checkbox"
-                  id="engine-toggle"
-                  role="switch"
-                  aria-checked="true"
-                  checked
-                  aria-label="Engine version: off is v1, on is v2"
-                />
-                <span class="engine-track" aria-hidden="true"
-                  ><span class="engine-thumb"></span
-                ></span>
-                <span class="engine-label" id="engine-label-v2">v2</span>
-              </span>
-            </label>
-          </div>
-          <label class="toggle">
-            <input type="checkbox" id="show-ipa" />
-            <span>Show IPA</span>
-          </label>
-        </div>
-
         <div class="panels">
           <label class="panel">
             <span class="panel-label">Your text</span>
@@ -123,13 +79,11 @@
 
       <footer class="foot">
         <p>
-          v2 sound-alike engine (default) · v1 Markov / Orthodox · Speak via stock Kokoro ·
+          Sound-alike engine · Speak via stock Kokoro ·
           <a href="https://github.com/Jmat50/simlish">Source</a>
-          · Profiles derived from
-          <a href="https://github.com/open-dict-data/ipa-dict">ipa-dict</a>
         </p>
       </footer>
     </div>
-  <script type="module" src="./js/app.js"></script>
-</body>
+    <script type="module" src="./js/app.js"></script>
+  </body>
 </html>
