@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  width: 300px;
+  padding: 14px 14px 12px;
+  font: 13px/1.4 "Segoe UI", system-ui, sans-serif;
+  color: #e8f0ea;
+  background: #132620;
+}
+
+.header {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.tagline {
+  margin: 2px 0 0;
+  font-size: 11px;
+  opacity: 0.75;
+}
+
+.toggle-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 10px 0;
+  border-top: 1px solid rgba(232, 240, 234, 0.12);
+  border-bottom: 1px solid rgba(232, 240, 234, 0.12);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.toggle-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: #c45c26;
+}
+
+.status {
+  margin: 10px 0 0;
+  font-size: 12px;
+  opacity: 0.9;
+  min-height: 1.4em;
+}
+
+.status.error {
+  color: #f0a090;
+}
+
+.status.ok {
+  color: #b8e0c4;
+}
+
+.advanced {
+  margin-top: 12px;
+  font-size: 12px;
+}
+
+.advanced summary {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+#bridge-url {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 8px;
+  padding: 6px 8px;
+  border: 1px solid rgba(232, 240, 234, 0.2);
+  border-radius: 4px;
+  background: #0d1a16;
+  color: inherit;
+  font: inherit;
+}
+
+.row {
+  display: flex;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+.btn {
+  flex: 1;
+  padding: 6px 8px;
+  border: 0;
+  border-radius: 4px;
+  background: #c45c26;
+  color: #fff;
+  font: 600 12px/1.2 inherit;
+  cursor: pointer;
+}
+
+.btn.ghost {
+  background: transparent;
+  border: 1px solid rgba(232, 240, 234, 0.25);
+  color: inherit;
+}
+
+.footer {
+  margin: 12px 0 0;
+  font-size: 11px;
+}
+
+.footer a {
+  color: #c9ddd0;
+}

@@ -8,6 +8,8 @@ The site’s **default engine is v2**: a line-first, audio-grounded planner indu
 
 An older **v1** engine (Markov phonotactics + Orthodox sqlite lookup) remains available via the Engine toggle (`?engine=v1`).
 
+A **Chrome extension** lives in [`chrome-extension/`](chrome-extension/) and rewrites page text by talking to the Pages **bridge** (`docs/bridge.html`) over `postMessage` — load unpacked from that folder (see [`chrome-extension/README.md`](chrome-extension/README.md)).
+
 ---
 
 ## How v2 thinks
@@ -186,6 +188,8 @@ npx --yes serve docs -p 4173
 ```
 
 Open `http://localhost:4173`. Pages deploy from `main` / `/docs` with relative asset paths (`./js/…`, `./v2-models/…`).
+
+Extension bridge (for the Chrome extension offscreen iframe): `http://127.0.0.1:4173/bridge.html` (live: `https://jmat50.github.io/simlish/bridge.html`).
 
 ### Research CLI (optional)
 

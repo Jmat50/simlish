@@ -95,9 +95,17 @@
           <div class="panel">
             <div class="panel-head">
               <span class="panel-label" id="output-label">Simlish</span>
-              <button type="button" class="btn btn-ghost btn-sm" id="copy-btn">
-                Copy
-              </button>
+              <div class="panel-actions">
+                <button type="button" class="btn btn-ghost btn-sm" id="speak-btn">
+                  Speak
+                </button>
+                <button type="button" class="btn btn-ghost btn-sm" id="stop-speak-btn" hidden>
+                  Stop
+                </button>
+                <button type="button" class="btn btn-ghost btn-sm" id="copy-btn">
+                  Copy
+                </button>
+              </div>
             </div>
             <output
               id="output"
@@ -115,7 +123,7 @@
 
       <footer class="foot">
         <p>
-          v2 sound-alike engine (default) · v1 Markov / Orthodox ·
+          v2 sound-alike engine (default) · v1 Markov / Orthodox · Speak via stock Kokoro ·
           <a href="https://github.com/Jmat50/simlish">Source</a>
           · Profiles derived from
           <a href="https://github.com/open-dict-data/ipa-dict">ipa-dict</a>

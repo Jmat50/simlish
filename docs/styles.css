@@ -338,6 +338,12 @@ body {
   gap: 0.5rem;
 }
 
+.panel-actions {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+}
+
 .panel-head .btn-ghost {
   color: var(--ink-soft);
   border-color: var(--line);

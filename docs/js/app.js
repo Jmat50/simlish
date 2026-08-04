@@ -5,6 +5,7 @@ import {
   openDictionaryDb,
 } from "./dictionary-db.js";
 import { convertTextV2, loadV2Models } from "./v2-convert.js";
+import { speakSimlish, stopSpeaking } from "./speak.js";
 
 /** @type {Map<string, import("./markov.js").WeightTable>} */
 const cache = new Map();
@@ -22,6 +23,8 @@ const els = {
   translate: /** @type {HTMLButtonElement} */ (document.getElementById("translate-btn")),
   clear: /** @type {HTMLButtonElement} */ (document.getElementById("clear-btn")),
   copy: /** @type {HTMLButtonElement} */ (document.getElementById("copy-btn")),
+  speak: /** @type {HTMLButtonElement} */ (document.getElementById("speak-btn")),
+  stopSpeak: /** @type {HTMLButtonElement} */ (document.getElementById("stop-speak-btn")),
   status: /** @type {HTMLElement} */ (document.getElementById("status")),
 };
 
@@ -39,6 +42,11 @@ function syncEngineUi() {
   if (v2) {
     els.showIpa.checked = false;
   }
+}
+
+function syncSpeakUi(speaking) {
+  els.stopSpeak.hidden = !speaking;
+  els.speak.disabled = speaking || !(lastResult?.display);
 }
 
 /**
@@ -59,6 +67,7 @@ function renderOutput() {
   if (!lastResult) {
     els.output.textContent = "";
     els.output.classList.remove("has-content", "flash");
+    syncSpeakUi(false);
     return;
   }
   const text =
@@ -68,6 +77,7 @@ function renderOutput() {
   els.output.classList.remove("flash");
   void els.output.offsetWidth;
   els.output.classList.add("flash");
+  syncSpeakUi(false);
 }
 
 function updateShareUrl(text, lang, mode, engine) {
@@ -147,7 +157,31 @@ async function copyOutput() {
   }
 }
 
+async function onSpeak() {
+  const text = lastResult?.display || els.output.textContent || "";
+  if (!text.trim()) return;
+  try {
+    syncSpeakUi(true);
+    await speakSimlish(text, {
+      onStatus: (msg) => {
+        els.status.textContent = msg;
+      },
+    });
+  } catch (err) {
+    console.error(err);
+    els.status.textContent = err instanceof Error ? err.message : String(err);
+    syncSpeakUi(false);
+  }
+}
+
+function onStopSpeak() {
+  stopSpeaking();
+  syncSpeakUi(false);
+  els.status.textContent = "Stopped.";
+}
+
 function clearAll() {
+  stopSpeaking();
   els.input.value = "";
   lastResult = null;
   renderOutput();
@@ -163,7 +197,6 @@ function readQuery() {
   const mode = params.get("mode");
   if (mode === "orthodox" || mode === "generative") els.mode.value = mode;
   const engine = params.get("engine");
-  // Default v2; only force v1 when explicitly requested.
   els.engine.checked = engine !== "v1";
   const t = params.get("t");
   if (t != null) els.input.value = t;
@@ -174,6 +207,8 @@ function readQuery() {
 els.translate.addEventListener("click", () => translate());
 els.clear.addEventListener("click", () => clearAll());
 els.copy.addEventListener("click", () => copyOutput());
+els.speak.addEventListener("click", () => onSpeak());
+els.stopSpeak.addEventListener("click", () => onStopSpeak());
 els.showIpa.addEventListener("change", () => {
   renderOutput();
   updateShareUrl(els.input.value, els.lang.value, els.mode.value, isV2() ? "v2" : "v1");
@@ -203,6 +238,7 @@ els.input.addEventListener("keydown", (e) => {
 });
 
 readQuery();
+syncSpeakUi(false);
 if (els.input.value.trim()) {
   translate();
 } else {

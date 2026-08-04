@@ -4,13 +4,17 @@ Guidance for AI agents working in this repository.
 
 ## What this project is
 
-Three coupled pieces:
+Five coupled pieces:
 
 1. **Static translator** (`docs/`) — GitHub Pages site at `/simlish/`. Client-side only (no backend, no telemetry). Ships **two engines** selectable in the UI:
    - **v2** (default) — sound-alike / rhyme / meter / phrase-memory converter from induced JSON models.
    - **v1** — Generative Markov + Orthodox sqlite lookup (unchanged methodology).
+   - **Speak** — stock [Kokoro](https://github.com/hexgrad/kokoro) TTS in-browser (`docs/js/speak.js` + Simlish→IPA in `docs/js/simlish-ipa.js`). Not an official Sims voice.
+   - **Extension bridge** — `docs/bridge.html` + `docs/js/bridge.js` expose v2 over `postMessage` (`simlish-bridge` v1) for the Chrome extension. No HTTP translate API (Pages is static).
 2. **Lyric dictionary pipeline** (`DICTIONARY/`) — builds `dictionary.sqlite` from **official** Sims soundtrack EN|SIMLISH wiki tables. Powers **v1 Orthodox** only.
 3. **v2 research stack** (`v2/`) — audio-grounded induction (official lyrics + YouTube audio rips → models). Independent of the v1 Markov/Orthodox code path. Site consumes **exported model JSON** only (browser port in `docs/js/v2-convert.js`).
+4. **v3 TTS research** (`v3/tts/`) — extract Sims 3 VO from a local game install → decode → curate refs → local **Kokoro IPA + OpenVoice v2** tone-color (private); optional cloud Kokoro FT. EA audio and EA-derived weights are **gitignored** and must not ship on Pages.
+5. **Chrome extension** (`chrome-extension/`) — MV3; offscreen iframe loads the Pages bridge; content script rewrites page text. Does **not** vendor v2 models or `v2-convert.js`.
 
 Live site: https://jmat50.github.io/simlish/
 
@@ -24,20 +28,24 @@ Live site: https://jmat50.github.io/simlish/
 - **v2 site runtime** must stay model-driven JSON under `docs/v2-models/` + `docs/js/v2-convert.js`. Do not call Python/`v2.convert` from the Pages site.
 - Keep asset paths **relative** (`./js/…`, `./weights/…`, `./dictionary.sqlite`, `./v2-models/…`) so Pages works under `/simlish/`.
 - Do not redistribute full copyrighted lyric sheets; shareable artifacts are aggregated word maps, sqlite, and induced rule/model JSON (not raw audio dumps).
+- **Never commit Sims 3/4 package rips, decoded WAVs, or EA-derived Kokoro fine-tune weights** to the public repo or Pages. Public Speak uses stock Kokoro only.
 
 ## Repository map
 
 | Path | Role |
 |------|------|
 | `docs/` | Deployed site (HTML/CSS/JS, weights, sqlite, v2 models, vendored sql.js) |
-| `docs/js/` | Translator UI + engines: `app.js`, `v2-convert.js`, `rewrite.js`, `markov.js`, `dictionary-db.js`, … |
+| `docs/bridge.html` | Extension RPC page (UI-less); framed by `chrome-extension/` offscreen doc |
+| `docs/js/` | Translator UI + engines: `app.js`, `v2-convert.js`, `bridge.js`, `rewrite.js`, `markov.js`, `dictionary-db.js`, … |
 | `docs/v2-models/` | Browser copies of induced v2 JSON (+ `rhyme_keys.json` for CMU-style rhyme lookup) |
 | `docs/vendor/sql.js/` | Vendored sql.js wasm (refresh via `npm run build:dictionary`) |
+| `chrome-extension/` | MV3 extension (load unpacked from this folder); translations via Pages bridge only |
 | `DICTIONARY/` | Python pipeline + canonical `dictionary.sqlite` (v1 Orthodox) |
 | `DICTIONARY/pipeline/` | Numbered stages `01`…`12` (gaps are intentional — removed paths) |
 | `v2/` | Independent research: catalog, lyrics, audio, analysis, models, convert, CLI |
 | `v2/convert/` | Python converter (line-first); source of truth for methodology |
 | `v2/models/` | Canonical induced models before sync into `docs/v2-models/` |
+| `v3/tts/` | Sims 3 VO extract → WAV → OpenVoice/Chatterbox smoke + optional Kokoro FT bundle (data/checkpoints/tools gitignored) |
 | `scripts/` | `build-weights.mjs`, `sync-dictionary.mjs`, `build-rhyme-keys.py`, `smoke-markov.mjs`, … |
 | `data/profiles/` | Raw IPA lists (gitignored); needed only to rebuild v1 weights |
 
@@ -59,12 +67,38 @@ Toolbar **Engine** thumb switch: **v2** (on, default) ↔ **v1** (off). URL para
 
 Key modules:
 
-- `docs/js/app.js` — UI, engine toggle, URL params `t`, `lang`, `mode`, `engine`, `ipa`.
+- `docs/js/app.js` — UI, engine toggle, Speak/Stop, URL params `t`, `lang`, `mode`, `engine`, `ipa`.
 - `docs/js/v2-convert.js` — browser port of v2 convert (loads `./v2-models/*.json`).
+- `docs/js/bridge.js` — `postMessage` RPC (`simlish-bridge` v1) wrapping `loadV2Models` / `convertTextV2` for the extension.
+- `docs/js/speak.js` / `docs/js/simlish-ipa.js` — stock Kokoro Speak + Simlish IPA mapping.
 - `docs/js/rewrite.js` — v1 tokenization, casing, Generative vs Orthodox.
 - `docs/js/dictionary-db.js` — load sql.js + `dictionary.sqlite`, `PRAGMA query_only`, prepared lookup.
+- `chrome-extension/` — content script + offscreen iframe client; see `chrome-extension/README.md`.
 
 After changing the dictionary DB **or** v2 models: sync into `docs/` (see Sync rule) before assuming the site is updated.
+
+## v3 TTS (`v3/tts/`) — Sims VO research (OpenVoice primary)
+
+Default install root (override with `SIMS3_ROOT`):
+
+`C:\Program Files (x86)\R.G. Catalyst\The Sims 3 Deluxe Edition\`
+
+Voice banks live in `FullBuild*.package` as `_AUD` SNR (`0x01A527DB`). Base `FullBuild1.package` alone has ~49k SNR (~37k EALayer3, ~12k XAS). Full Deluxe catalog ~161k SNR.
+
+**Public Speak** = stock browser Kokoro + Simlish IPA. **Local Sims-like timbre** = Kokoro IPA content → OpenVoice v2 tone-color (see `v3/tts/SPEAK_STACK.md`). Prefer Python **3.12** venv at `v3/tts/.venv`.
+
+```text
+01_extract → 02_decode → 03_filter → 05_curate_refs → 06_smoke / 08_local_speak
+optional: 04_auto_ipa → 07_package_kokoro_bundle → cloud Kokoro FT (12–24 GB)
+```
+
+```bash
+.\v3\tts\.venv\Scripts\python.exe v3/tts/scripts/05_curate_refs.py
+.\v3\tts\.venv\Scripts\python.exe v3/tts/scripts/06_smoke_voice_clone.py
+.\v3\tts\.venv\Scripts\python.exe v3/tts/scripts/08_local_speak.py "Hilla, sho!"
+```
+
+Never commit EA WAVs, OpenVoice/Chatterbox clone outputs, or FT checkpoints.
 
 ## Dictionary pipeline (`DICTIONARY/`)
 
@@ -132,6 +166,9 @@ cd v2 && python -m pip install -r requirements.txt   # ffmpeg on PATH; optional 
 python v2/scripts/run_phase1.py
 python -m v2.cli "You're yes then you're no"
 python v2/scripts/run_phase2.py
+
+# v3 TTS extract (local Sims 3 install; data gitignored)
+python v3/tts/scripts/run_phase1_base.py --limit 500
 ```
 
 Weights rebuild needs `data/profiles/*/words.csv` (via `node scripts/download-profiles.mjs`).
@@ -142,8 +179,9 @@ Weights rebuild needs `data/profiles/*/words.csv` (via `node scripts/download-pr
 - **v1 vs v2:** keep convert paths separate. UI may share chrome; conversion logic must not blend Markov weights with v2 sound-alike rules.
 - **Pipeline (`DICTIONARY/`):** Python 3, stages as runnable scripts; shared code under `DICTIONARY/pipeline/lib/`.
 - **v2:** Python package under `v2/`; run from repo root so `python -m v2…` resolves. Prefer editing existing numbered scripts over parallel one-offs unless the user asks.
+- **v3/tts:** extract/decode scripts only; never add EA audio or FT weights to git. Public Speak stays stock Kokoro.
 - Prefer editing existing stages over adding parallel one-off scripts unless the user asks.
-- Do not commit bulky raw lyrics/audio; respect `.gitignore` (`DICTIONARY/data/lyrics/…`, `v2` wavs, cache, etc.).
+- Do not commit bulky raw lyrics/audio; respect `.gitignore` (`DICTIONARY/data/lyrics/…`, `v2` wavs, `v3/tts/data/`, cache, etc.).
 - `docs/vendor/sql.js/` is vendored for static hosting — update via `npm run build:dictionary`, not hand-edits.
 - When touching Orthodox lookup or sqlite schema, update smoke coverage in `scripts/smoke-markov.mjs` if behavior changes.
 - When changing v2 convert semantics in Python, update `docs/js/v2-convert.js` to match (or call out the drift).
@@ -168,15 +206,18 @@ v1 Orthodox reads the **docs** sqlite only. v2 site reads **docs/v2-models** onl
 
 - Fan lyric scrapers or YouTube **description/title lyrics** as Simlish orthography (either pipeline).
 - Whisper/ASR as a Simlish **spelling** source; Whisper stages inside `DICTIONARY/`.
-- Server-side APIs, auth, analytics.
+- Publishing EA-derived TTS weights or ripped Sims VO on Pages / public Hub.
+- Server-side APIs, auth, analytics. (The extension bridge is static `postMessage` only — do not add a real HTTP translate backend on Pages.)
 - OPFS / COOP-COEP persistence for sqlite (unnecessary; GH Pages cannot set those headers cleanly).
 - Claiming EA/Maxis endorsement or shipping full song lyric dumps / audio binaries in git.
 - Merging v1 Markov and v2 into a single hybrid converter without an explicit product decision.
+- Vendoring `v2-models` / `v2-convert.js` inside `chrome-extension/` (Pages bridge is the translation runtime).
 
 ## References
 
 - Root `README.md`, `CITATIONS.md`
 - `DICTIONARY/README.md`, `DICTIONARY/CITATIONS.md`
-- `v2/README.md`
+- `v2/README.md`, `v3/tts/README.md`, `v3/tts/TRAINING.md`
+- `chrome-extension/README.md`
 - Coverage after a dictionary run: `DICTIONARY/data/reports/coverage.md`
 - v2 eval / smoke notes: `v2/analysis/reports/`

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Simlish</title>
+    <link rel="stylesheet" href="./popup.css" />
+  </head>
+  <body>
+    <header class="header">
+      <img src="./icons/icon32.png" width="28" height="28" alt="" />
+      <div>
+        <h1>Simlish</h1>
+        <p class="tagline">Page text → v2 via Pages bridge</p>
+      </div>
+    </header>
+
+    <label class="toggle-row">
+      <span>Simlish this page</span>
+      <input type="checkbox" id="enabled" />
+    </label>
+
+    <p id="status" class="status" role="status">Checking bridge…</p>
+
+    <details class="advanced">
+      <summary>Bridge URL</summary>
+      <input
+        type="url"
+        id="bridge-url"
+        spellcheck="false"
+        placeholder="https://jmat50.github.io/simlish/bridge.html"
+      />
+      <div class="row">
+        <button type="button" id="save-url" class="btn">Save &amp; reload</button>
+        <button type="button" id="use-local" class="btn ghost">Use local :4173</button>
+      </div>
+    </details>
+
+    <p class="footer">
+      <a
+        href="https://jmat50.github.io/simlish/"
+        target="_blank"
+        rel="noopener noreferrer"
+        >Open translator</a
+      >
+    </p>
+
+    <script type="module" src="./popup.js"></script>
+  </body>
+</html>
