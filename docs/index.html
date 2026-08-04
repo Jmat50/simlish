@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="vanilla">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -9,26 +9,87 @@
     />
     <title>Simlish</title>
     <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+    <script>
+      (function () {
+        try {
+          var t = localStorage.getItem("simlish-theme");
+          if (t === "vanilla" || t === "suburbia" || t === "latenight") {
+            document.documentElement.setAttribute("data-theme", t);
+          }
+        } catch (e) {}
+      })();
+    </script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Sora:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="atmosphere" aria-hidden="true"></div>
+    <div class="atmosphere" aria-hidden="true">
+      <div class="atmosphere-sky"></div>
+      <div class="atmosphere-mid"></div>
+      <div class="atmosphere-fg"></div>
+    </div>
     <div class="page">
       <header class="hero">
-        <p class="brand">Simlish</p>
-        <div class="hero-actions">
-          <button type="button" class="btn btn-primary" id="translate-btn">
-            Translate
-          </button>
-          <button type="button" class="btn btn-ghost" id="clear-btn">
-            Clear
-          </button>
+        <div class="hero-top">
+          <div class="brand-lockup">
+            <svg
+              class="plumbob"
+              viewBox="0 0 64 64"
+              width="48"
+              height="48"
+              aria-hidden="true"
+              focusable="false"
+            >
+              <defs>
+                <linearGradient id="pg" x1="32" y1="4" x2="32" y2="60" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7CFF6A" />
+                  <stop offset="0.45" stop-color="#00AF3F" />
+                  <stop offset="1" stop-color="#007A2F" />
+                </linearGradient>
+                <linearGradient id="ph" x1="22" y1="10" x2="40" y2="36" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#fff" stop-opacity="0.9" />
+                  <stop offset="1" stop-color="#fff" stop-opacity="0" />
+                </linearGradient>
+              </defs>
+              <path
+                d="M32 4 L52 26 L32 60 L12 26 Z"
+                fill="url(#pg)"
+                stroke="#0A5C28"
+                stroke-width="1.5"
+                stroke-linejoin="round"
+              />
+              <path d="M32 4 L42 26 L32 60 L22 26 Z" fill="#00C853" opacity="0.35" />
+              <path d="M32 4 L52 26 L42 26 Z" fill="#B8FF9A" opacity="0.55" />
+              <path d="M22 18 L34 22 L28 34 Z" fill="url(#ph)" />
+            </svg>
+            <div class="brand-text">
+              <p class="brand">Simlish</p>
+              <p class="tagline">Turn English into Simlish</p>
+            </div>
+          </div>
+          <div class="hero-controls">
+            <label class="theme-picker">
+              <span class="theme-picker-label">Style</span>
+              <select id="theme-select" aria-label="Site style">
+                <option value="vanilla">Vanilla HUD</option>
+                <option value="suburbia">Box-Art Suburbia</option>
+                <option value="latenight">Late Night</option>
+              </select>
+            </label>
+            <div class="hero-actions">
+              <button type="button" class="btn btn-primary" id="translate-btn">
+                Translate
+              </button>
+              <button type="button" class="btn btn-ghost" id="clear-btn">
+                Clear
+              </button>
+            </div>
+          </div>
         </div>
       </header>
 
@@ -77,8 +138,9 @@
           Sound-alike engine · Speak via stock Kokoro ·
           <a href="https://github.com/Jmat50/simlish">Source</a>
         </p>
+        <p class="disclaimer">Not affiliated with EA / Maxis</p>
       </footer>
     </div>
-    <script type="module" src="./js/app.js?v=20260804a"></script>
+    <script type="module" src="./js/app.js?v=20260804b"></script>
   </body>
 </html>

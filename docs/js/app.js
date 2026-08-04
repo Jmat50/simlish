@@ -2,6 +2,9 @@ import { convertText, loadModels } from "./convert.js?v=20260804a";
 import { speakSimlish, stopSpeaking } from "./speak.js?v=20260804a";
 
 const MAX_SHARE_CHARS = 1800;
+const THEME_KEY = "simlish-theme";
+const THEMES = new Set(["vanilla", "suburbia", "latenight"]);
+const DEFAULT_THEME = "vanilla";
 
 const els = {
   input: /** @type {HTMLTextAreaElement} */ (document.getElementById("input")),
@@ -12,7 +15,39 @@ const els = {
   speak: /** @type {HTMLButtonElement} */ (document.getElementById("speak-btn")),
   stopSpeak: /** @type {HTMLButtonElement} */ (document.getElementById("stop-speak-btn")),
   status: /** @type {HTMLElement} */ (document.getElementById("status")),
+  themeSelect: /** @type {HTMLSelectElement | null} */ (document.getElementById("theme-select")),
 };
+
+/** @param {string} theme */
+function applyTheme(theme) {
+  const next = THEMES.has(theme) ? theme : DEFAULT_THEME;
+  document.documentElement.setAttribute("data-theme", next);
+  if (els.themeSelect && els.themeSelect.value !== next) {
+    els.themeSelect.value = next;
+  }
+  try {
+    localStorage.setItem(THEME_KEY, next);
+  } catch {
+    /* private mode / blocked storage */
+  }
+}
+
+function initTheme() {
+  let stored = "";
+  try {
+    stored = localStorage.getItem(THEME_KEY) || "";
+  } catch {
+    stored = "";
+  }
+  const current = document.documentElement.getAttribute("data-theme") || DEFAULT_THEME;
+  const theme = THEMES.has(stored) ? stored : current;
+  applyTheme(theme);
+  if (els.themeSelect) {
+    els.themeSelect.addEventListener("change", () => {
+      applyTheme(els.themeSelect.value);
+    });
+  }
+}
 
 /** @type {{ display: string } | null} */
 let lastResult = null;
@@ -147,6 +182,7 @@ els.input.addEventListener("keydown", (e) => {
   }
 });
 
+initTheme();
 readQuery();
 syncSpeakUi(false);
 if (els.input.value.trim()) {
