@@ -1,5 +1,5 @@
-import { convertText, loadModels } from "./convert.js";
-import { speakSimlish, stopSpeaking } from "./speak.js";
+import { convertText, loadModels } from "./convert.js?v=20260804a";
+import { speakSimlish, stopSpeaking } from "./speak.js?v=20260804a";
 
 const MAX_SHARE_CHARS = 1800;
 
@@ -25,11 +25,12 @@ function syncSpeakUi(speaking) {
 function renderOutput() {
   if (!lastResult) {
     els.output.textContent = "";
-    els.output.classList.remove("has-content", "flash");
+    els.output.classList.remove("has-content", "flash", "is-error");
     syncSpeakUi(false);
     return;
   }
   els.output.textContent = lastResult.display;
+  els.output.classList.remove("is-error");
   els.output.classList.add("has-content");
   els.output.classList.remove("flash");
   void els.output.offsetWidth;
@@ -61,13 +62,23 @@ async function translate() {
     lastResult = { display };
     renderOutput();
     updateShareUrl(text);
-    els.output.focus({ preventScroll: true });
+    try {
+      els.output.focus({ preventScroll: true });
+    } catch {
+      /* ignore focus failures on <output> */
+    }
     els.status.textContent = text
       ? "sound-alike + rhyme + meter + phrase memory"
       : "";
   } catch (err) {
     console.error(err);
-    els.status.textContent = err instanceof Error ? err.message : String(err);
+    const msg = err instanceof Error ? err.message : String(err);
+    els.status.textContent = msg;
+    lastResult = null;
+    els.output.textContent = msg;
+    els.output.classList.add("has-content");
+    els.output.classList.add("is-error");
+    syncSpeakUi(false);
   } finally {
     els.translate.disabled = false;
   }

@@ -315,9 +315,12 @@ export async function loadModels() {
       "function_words.json",
       "rhyme_keys.json",
     ];
+    // Module-relative URLs (not document-relative) so /simlish and /simlish/ both work.
+    // no-cache avoids sticky 404s after the models/ path rename.
+    const base = new URL("../models/", import.meta.url);
     const [sa, rhyme, meter, memory, fw, rhymeKeys] = await Promise.all(
       files.map(async (f) => {
-        const res = await fetch(`./models/${f}`, { cache: "force-cache" });
+        const res = await fetch(new URL(f, base), { cache: "no-cache" });
         if (!res.ok) throw new Error(`Failed to load models/${f} (${res.status})`);
         return res.json();
       })
@@ -338,6 +341,9 @@ export async function loadModels() {
       memory: memory || [],
     };
     return models;
-  })();
+  })().catch((err) => {
+    loadPromise = null;
+    throw err;
+  });
   return loadPromise;
 }

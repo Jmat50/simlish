@@ -3,7 +3,7 @@
  * Public Pages always uses stock Kokoro + Simlish IPA — never EA-derived weights.
  */
 
-import { simlishToKokoroInput } from "./simlish-ipa.js";
+import { simlishToKokoroInput } from "./simlish-ipa.js?v=20260804a";
 
 /** @type {any} */
 let tts = null;

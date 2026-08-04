@@ -3,7 +3,7 @@
  * Protocol: postMessage channel "simlish-bridge" v1.
  * Loaded only by chrome-extension offscreen iframe (docs/bridge.html).
  */
-import { convertText, loadModels } from "./convert.js";
+import { convertText, loadModels } from "./convert.js?v=20260804a";
 
 const CHANNEL = "simlish-bridge";
 const VERSION = 1;

@@ -235,6 +235,11 @@ textarea:focus,
   animation: fadeIn 380ms ease;
 }
 
+.output.is-error {
+  color: #8a2f1a;
+  border-color: rgba(138, 47, 26, 0.35);
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0.35;
