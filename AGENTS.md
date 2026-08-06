@@ -10,11 +10,30 @@ Client-side English→Simlish converter. Live: https://jmat50.github.io/simlish/
 |-------|------|--------|
 | Pages site | `docs/` | Convert + Speak + extension bridge. No backend/telemetry. |
 | Induction | `engine/` | Official lyrics + YouTube rips → model JSON. Site never calls Python. |
-| Extension | `chrome-extension/` | MV3; translates via Pages `postMessage` bridge only (no vendored models). |
+| Extension | `chrome-extension/` | MV3; translates via Pages `postMessage` bridge only (no vendored models). Docs: `chrome-extension/README.md`. |
 
 Convert is line-first: phrase memory → else sound-alike + end-rhyme + syllable budget (`docs/js/convert.js` ← `engine/convert/`).
 
 Speak uses stock [Kokoro](https://github.com/hexgrad/kokoro) + `docs/js/simlish-ipa.js` (not an official Sims voice).
+
+## Chrome extension
+
+Load unpacked from `chrome-extension/` (Developer mode → Load unpacked). No build/bundle step.
+
+Required load files (must stay in that folder):
+
+- `manifest.json`, `background.js`, `shared.js`
+- `content.js`, `content.css`
+- `offscreen.html`, `offscreen.js`
+- `popup.html`, `popup.js`, `popup.css`
+- `icons/icon16.png`, `icon32.png`, `icon48.png`, `icon128.png`
+
+Runtime depends on the live (or local) Pages bridge — not on files inside the extension:
+
+- `docs/bridge.html` + `docs/js/bridge.js` (`simlish-bridge` RPC)
+- `docs/js/convert.js` + `docs/models/`
+
+Default bridge URL: `https://jmat50.github.io/simlish/bridge.html`. Local: serve `docs` on `:4173`, then popup → Use local :4173.
 
 ## Rules
 
@@ -35,6 +54,7 @@ Speak uses stock [Kokoro](https://github.com/hexgrad/kokoro) + `docs/js/simlish-
 | `docs/js/bridge.js` + `docs/bridge.html` | Extension RPC (`simlish-bridge`) |
 | `docs/js/speak.js`, `simlish-ipa.js` | Stock Kokoro Speak |
 | `docs/models/` | Site model JSON (+ `rhyme_keys.json`) |
+| `chrome-extension/` | MV3 load-unpacked extension (see that folder’s README) |
 | `engine/convert/` | Python convert (methodology source of truth) |
 | `engine/models/` | Canonical induced models |
 | `engine/scripts/` | Numbered induction stages + `run_phase1.py` / `run_phase2.py` |

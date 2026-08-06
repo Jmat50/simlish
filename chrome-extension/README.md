@@ -2,23 +2,53 @@
 
 Manifest V3 extension that rewrites visible page text into Simlish using the **GitHub Pages convert bridge**. The extension does not ship models or convert logic — translation always runs in a Pages document framed by an offscreen iframe.
 
-## Load unpacked
+Also documented in the root [`README.md`](../README.md) (Chrome extension section) and [`AGENTS.md`](../AGENTS.md).
+
+## Install (load unpacked)
 
 1. Open `chrome://extensions`
 2. Enable **Developer mode**
 3. Click **Load unpacked**
-4. Select this folder:
-
-   `C:\VIsual Studio\simlish\chrome-extension`
-
+4. Select this folder: `chrome-extension/` (the directory that contains `manifest.json`)
 5. Pin the Simlish action, open any http(s) page, toggle **Simlish this page**
+
+No build step. Chrome loads the files in this folder as-is.
+
+## Files required to install
+
+All of these must be present under `chrome-extension/`:
+
+```text
+chrome-extension/
+  manifest.json
+  background.js
+  shared.js
+  content.js
+  content.css
+  offscreen.html
+  offscreen.js
+  popup.html
+  popup.js
+  popup.css
+  icons/
+    icon16.png
+    icon32.png
+    icon48.png
+    icon128.png
+  README.md          # docs only; not required by Chrome
+```
+
+Site-side bridge (repo `docs/`, served by Pages or local preview — not packed into the extension):
+
+- `docs/bridge.html`, `docs/js/bridge.js`
+- `docs/js/convert.js`, `docs/models/*`
 
 ## How it works
 
 ```text
 content script (DOM text nodes)
   → service worker (queue / batch)
-    → offscreen document (hidden iframe)
+  → offscreen document (hidden iframe)
       → https://jmat50.github.io/simlish/bridge.html
         → docs/js/bridge.js → loadModels + convertText
 ```

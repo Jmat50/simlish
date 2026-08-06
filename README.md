@@ -6,7 +6,38 @@ Static [GitHub Pages](https://pages.github.com/) English→Simlish converter. Ev
 
 The converter is a **line-first**, audio-grounded planner induced from official soundtrack EN|SIMLISH lyric pairs. It does not gloss English word-by-word. It tries to sound like sung Simlish — preserving rhythm, end-rhyme class, and phone-ish onset — the way Maxis lyricists appear to write.
 
-A **Chrome extension** lives in [`chrome-extension/`](chrome-extension/) and rewrites page text by talking to the Pages **bridge** (`docs/bridge.html`) over `postMessage` — load unpacked from that folder (see [`chrome-extension/README.md`](chrome-extension/README.md)).
+---
+
+## Chrome extension
+
+MV3 extension in [`chrome-extension/`](chrome-extension/). It rewrites visible page text by talking to the Pages **bridge** (`docs/bridge.html`) over `postMessage` — no models or convert logic ship inside the extension.
+
+Full notes: [`chrome-extension/README.md`](chrome-extension/README.md).
+
+### Install (load unpacked)
+
+1. Open `chrome://extensions`
+2. Enable **Developer mode**
+3. **Load unpacked** → select the repo’s `chrome-extension/` folder
+4. Pin the Simlish action, open any `http(s)` page, toggle **Simlish this page**
+
+Default bridge: `https://jmat50.github.io/simlish/bridge.html`. For local convert, serve `docs/` on port 4173 and set **Bridge URL** → **Use local :4173** in the popup.
+
+### Files required to load
+
+Everything Chrome needs is under `chrome-extension/` (no build step):
+
+| Path | Role |
+|------|------|
+| `manifest.json` | MV3 manifest |
+| `background.js` | Service worker (queue + offscreen) |
+| `shared.js` | Bridge URL defaults / batch size |
+| `content.js` + `content.css` | Page text rewrite |
+| `offscreen.html` + `offscreen.js` | Hidden iframe → Pages bridge |
+| `popup.html` + `popup.js` + `popup.css` | Toggle + bridge URL |
+| `icons/icon{16,32,48,128}.png` | Action / store icons |
+
+Site-side bridge (already in this repo for Pages deploy): `docs/bridge.html`, `docs/js/bridge.js`, plus `docs/js/convert.js` and `docs/models/`.
 
 ---
 
