@@ -2,6 +2,7 @@
  * Map Simlish orthography to a Kokoro-friendly phoneme string.
  * Uses the same coarse Latin→phone inventory as convert approx_phones, then
  * emits Misaki-style IPA so English G2P does not re-interpret nonsense.
+ * Primary stress (ˈ) marks the first vowel nucleus for punchier cadence.
  */
 
 const SIMP = [
@@ -15,20 +16,35 @@ const VOWEL = {
   a: "ɑ", e: "ɛ", i: "ɪ", o: "o", u: "ʊ", y: "i",
 };
 
-/** Common Simlish lexicon overrides (heard orthography → preferred IPA). */
+/** First vowel / diphthong nucleus for Misaki primary stress placement. */
+const IPA_VOWEL_RE = /(?:aʊ|eɪ|aɪ|ɔɪ|oʊ|uː|iː|[ɑɛɪoʊuiæʌəɔ])/u;
+
+/** Common Simlish lexicon overrides (heard orthography → preferred IPA, with stress). */
 const LEXICON = {
-  hilla: "hɪlɑ",
-  sho: "ʃo",
-  vous: "vus",
-  chika: "tʃikɑ",
-  sheeky: "ʃiki",
-  sul: "sʊl",
-  dag: "dɑg",
-  nooboo: "nubu",
-  wawa: "wɑwɑ",
-  ooh: "u",
-  yibba: "jɪbɑ",
+  hilla: "hˈɪlɑ",
+  sho: "ʃˈo",
+  vous: "vˈus",
+  chika: "tʃˈikɑ",
+  sheeky: "ʃˈiki",
+  sul: "sˈʊl",
+  dag: "dˈɑg",
+  nooboo: "nˈubu",
+  wawa: "wˈɑwɑ",
+  ooh: "ˈu",
+  yibba: "jˈɪbɑ",
 };
+
+/**
+ * Insert Misaki primary stress before the first vowel nucleus.
+ * @param {string} ipa
+ * @returns {string}
+ */
+export function withPrimaryStress(ipa) {
+  if (!ipa || ipa.includes("ˈ") || ipa.includes("ˌ")) return ipa;
+  const m = IPA_VOWEL_RE.exec(ipa);
+  if (!m || m.index == null) return ipa;
+  return ipa.slice(0, m.index) + "ˈ" + ipa.slice(m.index);
+}
 
 /**
  * @param {string} word
@@ -57,7 +73,7 @@ export function wordToIpa(word) {
     if (VOWEL[ch]) phones.push(VOWEL[ch]);
     else if (/[a-z]/.test(ch)) phones.push(ch);
   }
-  return phones.join("");
+  return withPrimaryStress(phones.join(""));
 }
 
 /**

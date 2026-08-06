@@ -1,5 +1,5 @@
 import { convertText, loadModels } from "./convert.js?v=20260804a";
-import { speakSimlish, stopSpeaking } from "./speak.js?v=20260804a";
+import { ensureTts, speakSimlish, stopSpeaking } from "./speak.js?v=20260806b";
 
 const MAX_SHARE_CHARS = 1800;
 const THEME_KEY = "simlish-theme";
@@ -88,10 +88,37 @@ function initMusic() {
 
 /** @type {{ display: string } | null} */
 let lastResult = null;
+/** @type {boolean} */
+let ttsPreloadStarted = false;
 
 function syncSpeakUi(speaking) {
   els.stopSpeak.hidden = !speaking;
   els.speak.disabled = speaking || !(lastResult?.display);
+}
+
+/**
+ * Warm Kokoro after convert models load (idle), so first Speak is often cached.
+ * Skipped until Translate succeeds once — avoids surprising mobile data use on land.
+ */
+function scheduleTtsPreload() {
+  if (ttsPreloadStarted) return;
+  ttsPreloadStarted = true;
+  const run = () => {
+    ensureTts((msg) => {
+      // Keep Quiet unless user is idle on tip / empty status.
+      if (!els.status.textContent || /tip:|kokoro|loading/i.test(els.status.textContent)) {
+        els.status.textContent = msg;
+      }
+    }).catch((err) => {
+      console.warn("Kokoro preload failed:", err);
+      ttsPreloadStarted = false;
+    });
+  };
+  if (typeof requestIdleCallback === "function") {
+    requestIdleCallback(run, { timeout: 4000 });
+  } else {
+    setTimeout(run, 0);
+  }
 }
 
 function renderOutput() {
@@ -142,6 +169,7 @@ async function translate() {
     els.status.textContent = text
       ? "sound-alike + rhyme + meter + phrase memory"
       : "";
+    scheduleTtsPreload();
   } catch (err) {
     console.error(err);
     const msg = err instanceof Error ? err.message : String(err);
@@ -176,7 +204,12 @@ async function onSpeak() {
       onStatus: (msg) => {
         els.status.textContent = msg;
       },
+      onEnded: () => {
+        syncSpeakUi(false);
+      },
     });
+    // If Stop aborted mid-flight, speakSimlish returns without onEnded.
+    syncSpeakUi(false);
   } catch (err) {
     console.error(err);
     els.status.textContent = err instanceof Error ? err.message : String(err);

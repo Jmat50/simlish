@@ -169,6 +169,8 @@ npx --yes serve docs -p 4173
 
 Open `http://localhost:4173`. Pages deploy from `main` / `/docs` with relative asset paths (`./js/…`, `./models/…`).
 
+Speak loads stock Kokoro from jsDelivr + Hugging Face Hub (q8 ~92MB, not vendored in `docs/`). See [AGENTS.md](AGENTS.md) if you need to mirror weights (HF repo / Cloudflare R2) after Hub rate limits.
+
 Extension bridge: `http://127.0.0.1:4173/bridge.html` (live: `https://jmat50.github.io/simlish/bridge.html`).
 
 ### Research CLI (optional)

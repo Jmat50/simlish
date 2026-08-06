@@ -14,7 +14,7 @@ Client-side English→Simlish converter. Live: https://jmat50.github.io/simlish/
 
 Convert is line-first: phrase memory → else sound-alike + end-rhyme + syllable budget (`docs/js/convert.js` ← `engine/convert/`). Closed-class misses (`is`/`are`/…) fill or elide from attested short fillers — never phone-invent glue.
 
-Speak uses stock [Kokoro](https://github.com/hexgrad/kokoro) + `docs/js/simlish-ipa.js` (not an official Sims voice).
+Speak uses stock [Kokoro](https://github.com/hexgrad/kokoro) + `docs/js/simlish-ipa.js` (not an official Sims voice). Browser loads `kokoro-js@1.2.1` from jsDelivr and **q8 ONNX (~92MB)** from Hugging Face Hub (`onnx-community/Kokoro-82M-v1.0-ONNX`) — never commit ONNX into `docs/` / GitHub Pages. If Hub rate-limits become an issue, mirror `model_quantized.onnx` + voice bins to a project HF repo or Cloudflare R2 (free egress); do not add a Speak HTTP API.
 
 ## Chrome extension
 
