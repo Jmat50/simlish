@@ -1,10 +1,6 @@
 {
   "a": [
     {
-      "simlish": "a",
-      "n": 6
-    },
-    {
       "simlish": "da",
       "n": 2
     },
@@ -13,77 +9,61 @@
       "n": 1
     }
   ],
-  "we": [
+  "an": [
+    {
+      "simlish": "na",
+      "n": 160
+    },
+    {
+      "simlish": "gurn",
+      "n": 31
+    },
+    {
+      "simlish": "vous",
+      "n": 17
+    },
     {
       "simlish": "wi",
-      "n": 6
+      "n": 13
     },
     {
-      "simlish": "we",
-      "n": 6
+      "simlish": "th'",
+      "n": 13
     },
     {
-      "simlish": "wa",
-      "n": 1
+      "simlish": "ni",
+      "n": 9
     }
   ],
-  "oh": [
+  "and": [
     {
-      "simlish": "oh",
-      "n": 4
-    }
-  ],
-  "to": [
-    {
-      "simlish": "tu",
-      "n": 3
+      "simlish": "na",
+      "n": 160
     },
     {
-      "simlish": "to",
-      "n": 2
+      "simlish": "gurn",
+      "n": 31
     },
     {
-      "simlish": "sho",
-      "n": 2
+      "simlish": "vous",
+      "n": 17
+    },
+    {
+      "simlish": "wi",
+      "n": 13
+    },
+    {
+      "simlish": "th'",
+      "n": 13
+    },
+    {
+      "simlish": "ni",
+      "n": 9
     }
   ],
   "be": [
     {
       "simlish": "bey",
-      "n": 1
-    }
-  ],
-  "of": [
-    {
-      "simlish": "o",
-      "n": 1
-    }
-  ],
-  "you": [
-    {
-      "simlish": "in",
-      "n": 1
-    },
-    {
-      "simlish": "you",
-      "n": 1
-    }
-  ],
-  "my": [
-    {
-      "simlish": "pumi",
-      "n": 2
-    },
-    {
-      "simlish": "i",
-      "n": 1
-    },
-    {
-      "simlish": "dee",
-      "n": 1
-    },
-    {
-      "simlish": "my",
       "n": 1
     }
   ],
@@ -95,15 +75,19 @@
   ],
   "i": [
     {
-      "simlish": "in",
-      "n": 4
-    },
-    {
       "simlish": "shi",
       "n": 2
-    },
+    }
+  ],
+  "in": [
     {
-      "simlish": "i",
+      "simlish": "en",
+      "n": 1
+    }
+  ],
+  "it": [
+    {
+      "simlish": "dit",
       "n": 1
     }
   ],
@@ -113,77 +97,39 @@
       "n": 6
     }
   ],
-  "in": [
-    {
-      "simlish": "on",
-      "n": 3
-    },
-    {
-      "simlish": "in",
-      "n": 3
-    },
-    {
-      "simlish": "an'",
-      "n": 2
-    },
-    {
-      "simlish": "en",
-      "n": 1
-    }
-  ],
   "me": [
     {
-      "simlish": "me",
-      "n": 3
-    }
-  ],
-  "it": [
+      "simlish": "na",
+      "n": 160
+    },
     {
-      "simlish": "dit",
-      "n": 1
-    }
-  ],
-  "on": [
+      "simlish": "gurn",
+      "n": 31
+    },
     {
-      "simlish": "on",
-      "n": 1
-    }
-  ],
-  "the": [
+      "simlish": "vous",
+      "n": 17
+    },
+    {
+      "simlish": "wi",
+      "n": 13
+    },
     {
       "simlish": "th'",
       "n": 13
     },
     {
-      "simlish": "ze",
-      "n": 2
-    },
-    {
-      "simlish": "me",
-      "n": 1
-    },
-    {
-      "simlish": "he",
-      "n": 1
+      "simlish": "ni",
+      "n": 9
     }
   ],
-  "and": [
+  "my": [
     {
-      "simlish": "and",
+      "simlish": "pumi",
       "n": 2
     },
     {
-      "simlish": "an'",
-      "n": 1
-    }
-  ],
-  "an": [
-    {
-      "simlish": "a",
-      "n": 2
-    },
-    {
-      "simlish": "an",
+      "simlish": "dee",
       "n": 1
     }
   ],
@@ -199,10 +145,110 @@
       "n": 1
     }
   ],
+  "of": [
+    {
+      "simlish": "o",
+      "n": 1
+    }
+  ],
+  "oh": [
+    {
+      "simlish": "oh",
+      "n": 4
+    }
+  ],
+  "on": [
+    {
+      "simlish": "na",
+      "n": 160
+    },
+    {
+      "simlish": "gurn",
+      "n": 31
+    },
+    {
+      "simlish": "vous",
+      "n": 17
+    },
+    {
+      "simlish": "wi",
+      "n": 13
+    },
+    {
+      "simlish": "th'",
+      "n": 13
+    },
+    {
+      "simlish": "ni",
+      "n": 9
+    }
+  ],
+  "the": [
+    {
+      "simlish": "th'",
+      "n": 13
+    },
+    {
+      "simlish": "ze",
+      "n": 2
+    }
+  ],
   "this": [
     {
       "simlish": "nis",
       "n": 1
+    }
+  ],
+  "to": [
+    {
+      "simlish": "tu",
+      "n": 3
+    },
+    {
+      "simlish": "sho",
+      "n": 2
+    }
+  ],
+  "was": [
+    {
+      "simlish": "wa",
+      "n": 1
+    }
+  ],
+  "we": [
+    {
+      "simlish": "wi",
+      "n": 6
+    },
+    {
+      "simlish": "wa",
+      "n": 1
+    }
+  ],
+  "you": [
+    {
+      "simlish": "na",
+      "n": 160
+    },
+    {
+      "simlish": "gurn",
+      "n": 31
+    },
+    {
+      "simlish": "vous",
+      "n": 17
+    },
+    {
+      "simlish": "wi",
+      "n": 13
+    },
+    {
+      "simlish": "th'",
+      "n": 13
+    },
+    {
+      "simlish": "ni",
+      "n": 9
     }
   ]
 }

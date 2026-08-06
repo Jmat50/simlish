@@ -69,8 +69,8 @@ That is the whole runtime loop. There is no neural decoder at inference time on 
 | Line/phrase mapping dominates; token counts diverge | Prefer whole-line retrieval before word rewrite |
 | Syllable ratio ≈ 1.0 | Fit a linear meter model; allocate per-token syllable budgets |
 | End rhyme is first-class | Last content word sampled from ARPABET rhyme-class → Simlish endings |
-| Sound-alike content words | Lexicon + phone unigram/bigram maps; keep onset if similarity collapses |
-| Function words are noisy | Separate empirical maps (`you`, `the`, `to`, …); fill rhythm, don’t translate |
+| Function words are noisy | Separate empirical maps (`you`, `the`, `to`, …); fill rhythm, don’t translate; closed-class misses sample `short_fillers` or elide |
+| Sound-alike content words | Lexicon + onset/rhyme compose + cleaned phone maps |
 
 ---
 
@@ -105,7 +105,9 @@ Identify the **last content word**. That token is sampled from a rhyme class via
 
 ### 5. Sound-alike (non-rhyme words)
 
-Lexicon → function-word map → phone map → pad/trim to syllable budget.
+Function-word map → lexicon → closed-class fill/elide (`short_fillers.json`) → onset+rhyme compose / phone map (content OOV only).
+
+Closed-class English (`is`, `are`, `was`, …) never phone-mutates: if no FW/lexicon hit, sample an attested short Simlish filler or elide when content syllables already meet the meter budget.
 
 ### 6. Reassembly
 
@@ -128,7 +130,7 @@ Models are **induced**, not hand-authored. Research lives under [`engine/`](engi
 ```text
 01 catalog  →  02 official parallel lyrics
             →  05 text analysis (soft align + rhyme + syllable ratios)
-            →  08 induce soundalike / rhyme / meter / phrase memory / function words
+            →  08 induce soundalike / rhyme / meter / phrase memory / function words / short fillers
 03–07 audio resolve/download/align/prosody
 09 phrase LM train (optional; site uses NN memory, not torch weights)
 10 converter build / smoke
@@ -146,6 +148,7 @@ Canonical models: `engine/models/`. Sync to the site with `npm run build` and `p
 | `docs/models/phrase_memory.json` | NN line recall |
 | `docs/models/soundalike_rules.json` | Lexicon + phone maps |
 | `docs/models/function_words.json` | Function-word fillers |
+| `docs/models/short_fillers.json` | Attested short Simlish tokens for closed-class miss |
 | `docs/models/rhyme_classes.json` | End-rhyme bags |
 | `docs/models/rhyme_keys.json` | Word → ARPABET rhyme key |
 | `docs/models/syllable_templates.json` | Meter `a`, `b` |

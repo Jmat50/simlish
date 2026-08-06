@@ -1,7 +1,6 @@
 from __future__ import annotations
 
 import json
-import math
 import sys
 from collections import Counter, defaultdict
 from pathlib import Path
@@ -10,7 +9,48 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from engine.config import ANALYSIS_TEXT, LYRICS_DIR, MODELS_DIR, ensure_dirs
-from engine.lib.textfeat import approx_phones, line_syllables, tokenize
+from engine.convert.closed_class import ENGLISH_LEAK, FUNCTION_INDUCTION
+from engine.lib.textfeat import approx_phones, line_syllables, simlish_syllable_count, tokenize
+
+
+def _is_leak(tok: str) -> bool:
+    t = tok.lower().strip("'")
+    return t in ENGLISH_LEAK
+
+
+def _ok_filler(tok: str) -> bool:
+    if _is_leak(tok):
+        return False
+    t = tok.lower()
+    if len(t) < 2 and t not in {"oh"}:
+        return False
+    return True
+
+
+def _scrub_fw_options(ctr: Counter, fillers: list[dict]) -> list[dict]:
+    non_eng = [{"simlish": s, "n": c} for s, c in ctr.most_common(12) if not _is_leak(s)]
+    if non_eng:
+        return non_eng[:6]
+    if fillers:
+        return fillers[:6]
+    return [{"simlish": s, "n": c} for s, c in ctr.most_common(6)]
+
+
+def _phone_map_entry(key: str, ctr: Counter) -> list[dict]:
+    """Drop X targets; demote identity bigrams when non-identity alternatives exist."""
+    cleaned = Counter()
+    for t, c in ctr.items():
+        if not t or "X" in t.split("+"):
+            continue
+        cleaned[t] += c
+    if not cleaned:
+        return []
+    if "+" in key:
+        src = key.split("+")
+        non_id = Counter({t: c for t, c in cleaned.items() if t.split("+") != src})
+        if non_id:
+            cleaned = non_id
+    return [{"to": t, "n": c} for t, c in cleaned.most_common(6)]
 
 
 def main() -> None:
@@ -25,24 +65,33 @@ def main() -> None:
     for p in pairs:
         en, sim = p["en"], p["sim"]
         lex[en][sim] += 1
-        ep, sp = p.get("en_phones") or approx_phones(en), p.get("sim_phones") or approx_phones(sim)
-        # unigram + bigram mappings padded
+        ep = p.get("en_phones") or approx_phones(en)
+        sp = p.get("sim_phones") or approx_phones(sim)
         for a, b in zip(ep, sp):
+            if not b or b == "X":
+                continue
             phone_ng[a][b] += 1
-        for i in range(len(ep) - 1):
+        for i in range(min(len(ep), len(sp)) - 1):
             key = ep[i] + "+" + ep[i + 1]
-            tgt = (sp[i] if i < len(sp) else "X") + "+" + (sp[i + 1] if i + 1 < len(sp) else "X")
+            tgt = sp[i] + "+" + sp[i + 1]
+            if "X" in tgt.split("+"):
+                continue
             phone_ng[key][tgt] += 1
+
+    phone_map = {}
+    for k, ctr in sorted(phone_ng.items(), key=lambda x: -sum(x[1].values())):
+        entry = _phone_map_entry(k, ctr)
+        if entry:
+            phone_map[k] = entry
+        if len(phone_map) >= 400:
+            break
 
     soundalike_rules = {
         "lexicon": {
             w: [{"simlish": s, "n": c} for s, c in ctr.most_common(8)]
             for w, ctr in sorted(lex.items(), key=lambda x: -sum(x[1].values()))
         },
-        "phone_map": {
-            k: [{"to": t, "n": c} for t, c in ctr.most_common(6)]
-            for k, ctr in sorted(phone_ng.items(), key=lambda x: -sum(x[1].values()))[:400]
-        },
+        "phone_map": phone_map,
     }
     (MODELS_DIR / "soundalike_rules.json").write_text(
         json.dumps(soundalike_rules, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -79,41 +128,47 @@ def main() -> None:
         encoding="utf-8",
     )
 
-    # Function-word / contextual maps
-    func = {
-        "you",
-        "i",
-        "me",
-        "we",
-        "the",
-        "a",
-        "an",
-        "and",
-        "or",
-        "to",
-        "of",
-        "in",
-        "on",
-        "for",
-        "it",
-        "is",
-        "are",
-        "be",
-        "my",
-        "your",
-        "that",
-        "this",
-        "with",
-        "no",
-        "yes",
-        "oh",
-        "la",
-        "na",
-    }
+    # Short fillers: attested 1-syllable (+ high-freq 2-syllable) Simlish tokens
+    filler_ctr: Counter = Counter()
+    for fp in LYRICS_DIR.glob("*.json"):
+        doc = json.loads(fp.read_text(encoding="utf-8"))
+        for pair in doc.get("pairs") or []:
+            for tok in tokenize(pair["simlish"]):
+                if not _ok_filler(tok):
+                    continue
+                syl = simlish_syllable_count(tok)
+                if syl <= 1 or syl == 2:
+                    filler_ctr[tok] += 1
+    short_fillers = [
+        {"simlish": s, "n": c}
+        for s, c in filler_ctr.most_common()
+        if simlish_syllable_count(s) <= 1 and _ok_filler(s)
+    ]
+    short_fillers += [
+        {"simlish": s, "n": c}
+        for s, c in filler_ctr.most_common()
+        if simlish_syllable_count(s) == 2 and c >= 3 and _ok_filler(s)
+    ]
+    short_fillers = short_fillers[:80]
+    (MODELS_DIR / "short_fillers.json").write_text(
+        json.dumps(short_fillers, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    # Function-word / contextual maps (unified induction set includes was/were/at)
     ctx: dict[str, Counter] = defaultdict(Counter)
     for p in pairs:
-        if p["en"] in func:
+        if p["en"] in FUNCTION_INDUCTION:
             ctx[p["en"]][p["sim"]] += 1
+
+    fw_out = {
+        w: _scrub_fw_options(ctr, short_fillers)
+        for w, ctr in sorted(ctx.items(), key=lambda x: x[0])
+    }
+    (MODELS_DIR / "function_words.json").write_text(
+        json.dumps(fw_out, ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
+
     # Phrase memory: all line pairs
     memory = []
     for fp in LYRICS_DIR.glob("*.json"):
@@ -126,18 +181,14 @@ def main() -> None:
                     "simlish": pair["simlish"],
                 }
             )
-    (MODELS_DIR / "function_words.json").write_text(
-        json.dumps(
-            {w: [{"simlish": s, "n": c} for s, c in ctr.most_common(6)] for w, ctr in ctx.items()},
-            ensure_ascii=False,
-            indent=2,
-        ),
-        encoding="utf-8",
-    )
     (MODELS_DIR / "phrase_memory.json").write_text(
         json.dumps(memory, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    print(f"Induced models in {MODELS_DIR}; lexicon_entries={len(lex)} memory={len(memory)}")
+    print(
+        f"Induced models in {MODELS_DIR}; lexicon_entries={len(lex)} "
+        f"memory={len(memory)} fillers={len(short_fillers)} fw={len(fw_out)} "
+        f"phone_map={len(phone_map)}"
+    )
 
 
 if __name__ == "__main__":

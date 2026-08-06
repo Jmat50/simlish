@@ -18,6 +18,8 @@ REQUIRED = [
     "rhyme_classes.json",
     "syllable_templates.json",
     "phrase_memory.json",
+    "function_words.json",
+    "short_fillers.json",
 ]
 
 

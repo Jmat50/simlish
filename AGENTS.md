@@ -12,7 +12,7 @@ Client-side English→Simlish converter. Live: https://jmat50.github.io/simlish/
 | Induction | `engine/` | Official lyrics + YouTube rips → model JSON. Site never calls Python. |
 | Extension | `chrome-extension/` | MV3; translates via Pages `postMessage` bridge only (no vendored models). Docs: `chrome-extension/README.md`. |
 
-Convert is line-first: phrase memory → else sound-alike + end-rhyme + syllable budget (`docs/js/convert.js` ← `engine/convert/`).
+Convert is line-first: phrase memory → else sound-alike + end-rhyme + syllable budget (`docs/js/convert.js` ← `engine/convert/`). Closed-class misses (`is`/`are`/…) fill or elide from attested short fillers — never phone-invent glue.
 
 Speak uses stock [Kokoro](https://github.com/hexgrad/kokoro) + `docs/js/simlish-ipa.js` (not an official Sims voice).
 

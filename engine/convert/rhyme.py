@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 
 from engine.config import MODELS_DIR
-from engine.lib.textfeat import english_rhyme_key
+from engine.lib.textfeat import compose_onset_ending, english_rhyme_key
 from engine.convert.soundalike import SoundAlike
 
 
@@ -19,10 +19,11 @@ class RhymeModel:
         key = english_rhyme_key(en_word)
         opts = self.map.get(key) or []
         if opts:
-            # weighted by n
+            # weighted by n; graft English onset onto attested Simlish ending
             bag = []
             for o in opts:
                 bag.extend([o["simlish"]] * max(1, int(o.get("n") or 1)))
-            return random.choice(bag)
+            ending = random.choice(bag)
+            return compose_onset_ending(en_word, ending)
         # fallback: soundalike of the end word
         return self.sa.transform(en_word)

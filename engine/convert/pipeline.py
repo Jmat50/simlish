@@ -2,32 +2,12 @@ from __future__ import annotations
 
 import re
 
+from engine.convert.closed_class import CLOSED_CLASS
 from engine.convert.meter import MeterModel
 from engine.convert.phrase import PhraseMemory, split_keep
 from engine.convert.rhyme import RhymeModel
 from engine.convert.soundalike import SoundAlike
 from engine.lib.textfeat import tokenize
-
-
-_FUNC = {
-    "the",
-    "a",
-    "an",
-    "and",
-    "or",
-    "to",
-    "of",
-    "in",
-    "on",
-    "for",
-    "is",
-    "are",
-    "be",
-    "was",
-    "were",
-    "it",
-    "at",
-}
 
 
 class SimlishConverter:
@@ -49,15 +29,23 @@ class SimlishConverter:
         target = self.meter.target_line_syllables(line)
         budgets = self.meter.allocate(tokens, target)
         # last content word gets rhyme treatment
-        content_idx = [i for i, t in enumerate(tokens) if t not in _FUNC]
+        content_idx = [i for i, t in enumerate(tokens) if t not in CLOSED_CLASS]
         rhyme_i = content_idx[-1] if content_idx else len(tokens) - 1
+        content_budget = sum(budgets[i] for i in content_idx) if content_idx else 0
+        prefer_elide = content_budget >= max(1, target - 1)
 
         out_words = []
         for i, tok in enumerate(tokens):
             if i == rhyme_i:
                 out_words.append(self.rhyme.ending_for(tok))
             else:
-                out_words.append(self.sa.transform(tok, budgets[i] if i < len(budgets) else None))
+                out_words.append(
+                    self.sa.transform(
+                        tok,
+                        budgets[i] if i < len(budgets) else None,
+                        prefer_elide=prefer_elide,
+                    )
+                )
 
         # reassemble with original punctuation/spacing skeleton
         return _reassemble(line, tokens, out_words)
@@ -87,19 +75,25 @@ def _reassemble(original: str, en_tokens: list[str], sim_tokens: list[str]) -> s
     for p in pieces:
         if re.fullmatch(r"[A-Za-z']+", p):
             if ti < len(sim_tokens):
-                out.append(_match_case(p, sim_tokens[ti]))
+                sim = sim_tokens[ti]
                 ti += 1
+                if sim:
+                    out.append(_match_case(p, sim))
             else:
                 out.append(p)
         else:
             out.append(p)
     while ti < len(sim_tokens):
-        out.append(" " + sim_tokens[ti])
+        if sim_tokens[ti]:
+            out.append(" " + sim_tokens[ti])
         ti += 1
-    return "".join(out)
+    text = "".join(out)
+    return re.sub(r" {2,}", " ", text).strip() if text else text
 
 
 def _match_case(src: str, dst: str) -> str:
+    if not dst:
+        return ""
     if src.isupper():
         return dst.upper()
     if src.istitle():

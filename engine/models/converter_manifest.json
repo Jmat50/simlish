@@ -3,7 +3,9 @@
     "soundalike_rules.json",
     "rhyme_classes.json",
     "syllable_templates.json",
-    "phrase_memory.json"
+    "phrase_memory.json",
+    "function_words.json",
+    "short_fillers.json"
   ],
   "smoke": [
     {
@@ -20,7 +22,7 @@
     },
     {
       "en": "Hello world",
-      "simlish": "Lelxno sho"
+      "simlish": "Halio wo"
     }
   ]
 }

@@ -21,6 +21,8 @@ const NN_THRESHOLD = 0.82;
  *   lexicon: Record<string, string[]>,
  *   phoneMap: Record<string, string[]>,
  *   functionWords: Record<string, string[]>,
+ *   shortFillers: {simlish: string, n: number}[],
+ *   endingBag: string[],
  *   rhyme: Record<string, {simlish: string, n: number}[]>,
  *   rhymeKeys: Record<string, string>,
  *   meter: {a: number, b: number},
@@ -109,14 +111,59 @@ function phonesToSpelling(phones) {
     CH: "ch", SH: "sh", TH: "th", NG: "ng", KW: "qu",
     AY: "ai", OY: "oi", AW: "aw", A: "a", E: "e", I: "i", O: "o", U: "u",
   };
-  return phones.map((p) => special[p] || p.toLowerCase()).join("");
+  return phones.filter((p) => p && p !== "X").map((p) => special[p] || p.toLowerCase()).join("");
 }
 
 function pick(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
 }
 
-function transformWord(word, targetSyll, m) {
+function weightedPick(entries, field = "simlish") {
+  if (!entries?.length) return "";
+  /** @type {string[]} */
+  const bag = [];
+  for (const e of entries) {
+    const s = e[field] || e.to || "";
+    if (!s || String(s).includes("X")) continue;
+    const n = Math.max(1, e.n || 1);
+    for (let i = 0; i < n; i++) bag.push(s);
+  }
+  return bag.length ? pick(bag) : "";
+}
+
+function expandWeighted(entries, field) {
+  /** @type {string[]} */
+  const bag = [];
+  for (const e of entries || []) {
+    const s = e[field];
+    if (!s || String(s).includes("X")) continue;
+    const n = Math.max(1, e.n || 1);
+    for (let i = 0; i < n; i++) bag.push(s);
+  }
+  return bag;
+}
+
+function onsetLetters(word) {
+  const w = word.toLowerCase().replace(/^'+|'+$/g, "");
+  if (!w) return "";
+  let i = 0;
+  while (i < w.length && !VOWELS.has(w[i]) && w[i] !== "'") i++;
+  return i ? w.slice(0, i) : w[0];
+}
+
+function composeOnsetEnding(enWord, ending) {
+  const onset = onsetLetters(enWord);
+  const e = (ending || "").toLowerCase().replace(/^'+|'+$/g, "");
+  if (!e) return onset || enWord.toLowerCase();
+  if (onset && e.startsWith(onset)) return e;
+  let j = 0;
+  while (j < e.length && !VOWELS.has(e[j]) && e[j] !== "'") j++;
+  const coda = j < e.length ? e.slice(j) : e;
+  if (!coda) return onset ? onset + e : e;
+  return onset ? onset + coda : coda;
+}
+
+function transformWord(word, targetSyll, m, preferElide = false) {
   const w = word.toLowerCase();
   if (m.functionWords[w]?.length) return pick(m.functionWords[w]);
   if (m.lexicon[w]?.length) {
@@ -125,7 +172,39 @@ function transformWord(word, targetSyll, m) {
       return choice;
     }
   }
+  if (FUNC.has(w)) {
+    if (preferElide) return "";
+    return weightedPick(m.shortFillers) || "na";
+  }
+  return generateContent(w, targetSyll, m);
+}
+
+function generateContent(w, targetSyll, m) {
   const phones = approxPhones(w);
+  const bag = m.endingBag?.length ? m.endingBag : ["na", "la", "oh", "wa", "zor"];
+  if (bag.length) {
+    let spelling = composeOnsetEnding(w, pick(bag));
+    if (targetSyll != null) {
+      const sample = [];
+      const n = Math.min(8, bag.length);
+      const used = new Set();
+      while (sample.length < n) {
+        const e = pick(bag);
+        if (used.has(e)) continue;
+        used.add(e);
+        sample.push(composeOnsetEnding(w, e));
+      }
+      spelling = sample.reduce((best, s) =>
+        Math.abs(simlishSyllableCount(s) - targetSyll) < Math.abs(simlishSyllableCount(best) - targetSyll)
+          ? s
+          : best
+      );
+    }
+    if (spelling && phoneSimilarity(phones, approxPhones(spelling)) >= 0.15) {
+      return spelling;
+    }
+  }
+
   /** @type {string[]} */
   const out = [];
   let i = 0;
@@ -133,37 +212,35 @@ function transformWord(word, targetSyll, m) {
     if (i + 1 < phones.length) {
       const big = `${phones[i]}+${phones[i + 1]}`;
       if (m.phoneMap[big]?.length) {
-        out.push(...pick(m.phoneMap[big]).split("+"));
+        out.push(...pick(m.phoneMap[big]).split("+").filter((p) => p && p !== "X"));
         i += 2;
         continue;
       }
     }
     if (m.phoneMap[phones[i]]?.length) {
-      out.push(pick(m.phoneMap[phones[i]]));
+      const p = pick(m.phoneMap[phones[i]]);
+      if (p && p !== "X") out.push(p);
     } else if ("AEIOU".includes(phones[i])) {
       out.push(pick(["A", "E", "I", "O", "U"]));
-    } else {
+    } else if (phones[i] !== "X") {
       out.push(phones[i]);
     }
     i += 1;
   }
   let spelling = phonesToSpelling(out);
   if (targetSyll != null) {
-    let guard = 0;
-    while (simlishSyllableCount(spelling) < targetSyll && guard < 12) {
-      spelling += pick(["ba", "di", "ko", "su", "la"]);
-      guard++;
-    }
-    guard = 0;
-    while (simlishSyllableCount(spelling) > targetSyll + 1 && spelling.length > 2 && guard < 24) {
-      spelling = spelling.slice(0, -1);
-      guard++;
-    }
+    const candidates = [spelling];
+    for (let k = 0; k < 6; k++) candidates.push(composeOnsetEnding(w, pick(bag)));
+    spelling = candidates.reduce((best, s) =>
+      Math.abs(simlishSyllableCount(s || w) - targetSyll) < Math.abs(simlishSyllableCount(best || w) - targetSyll)
+        ? s
+        : best
+    );
   }
   if (phoneSimilarity(phones, approxPhones(spelling)) < 0.25 && w[0]) {
-    spelling = w[0] + spelling.slice(1);
+    spelling = composeOnsetEnding(w, spelling || pick(bag));
   }
-  return spelling || w;
+  return spelling || composeOnsetEnding(w, "na");
 }
 
 function endingFor(enWord, m) {
@@ -176,9 +253,9 @@ function endingFor(enWord, m) {
       const n = Math.max(1, o.n || 1);
       for (let i = 0; i < n; i++) bag.push(o.simlish);
     }
-    return pick(bag);
+    return composeOnsetEnding(enWord, pick(bag));
   }
-  return transformWord(enWord, null, m);
+  return transformWord(enWord, null, m, false);
 }
 
 function allocate(tokens, target) {
@@ -243,6 +320,7 @@ function memoryLookup(line, m) {
 }
 
 function matchCase(src, dst) {
+  if (!dst) return "";
   if (src === src.toUpperCase()) return dst.toUpperCase();
   if (src[0] === src[0].toUpperCase() && src.slice(1) === src.slice(1).toLowerCase()) {
     return dst.charAt(0).toUpperCase() + dst.slice(1).toLowerCase();
@@ -258,15 +336,16 @@ function reassemble(original, enTokens, simTokens) {
   for (const p of pieces) {
     if (/^[A-Za-z']+$/.test(p)) {
       if (ti < simTokens.length) {
-        out.push(matchCase(p, simTokens[ti]));
-        ti++;
+        const sim = simTokens[ti++];
+        if (sim) out.push(matchCase(p, sim));
       } else out.push(p);
     } else out.push(p);
   }
   while (ti < simTokens.length) {
-    out.push(" " + simTokens[ti++]);
+    if (simTokens[ti]) out.push(" " + simTokens[ti]);
+    ti++;
   }
-  return out.join("");
+  return out.join("").replace(/ {2,}/g, " ").trim();
 }
 
 function convertLine(line, m) {
@@ -278,8 +357,10 @@ function convertLine(line, m) {
   const budgets = allocate(tokens, target);
   const contentIdx = tokens.map((t, i) => (FUNC.has(t) ? -1 : i)).filter((i) => i >= 0);
   const rhymeI = contentIdx.length ? contentIdx[contentIdx.length - 1] : tokens.length - 1;
+  const contentBudget = contentIdx.reduce((s, i) => s + budgets[i], 0);
+  const preferElide = contentBudget >= Math.max(1, target - 1);
   const outWords = tokens.map((tok, i) =>
-    i === rhymeI ? endingFor(tok, m) : transformWord(tok, budgets[i], m)
+    i === rhymeI ? endingFor(tok, m) : transformWord(tok, budgets[i], m, preferElide)
   );
   return reassemble(line, tokens, outWords);
 }
@@ -313,28 +394,37 @@ export async function loadModels() {
       "syllable_templates.json",
       "phrase_memory.json",
       "function_words.json",
+      "short_fillers.json",
       "rhyme_keys.json",
     ];
     // Module-relative URLs (not document-relative) so /simlish and /simlish/ both work.
     // no-cache avoids sticky 404s after the models/ path rename.
     const base = new URL("../models/", import.meta.url);
-    const [sa, rhyme, meter, memory, fw, rhymeKeys] = await Promise.all(
+    const [sa, rhyme, meter, memory, fw, shortFillers, rhymeKeys] = await Promise.all(
       files.map(async (f) => {
         const res = await fetch(new URL(f, base), { cache: "no-cache" });
         if (!res.ok) throw new Error(`Failed to load models/${f} (${res.status})`);
         return res.json();
       })
     );
+    const lexicon = Object.fromEntries(
+      Object.entries(sa.lexicon || {}).map(([k, v]) => [k, v.map((x) => x.simlish)])
+    );
+    /** @type {string[]} */
+    const endingBag = [];
+    for (const opts of Object.values(lexicon)) {
+      endingBag.push(...opts.slice(0, 2));
+    }
     models = {
-      lexicon: Object.fromEntries(
-        Object.entries(sa.lexicon || {}).map(([k, v]) => [k, v.map((x) => x.simlish)])
-      ),
+      lexicon,
       phoneMap: Object.fromEntries(
-        Object.entries(sa.phone_map || {}).map(([k, v]) => [k, v.map((x) => x.to)])
+        Object.entries(sa.phone_map || {}).map(([k, v]) => [k, expandWeighted(v, "to")])
       ),
       functionWords: Object.fromEntries(
-        Object.entries(fw || {}).map(([k, v]) => [k, v.map((x) => x.simlish)])
+        Object.entries(fw || {}).map(([k, v]) => [k, expandWeighted(v, "simlish")])
       ),
+      shortFillers: shortFillers || [],
+      endingBag: endingBag.length ? endingBag : ["na", "la", "oh", "wa", "zor"],
       rhyme,
       rhymeKeys: rhymeKeys || {},
       meter: { a: meter.a ?? 1, b: meter.b ?? 0 },

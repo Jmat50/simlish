@@ -1,216 +1,216 @@
 {
   "songs": 7,
-  "mean_norm_phone_edit": 0.6021651841221588,
-  "mean_rhyme_hit_rate": 0.5586882985715889,
-  "mean_syllable_mae": 1.1812887763117814,
+  "mean_norm_phone_edit": 0.6123631703725584,
+  "mean_rhyme_hit_rate": 0.5491965521479606,
+  "mean_syllable_mae": 1.0284565357957793,
   "per_song": [
     {
       "song_id": "katy-perry__hot-n-cold",
       "n": 57,
-      "mean_norm_phone_edit": 0.6444136451693075,
-      "rhyme_hit_rate": 0.543859649122807,
-      "syllable_mae": 0.6491228070175439,
+      "mean_norm_phone_edit": 0.6750609816967494,
+      "rhyme_hit_rate": 0.42105263157894735,
+      "syllable_mae": 0.5263157894736842,
       "samples": [
         {
           "en": "You, change your mind",
           "gold": "laka gurl, chika claps",
-          "pred": "in bige iawl hip"
+          "pred": "gurn chan ygj maps"
         },
         {
           "en": "Like a girl, changes clothes",
           "gold": "Va vous, Zee e rex,",
-          "pred": "leed va gurl hangis claps"
+          "pred": "leed da gurl chown claps"
         },
         {
           "en": "Yeah you, PMS",
           "gold": "Laka brich, aba nup",
-          "pred": "ynvd you nup"
+          "pred": "yuens na pmsup"
         },
         {
           "en": "And you, always think",
           "gold": "Om vous, olweh zonk",
-          "pred": "an' in lxwaiisu sip"
+          "pred": "gurn na aeeky thonk"
         },
         {
           "en": "Always speak cryptically",
           "gold": "Ibu seek, cryptozeek",
-          "pred": "lxwaipba spevk cryptozeek"
+          "pred": "aurasa spock cryptozeek"
         },
         {
           "en": "I should know",
           "gold": "Ashanup",
-          "pred": "i shawil oh"
+          "pred": "shi shatch knoh"
         },
         {
           "en": "That you're no good for me",
           "gold": "Za vous ku da vina",
-          "pred": "bap innx zo jux fona fabby"
+          "pred": "thu yar zo gor fona mina"
         },
         {
           "en": "You're yes then you're no",
           "gold": "Kavahap ninap cou",
-          "pred": "inak ynp zen inak ashanup"
+          "pred": "yade yun thuens yi nobe"
         }
       ]
     },
     {
       "song_id": "kisha__sowieso",
       "n": 12,
-      "mean_norm_phone_edit": 0.5268259475302819,
+      "mean_norm_phone_edit": 0.5662796825134916,
       "rhyme_hit_rate": 0.8333333333333334,
-      "syllable_mae": 1.25,
+      "syllable_mae": 1.1666666666666667,
       "samples": [
         {
           "en": "So geil wie du isch nid mau dr Kuno",
           "gold": "To bi za du misch ni blau ni kuzu",
-          "pred": "slo gihi wmn du misch ni blau nr kuzu"
+          "pred": "to gake woo du misch ni blau drub kuzu"
         },
         {
           "en": "Bisch immer vou derbi",
           "gold": "Bazh imma fwe dobli",
-          "pred": "bizh imma vhn dobli"
+          "pred": "bam imma vuens dobli"
         },
         {
           "en": "Hesch die gröschti, nöschti Hifi-alag",
           "gold": "Hezh a brozhi, brozhi Hafi-anag",
-          "pred": "misch dil gu schdi n ssix hafi anag"
+          "pred": "hezh du gruv schtore nin schta hafi anag"
         },
         {
           "en": "Zahlt het se dänk z mammi",
           "gold": "Teb haki hekbt bavi",
-          "pred": "zvnpe hekbt se d nk z bavi"
+          "pred": "zth hekbt saps dip nkeegie zoom mavi"
         },
         {
           "en": "Ä so ne schliimer wie du eine bisch",
           "gold": "A slo ble slimer a dov vi blezh",
-          "pred": "slo ze slimer ide du eize blezh"
+          "pred": "to need slimer wough du eor blezh"
         },
         {
           "en": "Isch ging parat, ja klar",
           "gold": "Et sing parat, jo va",
-          "pred": "misch sing parat wa gashta"
+          "pred": "misch sing parat ya klashta"
         },
         {
           "en": "Ä chlini frag, die stellt sich haut",
           "gold": "A blini fla, ti del ba va",
-          "pred": "blini fla dia sxipld sich va"
+          "pred": "blini fla da stimme seegie ha"
         },
         {
           "en": "Hesch z Gfühl du sigsch dr star?",
           "gold": "Atsiel gitish gashta",
-          "pred": "misch z gf nl du sinis du va"
+          "pred": "hezh zu gfor hlahn tu sar drarn stashta"
         }
       ]
     },
     {
       "song_id": "lily-allen__smile",
       "n": 42,
-      "mean_norm_phone_edit": 0.65543304382845,
-      "rhyme_hit_rate": 0.47619047619047616,
-      "syllable_mae": 1.4047619047619047,
+      "mean_norm_phone_edit": 0.6721484886067122,
+      "rhyme_hit_rate": 0.5,
+      "syllable_mae": 0.9761904761904762,
       "samples": [
         {
           "en": "When you first left me, I was wanting more",
           "gold": "Wona bileptou wawawa pua mu u u",
-          "pred": "waen you fixxd lxwp me shi wa womzing za"
+          "pred": "whi na ferm loo na shi wa wafi munitu"
         },
         {
           "en": "But you were f***** that girl next door",
           "gold": "Vaiauafu in a gunitu",
-          "pred": "but you wirx f bat gurn nexp zor"
+          "pred": "but vous fay thown gurl nough dor"
         },
         {
           "en": "What ya do that for? (What ya do that for?)",
           "gold": "Wajacawa fuuu? (Wajacawa fuuu?)",
-          "pred": "wah yh do bad fona wah yh fo bat fona"
+          "pred": "rat yel duens thub fona wah yoe dan't thore fona"
         },
         {
           "en": "When you first left me, I didn't know what to say",
           "gold": "Wona bileptou akivanu ava swin",
-          "pred": "wanx you fixxd lxbm me i difkxko knar wah sho twin"
+          "pred": "what na fit lan na shi diddle knin wah tu swin"
         },
         {
           "en": "I've never been on my own that way",
           "gold": "Anavapi nama pawa wiin",
-          "pred": "ima nevxnsu wiin on my own bat wiin"
+          "pred": "ieed nickles wiin na pumi obn thurrs wiin"
         },
         {
           "en": "Just sat by myself all day",
           "gold": "Tisamabi sinu twin",
-          "pred": "juk shx bu pusenw all twin"
+          "pred": "juk seb bisch middle all din"
         },
         {
           "en": "I was so lost back then",
           "gold": "Avu nilo kuatuen",
-          "pred": "i wa su lakx gad owbrey"
+          "pred": "shi wa su la barn thowbrey"
         },
         {
           "en": "But with a little help from my friends",
           "gold": "Pawipawi paha pumi fuens",
-          "pred": "but wmh va liddle hip flox my fuens"
+          "pred": "but wan da liddle hip frurl dee fruens"
         }
       ]
     },
     {
       "song_id": "luke-bryan__country-girl-shake-it-for-me",
       "n": 67,
-      "mean_norm_phone_edit": 0.5330685945327214,
-      "rhyme_hit_rate": 0.7611940298507462,
-      "syllable_mae": 1.9701492537313432,
+      "mean_norm_phone_edit": 0.5472201188990197,
+      "rhyme_hit_rate": 0.7313432835820896,
+      "syllable_mae": 1.9402985074626866,
       "samples": [
         {
           "en": "Hey girl, go on now.",
           "gold": "Hee gurn, kuwohm dowm.",
-          "pred": "hee gurl go on zow"
+          "pred": "hee gurn gi vous nowm"
         },
         {
           "en": "You know you got ev'rybody lookin'.",
           "gold": "Yenna wanna ku ibby bonna locky.",
-          "pred": "you dzob in goi echorvodi locky"
+          "pred": "na knahn na gin eineeya locky"
         },
         {
           "en": "Got a little boom in my big truck,",
           "gold": "Comma livva boom an' I picked her,",
-          "pred": "gop a pitta boom en pumi bin her"
+          "pred": "gase va pitta boom en pumi bin trer"
         },
         {
           "en": "Gonna open up my doors and turn it up,",
           "gold": "Gobba uba nera doo na turnip nerb,",
-          "pred": "gobba open up pumi doo an' turnip dit dap"
+          "pred": "gobba open up pumi doo gurn turnip dit uaw"
         },
         {
           "en": "Gonna stomp my boots in the Georgia mud,",
           "gold": "Give a stahm big noops ibba jer jimmup,",
-          "pred": "gobba stoxb my noops on th' gionjoa jimmup"
+          "pred": "gobba sta pumi noops en ze guthing mimmup"
         },
         {
           "en": "Gonna watch you make me fall in love.",
           "gold": "Give a wahn choot need me fovva luv.",
-          "pred": "gobba watch in make me fakx en sha"
+          "pred": "gobba watch na make na fuens en la"
         },
         {
           "en": "Get up on the hood o' my daddy's tractor,",
           "gold": "Git opp una hoo, ah ma dee dee ep,",
-          "pred": "git up on ze hoo o dee dafdis bicoler"
+          "pred": "git up na th' hoo oe pumi dabdis trocturg"
         },
         {
           "en": "Up on the toolbox — it don't matter —",
           "gold": "Dit dock una too big, eebu mat,",
-          "pred": "up on th' tuavox dit dock docturg"
+          "pred": "up wi ze tulvo dit dock mibwimzer"
         }
       ]
     },
     {
       "song_id": "my-chemical-romance__na-na-na",
       "n": 70,
-      "mean_norm_phone_edit": 0.48371285553731735,
-      "rhyme_hit_rate": 0.6857142857142857,
-      "syllable_mae": 0.7142857142857143,
+      "mean_norm_phone_edit": 0.504846553834358,
+      "rhyme_hit_rate": 0.6428571428571429,
+      "syllable_mae": 0.6142857142857143,
       "samples": [
         {
           "en": "Love gimme Love gimme Love",
           "gold": "Sha gimme sha gimme sha",
-          "pred": "luv gimme luv gimme sha"
+          "pred": "luv gimme luv gimme la"
         },
         {
           "en": "I don't need it",
@@ -220,130 +220,130 @@
         {
           "en": "But i'll take what I want from your heart",
           "gold": "Mes ooney wada da bramya na",
-          "pred": "but iin tiki rat shi wada fuox iawn na"
+          "pred": "but iem tiin wah shi wada fro yekbt har"
         },
         {
           "en": "And i'll keep it",
           "gold": "Es zu weeba",
-          "pred": "and mil inzai dit"
+          "pred": "na iore kinzai dit"
         },
         {
           "en": "In a bag",
           "gold": "In a deg",
-          "pred": "on va deg"
+          "pred": "en va beg"
         },
         {
           "en": "In a box",
           "gold": "In a shat",
-          "pred": "en da shat"
+          "pred": "en da bat"
         },
         {
           "en": "Put an \"X\" on the floor",
           "gold": "With an \"X\" abba zor",
-          "pred": "put a x on th' zor"
+          "pred": "pown ni x na th' flor"
         },
         {
           "en": "Give me more give me more give me more",
           "gold": "Nibby zor nibby zor nibby zor",
-          "pred": "gimme me zor gibs me zor gimme me fuuu"
+          "pred": "gimme gurn zor gibs na zor gibs vous mor"
         }
       ]
     },
     {
       "song_id": "paramore__pressure",
       "n": 19,
-      "mean_norm_phone_edit": 0.8041611614265191,
-      "rhyme_hit_rate": 0.21052631578947367,
-      "syllable_mae": 0.9473684210526315,
+      "mean_norm_phone_edit": 0.7846511505598229,
+      "rhyme_hit_rate": 0.3157894736842105,
+      "syllable_mae": 0.8421052631578947,
       "samples": [
         {
           "en": "Tell me where our time went",
           "gold": "Isoku manchu yundzak",
-          "pred": "zekx me whxxe owo dime ra"
+          "pred": "ton wi whees oeally te wa"
         },
         {
           "en": "And if it was time well spent",
           "gold": "Nelimphinaru sish ra",
-          "pred": "an' af dit wa pixx will yundzak"
+          "pred": "na iing dit wa tor wey spa"
         },
         {
           "en": "Just don't let me fall asleep",
           "gold": "Jisoner parnul inzai",
-          "pred": "juk dock leb me fakx inzai"
+          "pred": "juk dock leb th' fown ainzai"
         },
         {
           "en": "Feeling empty again",
           "gold": "Lisano bur owbrey",
-          "pred": "wixxngko erptu kuatuen"
+          "pred": "fumi eanna aowbrey"
         },
         {
           "en": "'Cause I fear I might break",
           "gold": "Kushoku grini yan",
-          "pred": "'iukn i bkxr i dight yan"
+          "pred": "cin shi farns shi myou bryan"
         },
         {
           "en": "And I fear I can't take it",
           "gold": "Kushoku tornun free",
-          "pred": "an' in wear i can't yan dit"
+          "pred": "ni shi farn shi can't torberya dit"
         },
         {
           "en": "Tonight I'll lay awake",
           "gold": "Jileku korberya",
-          "pred": "shonnghmla inl lai yan"
+          "pred": "tocky ie lan't ayan"
         },
         {
           "en": "Feeling empty",
           "gold": "Listanyubi",
-          "pred": "fiimngsu wogatay"
+          "pred": "faka eagatay"
         }
       ]
     },
     {
       "song_id": "the-young-punx-vs-the-camden-choral-collective__in-the-bleak-midwinter",
       "n": 15,
-      "mean_norm_phone_edit": 0.5675410408305145,
+      "mean_norm_phone_edit": 0.5363352164977553,
       "rhyme_hit_rate": 0.4,
-      "syllable_mae": 1.3333333333333333,
+      "syllable_mae": 1.1333333333333333,
       "samples": [
         {
           "en": "Frosty wind made moan,",
           "gold": "Froxy wimbay moe",
-          "pred": "froxy wee made u"
+          "pred": "froxy wee made mawapu"
         },
         {
           "en": "Earth stood hard as iron,",
           "gold": "Arthsta harbis ira",
-          "pred": "evlth xiux harbis ws ira"
+          "pred": "eiin stel harbis ws ira"
         },
         {
           "en": "Water like a stone;",
           "gold": "Wobber laka stoe",
-          "pred": "wobber leed a pawapu"
+          "pred": "wobber laka da stoe"
         },
         {
           "en": "Snow had fallen, snow on snow,",
           "gold": "Snobie fawa, snobie snobe,",
-          "pred": "snobe atd falxneko snobe on cou"
+          "pred": "snobie hase fanag snobe na snoh"
         },
         {
           "en": "Snow on snow,",
           "gold": "Snobie snobe",
-          "pred": "snobe on vawmekwai"
+          "pred": "snobe na snobe"
         },
         {
           "en": "In the bleak midwinter,",
           "gold": "Imba bwee mibwimzer",
-          "pred": "in ze buevd mat"
+          "pred": "en th' bloop mocturg"
         },
         {
           "en": "Long ago.",
           "gold": "Laga ho",
-          "pred": "long oh"
+          "pred": "lurn aou"
         },
         {
           "en": "What can I give Him,",
           "gold": "Wakini gibsom,",
-          "pred": "rat can i gimme gibsom"
+          "pred": "rat cu shi gimme hibsom"
         }
       ]
     }

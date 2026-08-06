@@ -8,6 +8,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from engine.config import ANALYSIS_REPORTS, LYRICS_DIR, MODELS_DIR, ensure_dirs
+from engine.convert.closed_class import CLOSED_CLASS
 from engine.convert.meter import MeterModel
 from engine.convert.rhyme import RhymeModel
 from engine.convert.soundalike import SoundAlike
@@ -26,25 +27,6 @@ class FastEvalConverter:
         self.sa = SoundAlike()
         self.rhyme = RhymeModel()
         self.meter = MeterModel()
-        self._func = {
-            "the",
-            "a",
-            "an",
-            "and",
-            "or",
-            "to",
-            "of",
-            "in",
-            "on",
-            "for",
-            "is",
-            "are",
-            "be",
-            "was",
-            "were",
-            "it",
-            "at",
-        }
 
     def convert_line(self, line: str) -> str:
         tokens = tokenize(line)
@@ -52,14 +34,22 @@ class FastEvalConverter:
             return line
         target = self.meter.target_line_syllables(line)
         budgets = self.meter.allocate(tokens, target)
-        content_idx = [i for i, t in enumerate(tokens) if t not in self._func]
+        content_idx = [i for i, t in enumerate(tokens) if t not in CLOSED_CLASS]
         rhyme_i = content_idx[-1] if content_idx else len(tokens) - 1
+        content_budget = sum(budgets[i] for i in content_idx) if content_idx else 0
+        prefer_elide = content_budget >= max(1, target - 1)
         out = []
         for i, tok in enumerate(tokens):
             if i == rhyme_i:
                 out.append(self.rhyme.ending_for(tok))
             else:
-                out.append(self.sa.transform(tok, budgets[i] if i < len(budgets) else None))
+                w = self.sa.transform(
+                    tok,
+                    budgets[i] if i < len(budgets) else None,
+                    prefer_elide=prefer_elide,
+                )
+                if w:
+                    out.append(w)
         return " ".join(out)
 
 

@@ -113,3 +113,31 @@ def phone_similarity(a: list[str], b: list[str]) -> float:
         return 1.0
     d = phone_edit_distance(a, b)
     return 1.0 - d / max(len(a), len(b), 1)
+
+
+def onset_letters(word: str) -> str:
+    """Leading consonant cluster (approx); single first letter if vowel-initial."""
+    w = word.lower().strip("'")
+    if not w:
+        return ""
+    i = 0
+    while i < len(w) and w[i] not in VOWELS and w[i] != "'":
+        i += 1
+    return w[:i] if i else w[:1]
+
+
+def compose_onset_ending(en_word: str, ending: str) -> str:
+    """Keep English onset letters; graft Simlish rhyme/coda from an attested ending."""
+    onset = onset_letters(en_word)
+    e = (ending or "").lower().strip("'")
+    if not e:
+        return onset or en_word.lower()
+    if onset and e.startswith(onset):
+        return e
+    j = 0
+    while j < len(e) and e[j] not in VOWELS and e[j] != "'":
+        j += 1
+    coda = e[j:] if j < len(e) else e
+    if not coda:
+        return (onset + e) if onset else e
+    return (onset + coda) if onset else coda

@@ -16,6 +16,7 @@ const files = [
   "syllable_templates.json",
   "phrase_memory.json",
   "function_words.json",
+  "short_fillers.json",
 ];
 
 if (!fs.existsSync(src)) {
