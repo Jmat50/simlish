@@ -14,6 +14,7 @@ const els = {
   copy: /** @type {HTMLButtonElement} */ (document.getElementById("copy-btn")),
   speak: /** @type {HTMLButtonElement} */ (document.getElementById("speak-btn")),
   stopSpeak: /** @type {HTMLButtonElement} */ (document.getElementById("stop-speak-btn")),
+  random: /** @type {HTMLButtonElement | null} */ (document.getElementById("random-btn")),
   status: /** @type {HTMLElement} */ (document.getElementById("status")),
   themeSelect: /** @type {HTMLSelectElement | null} */ (document.getElementById("theme-select")),
   musicToggle: /** @type {HTMLInputElement | null} */ (document.getElementById("music-toggle")),
@@ -233,6 +234,64 @@ function clearAll() {
   els.input.focus();
 }
 
+const RANDOM_PHRASE_COUNT = 5;
+/** @type {string[] | null} */
+let phraseBank = null;
+/** @type {Promise<string[]> | null} */
+let phraseBankPromise = null;
+
+async function loadPhraseBank() {
+  if (phraseBank) return phraseBank;
+  if (!phraseBankPromise) {
+    phraseBankPromise = (async () => {
+      const url = new URL("./random-phrases.json", import.meta.url);
+      const res = await fetch(url, { cache: "force-cache" });
+      if (!res.ok) throw new Error(`Could not load phrases (${res.status})`);
+      const data = await res.json();
+      if (!Array.isArray(data) || data.length === 0) {
+        throw new Error("Phrase bank is empty");
+      }
+      phraseBank = data.map(String);
+      return phraseBank;
+    })().catch((err) => {
+      phraseBankPromise = null;
+      throw err;
+    });
+  }
+  return phraseBankPromise;
+}
+
+/** @param {string[]} bank @param {number} count */
+function pickRandomPhrases(bank, count) {
+  const n = Math.min(count, bank.length);
+  const idx = Array.from({ length: bank.length }, (_, i) => i);
+  for (let i = idx.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const tmp = idx[i];
+    idx[i] = idx[j];
+    idx[j] = tmp;
+  }
+  return idx.slice(0, n).map((i) => bank[i]);
+}
+
+async function fillRandomPhrases() {
+  if (!els.random) return;
+  try {
+    els.random.disabled = true;
+    const bank = await loadPhraseBank();
+    const phrases = pickRandomPhrases(bank, RANDOM_PHRASE_COUNT);
+    els.input.value = phrases.join("\n");
+    els.status.textContent = `Filled ${phrases.length} random phrases.`;
+    els.input.focus();
+  } catch (err) {
+    console.error(err);
+    els.status.textContent =
+      err instanceof Error ? err.message : "Could not load random phrases.";
+  } finally {
+    els.random.disabled = false;
+  }
+}
+
 function readQuery() {
   const params = new URLSearchParams(window.location.search);
   const t = params.get("t");
@@ -244,6 +303,9 @@ els.clear.addEventListener("click", () => clearAll());
 els.copy.addEventListener("click", () => copyOutput());
 els.speak.addEventListener("click", () => onSpeak());
 els.stopSpeak.addEventListener("click", () => onStopSpeak());
+if (els.random) {
+  els.random.addEventListener("click", () => fillRandomPhrases());
+}
 
 els.input.addEventListener("keydown", (e) => {
   if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {

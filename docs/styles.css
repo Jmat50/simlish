@@ -507,7 +507,8 @@ html[data-theme="suburbia"] .panel-actions .btn-ghost {
 }
 
 html[data-theme="latenight"] .panel-actions .btn-ghost:first-child,
-html[data-theme="latenight"] #speak-btn {
+html[data-theme="latenight"] #speak-btn,
+html[data-theme="latenight"] #random-btn {
   border-color: #4fd1c5;
   box-shadow: 0 0 8px rgba(79, 209, 197, 0.35);
 }

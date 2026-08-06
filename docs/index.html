@@ -29,7 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css?v=20260806c" />
+    <link rel="stylesheet" href="./styles.css?v=20260806d" />
   </head>
   <body>
     <div class="atmosphere" aria-hidden="true">
@@ -112,15 +112,28 @@
 
       <main class="workspace">
         <div class="panels">
-          <label class="panel">
-            <span class="panel-label">Your text</span>
+          <div class="panel">
+            <div class="panel-head">
+              <label class="panel-label" for="input">Your text</label>
+              <div class="panel-actions">
+                <button
+                  type="button"
+                  class="btn btn-ghost btn-sm"
+                  id="random-btn"
+                  title="Fill with random phrases"
+                  aria-label="Fill with random phrases"
+                >
+                  Random
+                </button>
+              </div>
+            </div>
             <textarea
               id="input"
               rows="8"
               placeholder="Hello, world! Type anything…"
               spellcheck="true"
             ></textarea>
-          </label>
+          </div>
           <div class="panel">
             <div class="panel-head">
               <span class="panel-label" id="output-label">Simlish</span>
@@ -166,6 +179,6 @@
         <p class="disclaimer">Not affiliated with EA / Maxis</p>
       </footer>
     </div>
-    <script type="module" src="./js/app.js?v=20260806c"></script>
+    <script type="module" src="./js/app.js?v=20260806d"></script>
   </body>
 </html>
