@@ -27,7 +27,19 @@ async function activeTab() {
 async function refreshBridgeStatus() {
   setStatus("Checking bridge…");
   try {
-    const res = await chrome.runtime.sendMessage({ type: "BRIDGE_STATUS" });
+    const statusPromise = chrome.runtime.sendMessage({ type: "BRIDGE_STATUS" });
+    const timed = await Promise.race([
+      statusPromise.then((res) => ({ res })),
+      new Promise((resolve) =>
+        setTimeout(() => resolve({ timeout: true }), 25000)
+      ),
+    ]);
+    if ("timeout" in timed && timed.timeout) {
+      setStatus("Bridge check timed out", "error");
+      return;
+    }
+    const res = /** @type {{ res?: { ok?: boolean, error?: string } }} */ (timed)
+      .res;
     if (res && res.ok) {
       setStatus("Bridge ready", "ok");
     } else {

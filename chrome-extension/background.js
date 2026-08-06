@@ -9,6 +9,17 @@ const OFFSCREEN_JUSTIFICATION =
 let queueTail = null;
 
 /**
+ * @returns {Promise<string>}
+ */
+async function getBridgeUrl() {
+  const stored = await chrome.storage.local.get(["bridgeUrl"]);
+  if (typeof stored.bridgeUrl === "string" && stored.bridgeUrl.trim()) {
+    return stored.bridgeUrl.trim();
+  }
+  return DEFAULT_BRIDGE_URL;
+}
+
+/**
  * @returns {Promise<boolean>}
  */
 async function hasOffscreenDocument() {
@@ -19,7 +30,6 @@ async function hasOffscreenDocument() {
     });
     return contexts.length > 0;
   }
-  // Fallback for older Chrome
   return false;
 }
 
@@ -35,7 +45,6 @@ async function ensureOffscreen() {
       justification: OFFSCREEN_JUSTIFICATION,
     });
   } catch (err) {
-    // Concurrent create can throw; re-check
     if (await hasOffscreenDocument()) return;
     throw err;
   }
@@ -47,10 +56,12 @@ async function ensureOffscreen() {
  */
 async function sendToOffscreen(message) {
   await ensureOffscreen();
+  const bridgeUrl = await getBridgeUrl();
+  const payload = { ...message, bridgeUrl };
   let lastErr = null;
   for (let attempt = 0; attempt < 8; attempt++) {
     try {
-      const res = await chrome.runtime.sendMessage(message);
+      const res = await chrome.runtime.sendMessage(payload);
       if (res !== undefined) return res;
     } catch (err) {
       lastErr = err;
@@ -170,33 +181,42 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
     }
     setTabEnabled(tabId, enabled)
       .then(async () => {
-        try {
-          await chrome.tabs.sendMessage(tabId, {
-            type: enabled ? "ENABLE" : "DISABLE",
-          });
-        } catch {
-          // Content script may not be injected yet; try scripting
-          if (enabled) {
-            try {
-              await chrome.scripting.executeScript({
-                target: { tabId },
-                files: ["content.js"],
-              });
-              await chrome.scripting.insertCSS({
-                target: { tabId },
-                files: ["content.css"],
-              });
-              await chrome.tabs.sendMessage(tabId, { type: "ENABLE" });
-            } catch (err) {
-              sendResponse({
-                ok: false,
-                error: err instanceof Error ? err.message : String(err),
-              });
-              return;
+        const msg = { type: enabled ? "ENABLE" : "DISABLE" };
+        let lastErr = null;
+        for (let attempt = 0; attempt < 10; attempt++) {
+          try {
+            await chrome.tabs.sendMessage(tabId, msg);
+            sendResponse({ ok: true, enabled });
+            return;
+          } catch (err) {
+            lastErr = err;
+            // Content script may still be injecting after navigation.
+            if (enabled && attempt === 3) {
+              try {
+                await chrome.scripting.executeScript({
+                  target: { tabId },
+                  files: ["content.js"],
+                });
+                try {
+                  await chrome.scripting.insertCSS({
+                    target: { tabId },
+                    files: ["content.css"],
+                  });
+                } catch {
+                  /* already inserted */
+                }
+              } catch {
+                /* host access may be missing; keep retrying manifest CS */
+              }
             }
+            await new Promise((r) => setTimeout(r, 100 * (attempt + 1)));
           }
         }
-        sendResponse({ ok: true, enabled });
+        sendResponse({
+          ok: false,
+          error:
+            lastErr instanceof Error ? lastErr.message : String(lastErr),
+        });
       })
       .catch((err) =>
         sendResponse({
@@ -220,14 +240,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   }
 
   if (message.type === "GET_BRIDGE_URL") {
-    chrome.storage.local.get(["bridgeUrl"]).then((stored) => {
-      sendResponse({
-        bridgeUrl:
-          typeof stored.bridgeUrl === "string" && stored.bridgeUrl.trim()
-            ? stored.bridgeUrl.trim()
-            : DEFAULT_BRIDGE_URL,
-      });
-    });
+    getBridgeUrl().then((bridgeUrl) => sendResponse({ bridgeUrl }));
     return true;
   }
 
@@ -238,7 +251,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
         : DEFAULT_BRIDGE_URL;
     chrome.storage.local
       .set({ bridgeUrl: url })
-      .then(() => sendToOffscreen({ type: "OFFSCREEN_RELOAD" }))
+      .then(() => sendToOffscreen({ type: "OFFSCREEN_RELOAD", bridgeUrl: url }))
       .then((res) => sendResponse(res || { ok: true }))
       .catch((err) =>
         sendResponse({
@@ -257,4 +270,6 @@ chrome.tabs.onRemoved.addListener((tabId) => {
 });
 
 // Warm offscreen + bridge early
-ensureOffscreen().catch(() => {});
+ensureOffscreen()
+  .then(() => sendToOffscreen({ type: "OFFSCREEN_PING" }))
+  .catch(() => {});

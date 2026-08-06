@@ -47,13 +47,14 @@ Site-side bridge (repo `docs/`, served by Pages or local preview — not packed 
 
 ```text
 content script (DOM text nodes)
-  → service worker (queue / batch)
-  → offscreen document (hidden iframe)
+  → service worker (queue / batch; owns bridge URL in chrome.storage)
+  → offscreen document (hidden iframe; no chrome.storage API)
       → https://jmat50.github.io/simlish/bridge.html
         → docs/js/bridge.js → loadModels + convertText
 ```
 
 Protocol: `postMessage` channel `simlish-bridge` (`ping` / `translate` / `status`).
+The service worker passes `bridgeUrl` into every offscreen message — offscreen documents only expose `chrome.runtime`, so they cannot read `chrome.storage` themselves.
 
 ## Bridge URL
 

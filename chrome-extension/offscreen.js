@@ -8,6 +8,7 @@ import {
 } from "./shared.js";
 
 const iframe = /** @type {HTMLIFrameElement} */ (document.getElementById("bridge"));
+const IFRAME_LOAD_TIMEOUT_MS = 15000;
 
 /** @type {string} */
 let bridgeUrl = DEFAULT_BRIDGE_URL;
@@ -17,12 +18,26 @@ let targetOrigin = originFromBridgeUrl(bridgeUrl);
 let bridgeState = "idle";
 /** @type {string|null} */
 let bridgeError = null;
+/** @type {Promise<void>|null} */
+let readyPromise = null;
 
 /** @type {Map<string, { resolve: (v: unknown) => void, reject: (e: Error) => void, timer: number }>} */
 const pending = new Map();
 
 function uuid() {
   return crypto.randomUUID();
+}
+
+/**
+ * @param {string} url
+ * @returns {boolean} true if the URL changed
+ */
+function setBridgeUrl(url) {
+  const next = (url && url.trim()) || DEFAULT_BRIDGE_URL;
+  if (next === bridgeUrl) return false;
+  bridgeUrl = next;
+  targetOrigin = originFromBridgeUrl(bridgeUrl);
+  return true;
 }
 
 /**
@@ -73,27 +88,22 @@ window.addEventListener("message", onBridgeMessage);
 /**
  * @returns {Promise<void>}
  */
-async function loadBridgeUrl() {
-  const stored = await chrome.storage.local.get(["bridgeUrl"]);
-  if (typeof stored.bridgeUrl === "string" && stored.bridgeUrl.trim()) {
-    bridgeUrl = stored.bridgeUrl.trim();
-  } else {
-    bridgeUrl = DEFAULT_BRIDGE_URL;
-  }
-  targetOrigin = originFromBridgeUrl(bridgeUrl);
-}
-
-/**
- * @returns {Promise<void>}
- */
 function waitForIframeLoad() {
   return new Promise((resolve, reject) => {
+    const timer = setTimeout(() => {
+      iframe.removeEventListener("load", onLoad);
+      iframe.removeEventListener("error", onError);
+      reject(new Error("bridge iframe load timeout"));
+    }, IFRAME_LOAD_TIMEOUT_MS);
+
     const onLoad = () => {
+      clearTimeout(timer);
       iframe.removeEventListener("load", onLoad);
       iframe.removeEventListener("error", onError);
       resolve();
     };
     const onError = () => {
+      clearTimeout(timer);
       iframe.removeEventListener("load", onLoad);
       iframe.removeEventListener("error", onError);
       reject(new Error("failed to load bridge iframe"));
@@ -104,72 +114,82 @@ function waitForIframeLoad() {
 }
 
 /**
+ * Navigate the iframe and poll until Pages reports models ready.
  * @returns {Promise<void>}
  */
-async function ensureBridgeReady() {
-  if (bridgeState === "ready") return;
-  if (bridgeState === "loading") {
-    // Wait until ready or error
-    await new Promise((resolve, reject) => {
-      const start = Date.now();
-      const tick = () => {
-        if (bridgeState === "ready") return resolve(undefined);
-        if (bridgeState === "error") {
-          return reject(new Error(bridgeError || "bridge error"));
-        }
-        if (Date.now() - start > TRANSLATE_TIMEOUT_MS * 2) {
-          return reject(new Error("bridge load timeout"));
-        }
-        setTimeout(tick, 50);
-      };
-      tick();
-    });
-    return;
-  }
-
+function startBridgeLoad() {
   bridgeState = "loading";
   bridgeError = null;
-  await loadBridgeUrl();
-  iframe.src = bridgeUrl;
-  await waitForIframeLoad();
-
-  // Give the bridge module a moment to start loading models, then ping until ready
-  const deadline = Date.now() + TRANSLATE_TIMEOUT_MS * 2;
-  while (Date.now() < deadline) {
+  readyPromise = (async () => {
     try {
-      const id = uuid();
-      const res = /** @type {{ type: string, ready?: boolean }} */ (
-        await sendToBridge(
-          {
-            channel: CHANNEL,
-            version: PROTOCOL_VERSION,
-            type: "ping",
-            id,
-          },
-          2000
-        )
-      );
-      if (res.type === "pong" && res.ready) {
-        bridgeState = "ready";
-        bridgeError = null;
-        return;
+      const loadWait = waitForIframeLoad();
+      iframe.src = bridgeUrl;
+      await loadWait;
+
+      const deadline = Date.now() + TRANSLATE_TIMEOUT_MS * 2;
+      let lastDetail = "no pong";
+      while (Date.now() < deadline) {
+        try {
+          const id = uuid();
+          const res = /** @type {{ type: string, ready?: boolean }} */ (
+            await sendToBridge(
+              {
+                channel: CHANNEL,
+                version: PROTOCOL_VERSION,
+                type: "ping",
+                id,
+              },
+              2000
+            )
+          );
+          if (res.type === "pong" && res.ready) {
+            bridgeState = "ready";
+            bridgeError = null;
+            return;
+          }
+          lastDetail =
+            res.type === "pong" ? "models not ready" : "unexpected ping reply";
+        } catch (err) {
+          lastDetail = err instanceof Error ? err.message : String(err);
+        }
+        await new Promise((r) => setTimeout(r, 150));
       }
-    } catch {
-      // keep polling
+      throw new Error(`bridge models not ready (${lastDetail})`);
+    } catch (err) {
+      bridgeState = "error";
+      bridgeError = err instanceof Error ? err.message : String(err);
+      throw err;
+    } finally {
+      if (bridgeState !== "ready") {
+        readyPromise = null;
+      }
     }
-    await new Promise((r) => setTimeout(r, 150));
+  })();
+  return readyPromise;
+}
+
+/**
+ * Load (or reuse) the Pages bridge iframe and wait until models are ready.
+ * Bridge URL must be supplied by the service worker — offscreen has no chrome.storage.
+ * @param {string} [url]
+ * @returns {Promise<void>}
+ */
+function ensureBridgeReady(url) {
+  if (typeof url === "string" && url.trim() && setBridgeUrl(url)) {
+    return reloadBridge();
   }
-  bridgeState = "error";
-  bridgeError = "bridge models not ready";
-  throw new Error(bridgeError);
+  if (bridgeState === "ready") return Promise.resolve();
+  if (readyPromise) return readyPromise;
+  return startBridgeLoad();
 }
 
 /**
  * @param {string[]} texts
+ * @param {string} [url]
  * @returns {Promise<{ results: string[]|null, error: string|null }>}
  */
-async function translateBatch(texts) {
-  await ensureBridgeReady();
+async function translateBatch(texts, url) {
+  await ensureBridgeReady(url);
   if (texts.length > MAX_BATCH) {
     throw new Error(`batch too large (max ${MAX_BATCH})`);
   }
@@ -191,24 +211,32 @@ async function translateBatch(texts) {
 
 /**
  * Force reload the iframe (e.g. after bridge URL change).
+ * @param {string} [url]
  */
-async function reloadBridge() {
+async function reloadBridge(url) {
   for (const [, entry] of pending) {
     clearTimeout(entry.timer);
     entry.reject(new Error("bridge reloading"));
   }
   pending.clear();
+  readyPromise = null;
   bridgeState = "idle";
   bridgeError = null;
+  if (typeof url === "string" && url.trim()) {
+    setBridgeUrl(url);
+  }
   iframe.removeAttribute("src");
-  await ensureBridgeReady();
+  await new Promise((r) => setTimeout(r, 0));
+  return startBridgeLoad();
 }
 
 chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   if (!message || typeof message !== "object") return false;
 
   if (message.type === "OFFSCREEN_PING") {
-    ensureBridgeReady()
+    ensureBridgeReady(
+      typeof message.bridgeUrl === "string" ? message.bridgeUrl : undefined
+    )
       .then(() => sendResponse({ ok: true, bridgeState, bridgeUrl }))
       .catch((err) =>
         sendResponse({
@@ -232,11 +260,15 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   }
 
   if (message.type === "OFFSCREEN_RELOAD") {
-    reloadBridge()
+    reloadBridge(
+      typeof message.bridgeUrl === "string" ? message.bridgeUrl : undefined
+    )
       .then(() => sendResponse({ ok: true, bridgeState, bridgeUrl }))
       .catch((err) =>
         sendResponse({
           ok: false,
+          bridgeState,
+          bridgeUrl,
           error: err instanceof Error ? err.message : String(err),
         })
       );
@@ -245,7 +277,10 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
 
   if (message.type === "OFFSCREEN_TRANSLATE") {
     const texts = Array.isArray(message.texts) ? message.texts : [];
-    translateBatch(texts)
+    translateBatch(
+      texts,
+      typeof message.bridgeUrl === "string" ? message.bridgeUrl : undefined
+    )
       .then((out) => sendResponse({ ok: !out.error, ...out }))
       .catch((err) =>
         sendResponse({
@@ -260,7 +295,7 @@ chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   return false;
 });
 
-// Eagerly warm the bridge
-ensureBridgeReady().catch(() => {
+// Warm with default Pages bridge (SW will re-ping with stored URL when needed).
+ensureBridgeReady(DEFAULT_BRIDGE_URL).catch(() => {
   /* surfaced via status / translate errors */
 });

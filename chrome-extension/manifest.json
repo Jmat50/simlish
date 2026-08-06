@@ -1,13 +1,15 @@
 {
   "manifest_version": 3,
   "name": "Simlish",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Rewrite page text as Simlish via the GitHub Pages bridge.",
   "permissions": ["storage", "offscreen", "activeTab", "scripting"],
   "host_permissions": [
     "https://jmat50.github.io/*",
     "http://127.0.0.1:4173/*",
-    "http://localhost:4173/*"
+    "http://localhost:4173/*",
+    "http://*/*",
+    "https://*/*"
   ],
   "background": {
     "service_worker": "background.js",

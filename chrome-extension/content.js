@@ -295,15 +295,16 @@ function disable() {
 chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
   if (!message || typeof message !== "object") return false;
   if (message.type === "ENABLE") {
-    enable()
-      .then(() => sendResponse({ ok: true }))
-      .catch((err) =>
-        sendResponse({
-          ok: false,
-          error: err instanceof Error ? err.message : String(err),
-        })
-      );
-    return true;
+    // Ack immediately so the service worker is free to handle TRANSLATE_BATCH
+    // while we rewrite the page (awaiting enable() here deadlocks messaging).
+    sendResponse({ ok: true });
+    enable().catch((err) =>
+      console.warn(
+        "[Simlish] enable failed:",
+        err instanceof Error ? err.message : String(err)
+      )
+    );
+    return false;
   }
   if (message.type === "DISABLE") {
     disable();
