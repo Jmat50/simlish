@@ -15,6 +15,5 @@ Maxis voice / audio leads describe Simlish song writing as theme-first seeding p
 
 ## Related tooling
 
-- Naming and the general idea of language-sounding nonsense generation were inspired by exploration of [TEParsons/simlish](https://github.com/TEParsons/simlish). This site does **not** depend on that Python package at runtime.
 - [Kokoro](https://github.com/hexgrad/kokoro) / [kokoro-js](https://www.npmjs.com/package/kokoro-js) — stock in-browser TTS for Speak (not an official Sims voice). Runtime weights: [onnx-community/Kokoro-82M-v1.0-ONNX](https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX) via Hugging Face Hub CDN (default); do not vendor into Pages.
 - CMU-style pronunciation helpers via [`pronouncing`](https://github.com/aparrish/pronouncingpy) when building `docs/models/rhyme_keys.json` offline.
