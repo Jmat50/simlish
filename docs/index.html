@@ -29,7 +29,7 @@
       href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./styles.css" />
+    <link rel="stylesheet" href="./styles.css?v=20260806c" />
   </head>
   <body>
     <div class="atmosphere" aria-hidden="true">
@@ -85,6 +85,19 @@
                 <option value="latenight">Late Night</option>
               </select>
             </label>
+            <label class="music-toggle" title="Background music">
+              <span class="music-toggle-label">Music</span>
+              <input
+                type="checkbox"
+                id="music-toggle"
+                role="switch"
+                aria-checked="false"
+                aria-label="Background music"
+              />
+              <span class="music-switch" aria-hidden="true">
+                <span class="music-thumb"></span>
+              </span>
+            </label>
             <div class="hero-actions">
               <button type="button" class="btn btn-primary" id="translate-btn">
                 Translate
@@ -134,22 +147,7 @@
           </div>
         </div>
 
-        <div class="workspace-bar">
-          <label class="music-toggle" title="Background music">
-            <span class="music-toggle-label">Music</span>
-            <input
-              type="checkbox"
-              id="music-toggle"
-              role="switch"
-              aria-checked="false"
-              aria-label="Background music"
-            />
-            <span class="music-switch" aria-hidden="true">
-              <span class="music-thumb"></span>
-            </span>
-          </label>
-          <p class="hint" id="status" role="status"></p>
-        </div>
+        <p class="hint" id="status" role="status"></p>
       </main>
 
       <audio
@@ -168,6 +166,6 @@
         <p class="disclaimer">Not affiliated with EA / Maxis</p>
       </footer>
     </div>
-    <script type="module" src="./js/app.js?v=20260806b"></script>
+    <script type="module" src="./js/app.js?v=20260806c"></script>
   </body>
 </html>
