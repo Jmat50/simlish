@@ -16,6 +16,8 @@ const els = {
   stopSpeak: /** @type {HTMLButtonElement} */ (document.getElementById("stop-speak-btn")),
   status: /** @type {HTMLElement} */ (document.getElementById("status")),
   themeSelect: /** @type {HTMLSelectElement | null} */ (document.getElementById("theme-select")),
+  musicToggle: /** @type {HTMLInputElement | null} */ (document.getElementById("music-toggle")),
+  bgMusic: /** @type {HTMLAudioElement | null} */ (document.getElementById("bg-music")),
 };
 
 /** @param {string} theme */
@@ -47,6 +49,41 @@ function initTheme() {
       applyTheme(els.themeSelect.value);
     });
   }
+}
+
+function syncMusicUi(on) {
+  if (!els.musicToggle) return;
+  els.musicToggle.checked = on;
+  els.musicToggle.setAttribute("aria-checked", on ? "true" : "false");
+}
+
+async function setMusicEnabled(on) {
+  syncMusicUi(on);
+  if (!els.bgMusic) return;
+  if (on) {
+    try {
+      els.bgMusic.volume = 0.45;
+      await els.bgMusic.play();
+    } catch (err) {
+      console.error(err);
+      syncMusicUi(false);
+      if (els.status) {
+        els.status.textContent = "Could not play music — click Music again after interacting.";
+      }
+    }
+  } else {
+    els.bgMusic.pause();
+  }
+}
+
+function initMusic() {
+  if (!els.musicToggle || !els.bgMusic) return;
+  // Default off — do not persist across visits (explicit product default).
+  syncMusicUi(false);
+  els.bgMusic.pause();
+  els.musicToggle.addEventListener("change", () => {
+    setMusicEnabled(els.musicToggle.checked);
+  });
 }
 
 /** @type {{ display: string } | null} */
@@ -183,6 +220,7 @@ els.input.addEventListener("keydown", (e) => {
 });
 
 initTheme();
+initMusic();
 readQuery();
 syncSpeakUi(false);
 if (els.input.value.trim()) {

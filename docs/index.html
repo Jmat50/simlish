@@ -130,8 +130,31 @@
           </div>
         </div>
 
-        <p class="hint" id="status" role="status"></p>
+        <div class="workspace-bar">
+          <label class="music-toggle" title="Background music">
+            <span class="music-toggle-label">Music</span>
+            <input
+              type="checkbox"
+              id="music-toggle"
+              role="switch"
+              aria-checked="false"
+              aria-label="Background music"
+            />
+            <span class="music-switch" aria-hidden="true">
+              <span class="music-thumb"></span>
+            </span>
+          </label>
+          <p class="hint" id="status" role="status"></p>
+        </div>
       </main>
+
+      <audio
+        id="bg-music"
+        src="./audio/sims3-soundtrack.mp3"
+        loop
+        preload="none"
+        hidden
+      ></audio>
 
       <footer class="foot">
         <p>
@@ -141,6 +164,6 @@
         <p class="disclaimer">Not affiliated with EA / Maxis</p>
       </footer>
     </div>
-    <script type="module" src="./js/app.js?v=20260804b"></script>
+    <script type="module" src="./js/app.js?v=20260806a"></script>
   </body>
 </html>
